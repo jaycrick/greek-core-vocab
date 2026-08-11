@@ -46,3 +46,9 @@ aliases:
   - author: Plato
     gbww_title: The Seventh Letter
     perseus_title: Epistles
+  - author: Epictetus
+    gbww_title: The Discourses
+    perseus_title: Works
+  - author: Marcus Aurelius
+    gbww_title: The Meditations
+    perseus_title: M. Antonius Imperator Ad Se Ipsum
