@@ -1,0 +1,48 @@
+# Title aliases for match_books.py.
+#
+# Most great_books.tsv titles match a Perseus work automatically once
+# both sides are normalized (lowercased, a leading "the"/"a"/"an"
+# stripped, trailing punctuation stripped) and compared for equality or
+# substring-containment in either direction, or as an exact match
+# against one comma-separated component of a Perseus title that covers
+# several works at once (Perseus groups some Plato dialogues that way --
+# see README.md).
+#
+# These few pairs don't share enough of a substring for that to work --
+# different English renderings of the same Greek title, a translated
+# vs. transliterated title, or a genuinely different conventional name.
+# Each entry replaces the search title used for matching (still scoped
+# to the same author) for one specific great_books.tsv row; it does not
+# change what's displayed anywhere. Keyed by (author, gbww_title) so an
+# alias never accidentally fires for a different author's same-named
+# work (e.g. both Sophocles and Euripides have an "Electra" -- neither
+# needs an alias, and none is listed here for either).
+
+aliases:
+  - author: Aeschylus
+    gbww_title: Choephoroe
+    perseus_title: Libation Bearers
+  - author: Aeschylus
+    gbww_title: The Suppliant Maidens
+    perseus_title: Suppliant Women
+  - author: Sophocles
+    gbww_title: Oedipus the King
+    perseus_title: Oedipus Tyrannus
+  - author: Euripides
+    gbww_title: Bacchantes
+    perseus_title: Bacchae
+  - author: Euripides
+    gbww_title: Heracles Mad
+    perseus_title: Heracles
+  - author: Euripides
+    gbww_title: The Phoenician Women
+    perseus_title: Phoenissae
+  - author: Herodotus
+    gbww_title: The History
+    perseus_title: The Histories
+  - author: Aristophanes
+    gbww_title: Ecclesiazousae
+    perseus_title: Ecclesiazusae
+  - author: Plato
+    gbww_title: The Seventh Letter
+    perseus_title: Epistles

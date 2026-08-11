@@ -1,0 +1,88 @@
+# Manual overrides for match_books.py -- the two rows where a Great
+# Books title has no literal match in Perseus's catalog and required a
+# human judgment call (see the plan/README for the reasoning), rather
+# than the general normalize+substring+comma-component matching
+# match_books.py otherwise does on its own.
+#
+# Keyed by (author, gbww_title); each entry's `urns` list is used
+# VERBATIM as that row's matched_urns, bypassing normal matching
+# entirely -- match_books.py checks this file first.
+
+overrides:
+  - author: Plutarch
+    gbww_title: The Lives of the Noble Grecians and Romans
+    reason: >
+      GBWW's row is a single title for the whole Parallel Lives
+      collection; Perseus lists each biography as its own separate
+      work (author=Plutarch, translator=Bernadotte Perrin) and has no
+      single text literally titled "The Lives of the Noble Grecians
+      and Romans". Every Perrin-translated biography is included;
+      Perrin's own "Comparison of X and Y" essays and the (Latin-
+      titled, Babbitt/Bernardakis-translated) Moralia are excluded --
+      neither is part of the Lives themselves.
+    urns:
+      - "Perseus:text:2008.01.0080"  # Aemilius Paulus
+      - "Perseus:text:2008.01.0081"  # Agesilaus
+      - "Perseus:text:2008.01.0082"  # Agis
+      - "Perseus:text:1999.01.0181"  # Alcibiades
+      - "Perseus:text:2008.01.0129"  # Alexander
+      - "Perseus:text:2008.01.0077"  # Antony
+      - "Perseus:text:2008.01.0083"  # Aratus
+      - "Perseus:text:1999.01.0182"  # Aristides
+      - "Perseus:text:2008.01.0084"  # Artaxerxes
+      - "Perseus:text:2008.01.0085"  # Brutus
+      - "Perseus:text:2008.01.0130"  # Caesar
+      - "Perseus:text:2008.01.0089"  # Caius Gracchus
+      - "Perseus:text:2008.01.0109"  # Caius Marcius Coriolanus
+      - "Perseus:text:2008.01.0132"  # Caius Marius
+      - "Perseus:text:2008.01.0086"  # Camillus
+      - "Perseus:text:2008.01.0088"  # Cato the Younger
+      - "Perseus:text:2008.01.0090"  # Cicero
+      - "Perseus:text:2008.01.0069"  # Cimon
+      - "Perseus:text:2008.01.0091"  # Cleomenes
+      - "Perseus:text:2008.01.0110"  # Crassus
+      - "Perseus:text:2008.01.0076"  # Demetrius
+      - "Perseus:text:2008.01.0111"  # Demosthenes
+      - "Perseus:text:2008.01.0112"  # Dion
+      - "Perseus:text:2008.01.0113"  # Eumenes
+      - "Perseus:text:2008.01.0114"  # Fabius Maximus
+      - "Perseus:text:2008.01.0116"  # Galba
+      - "Perseus:text:2008.01.0117"  # Lucullus
+      - "Perseus:text:2008.01.0131"  # Lycurgus
+      - "Perseus:text:2008.01.0070"  # Lysander
+      - "Perseus:text:2008.01.0118"  # Marcellus
+      - "Perseus:text:2008.01.0087"  # Marcus Cato
+      - "Perseus:text:2008.01.0071"  # Nicias
+      - "Perseus:text:2008.01.0133"  # Numa
+      - "Perseus:text:2008.01.0119"  # Otho
+      - "Perseus:text:2008.01.0120"  # Pelopidas
+      - "Perseus:text:2008.01.0072"  # Pericles
+      - "Perseus:text:2008.01.0121"  # Philopoemen
+      - "Perseus:text:2008.01.0122"  # Phocion
+      - "Perseus:text:2008.01.0123"  # Pompey
+      - "Perseus:text:2008.01.0124"  # Publicola
+      - "Perseus:text:2008.01.0134"  # Pyrrhus
+      - "Perseus:text:2008.01.0079"  # Romulus
+      - "Perseus:text:2008.01.0125"  # Sertorius
+      - "Perseus:text:2008.01.0073"  # Solon
+      - "Perseus:text:2008.01.0126"  # Sulla
+      - "Perseus:text:2008.01.0074"  # Themistocles
+      - "Perseus:text:2008.01.0075"  # Theseus
+      - "Perseus:text:2008.01.0127"  # Tiberius Gracchus
+      - "Perseus:text:2008.01.0128"  # Timoleon
+      - "Perseus:text:2008.01.0115"  # Titus Flamininus
+
+  - author: Hippocrates
+    gbww_title: __ALL__
+    reason: >
+      GBWW lists 17 individual Hippocratic treatises (the Oath, On
+      Ancient Medicine, Aphorisms, ...); Perseus's Greek vocab tool
+      only offers two omnibus editions with no per-treatise selection,
+      and none of the 17 titles literally matches either omnibus's
+      title. Every one of the 17 rows is treated as pointing at the
+      same English-edition omnibus below -- match_books.py fetches and
+      counts it ONCE, not 17 times (this is what `gbww_title: __ALL__`
+      signals: apply to every great_books.tsv row for this author,
+      not one specific title).
+    urns:
+      - "Perseus:text:1999.01.0249"  # Hippocrates Collected Works I (ed. W. H. S. Jones)
