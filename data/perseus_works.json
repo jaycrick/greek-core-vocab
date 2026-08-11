@@ -1,0 +1,2720 @@
+[
+  {
+    "urn": "Perseus:text:2008.01.0665",
+    "author": "Achilles Tatius",
+    "title": "Leucippe et Clitophon",
+    "edition": "(ed. Rudolf Hercher)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0590",
+    "author": "Aelian",
+    "title": "De Natura Animalium",
+    "edition": "(ed. Rudolf Hercher)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0592",
+    "author": "Aelian",
+    "title": "Epistulae Rusticae",
+    "edition": "(ed. Rudolf Hercher)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0591",
+    "author": "Aelian",
+    "title": "Varia Historia",
+    "edition": "(ed. Rudolf Hercher)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0667",
+    "author": "Aeneas Tacticus",
+    "title": "Poliorcetica",
+    "edition": "(ed. William Abbott Oldfather)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0001",
+    "author": "Aeschines",
+    "title": "Speeches",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0003",
+    "author": "Aeschylus",
+    "title": "Agamemnon",
+    "edition": "(ed. Herbert Weir Smyth, Ph.D.)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0005",
+    "author": "Aeschylus",
+    "title": "Eumenides",
+    "edition": "(ed. Herbert Weir Smyth, Ph.D.)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0007",
+    "author": "Aeschylus",
+    "title": "Libation Bearers",
+    "edition": "(ed. Herbert Weir Smyth, Ph.D.)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0011",
+    "author": "Aeschylus",
+    "title": "Persians",
+    "edition": "(ed. Herbert Weir Smyth, Ph.D.)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0009",
+    "author": "Aeschylus",
+    "title": "Prometheus Bound",
+    "edition": "(ed. Herbert Weir Smyth, Ph.D.)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0013",
+    "author": "Aeschylus",
+    "title": "Seven Against Thebes",
+    "edition": "(ed. Herbert Weir Smyth, Ph.D.)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0015",
+    "author": "Aeschylus",
+    "title": "Suppliant Women",
+    "edition": "(ed. Herbert Weir Smyth, Ph.D.)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0017",
+    "author": "Andocides",
+    "title": "Speeches",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0019",
+    "author": "Antiphon",
+    "title": "Speeches",
+    "edition": "(ed. K. J. Maidment)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0021",
+    "author": "Apollodorus",
+    "title": "Library and Epitome",
+    "edition": "(ed. Sir James George Frazer)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0227",
+    "author": "Apollonius Rhodius",
+    "title": "Argonautica",
+    "edition": "(ed. George W. Mooney)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0231",
+    "author": "Appian",
+    "title": "The Civil Wars",
+    "edition": "(ed. L. Mendelssohn)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0229",
+    "author": "Appian",
+    "title": "The Foreign Wars",
+    "edition": "(ed. L. Mendelssohn)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0483",
+    "author": "Aratus Solensis",
+    "title": "Phaenomena",
+    "edition": "(ed. G. R. Mair)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0253",
+    "author": "Aretaeus",
+    "title": "The Extant Works of Aretaeus, The Cappadocian.",
+    "edition": "(ed. Francis Adams LL.D.)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0589",
+    "author": "Aristides, Aelius",
+    "title": "Ars Rhetorica",
+    "edition": "(ed. Leonhard von Spengel)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0588",
+    "author": "Aristides, Aelius",
+    "title": "Orationes",
+    "edition": "(ed. Wilhelm Dindorf)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0023",
+    "author": "Aristophanes",
+    "title": "Acharnians",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0025",
+    "author": "Aristophanes",
+    "title": "Birds",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0027",
+    "author": "Aristophanes",
+    "title": "Clouds",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0029",
+    "author": "Aristophanes",
+    "title": "Ecclesiazusae",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0031",
+    "author": "Aristophanes",
+    "title": "Frogs",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0033",
+    "author": "Aristophanes",
+    "title": "Knights",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0035",
+    "author": "Aristophanes",
+    "title": "Lysistrata",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0037",
+    "author": "Aristophanes",
+    "title": "Peace",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0039",
+    "author": "Aristophanes",
+    "title": "Plutus",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0041",
+    "author": "Aristophanes",
+    "title": "Thesmophoriazusae",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0043",
+    "author": "Aristophanes",
+    "title": "Wasps",
+    "edition": "(ed. F.W. Hall and W.M. Geldart)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0045",
+    "author": "Aristotle",
+    "title": "Athenian Constitution",
+    "edition": "(ed. Kenyon)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0047",
+    "author": "Aristotle",
+    "title": "Economics",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0049",
+    "author": "Aristotle",
+    "title": "Eudemian Ethics",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0051",
+    "author": "Aristotle",
+    "title": "Metaphysics",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0053",
+    "author": "Aristotle",
+    "title": "Nicomachean Ethics",
+    "edition": "(ed. J. Bywater)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0055",
+    "author": "Aristotle",
+    "title": "Poetics",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0057",
+    "author": "Aristotle",
+    "title": "Politics",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0059",
+    "author": "Aristotle",
+    "title": "Rhetoric",
+    "edition": "(ed. W. D. Ross)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0061",
+    "author": "Aristotle",
+    "title": "Virtues and Vices",
+    "edition": "(ed. I. Bekker)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0535",
+    "author": "Arrian",
+    "title": "Acies Contra Alanos",
+    "edition": "(ed. Rudolf Hercher, Alfred Eberhard)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0530",
+    "author": "Arrian",
+    "title": "Anabasis",
+    "edition": "(ed. A.G. Roos)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0532",
+    "author": "Arrian",
+    "title": "Cynegeticus",
+    "edition": "(ed. Rudolf Hercher, Alfred Eberhard)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0531",
+    "author": "Arrian",
+    "title": "Indica",
+    "edition": "(ed. Rudolf Hercher, Alfred Eberhard)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0533",
+    "author": "Arrian",
+    "title": "Periplus Ponti Euxini",
+    "edition": "(ed. Rudolf Hercher, Alfred Eberhard)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0534",
+    "author": "Arrian",
+    "title": "Tactica",
+    "edition": "(ed. Rudolf Hercher, Alfred Eberhard)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0635",
+    "author": "Asclepiodotus",
+    "title": "Tactica",
+    "edition": "(ed. William Abbott Oldfather)"
+  },
+  {
+    "urn": "Perseus:text:2013.01.0001",
+    "author": "Athenaeus",
+    "title": "Deipnosophistae",
+    "edition": "(ed. Kaibel)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0405",
+    "author": "Athenaeus",
+    "title": "The Deipnosophists",
+    "edition": "(ed. Charles Burton Gulick)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0641",
+    "author": "Marcus Aurelius",
+    "title": "M. Antonius Imperator Ad Se Ipsum",
+    "edition": "(ed. Jan Hendrik Leopold)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0063",
+    "author": "Bacchylides",
+    "title": "Odes",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:2008.01.0629",
+    "author": "Barnabas",
+    "title": "Barnabae Epistula",
+    "edition": "(ed. Kirsopp Lake)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0638",
+    "author": "Basil, Saint, Bishop of Caesarea",
+    "title": "De legendis gentilium libris",
+    "edition": "(ed. Roy J. Deferrari)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0637",
+    "author": "Basil, Saint, Bishop of Caesarea",
+    "title": "Epistulae",
+    "edition": "(ed. Roy J. Deferrari)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0671",
+    "author": "Bion of Phlossa",
+    "title": "Epithalamium Achillis et Deidameiae",
+    "edition": "(ed. J. M. (John Maxwell) Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0672",
+    "author": "Bion of Phlossa",
+    "title": "Epitaphius Adonis",
+    "edition": "(ed. J. M. (John Maxwell) Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0673",
+    "author": "Bion of Phlossa",
+    "title": "Fragmenta",
+    "edition": "(ed. J. M. (John Maxwell) Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0482",
+    "author": "Callimachus",
+    "title": "Epigrams, Fragmenta",
+    "edition": "(ed. A.W. Mair)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0481",
+    "author": "Callimachus",
+    "title": "Hymns",
+    "edition": "(ed. A.W. Mair)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0226",
+    "author": "Callimachus",
+    "title": "Hymns and Epigrams",
+    "edition": "(ed. Ulrich von Wilamowitz-Moellendorff)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0594",
+    "author": "Callistratus",
+    "title": "Statuaram Descriptiones",
+    "edition": "(ed. Carl Ludwig Kayser)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0668",
+    "author": "Chariton",
+    "title": "De Chaerea et Callirhoe",
+    "edition": "(ed. Rudolf Hercher)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0631",
+    "author": "Clement of Alexandria",
+    "title": "Quis Dis Salvetur",
+    "edition": "(ed. G.W. Butterworth)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0632",
+    "author": "Clement of Alexandria",
+    "title": "Exhortation to Endurance, or to the Newly Baptized",
+    "edition": "(ed. G.W. Butterworth)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0633",
+    "author": "Clement of Alexandria",
+    "title": "Protrepticus",
+    "edition": "(ed. G.W. Butterworth)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0495",
+    "author": "Colluthus",
+    "title": "Rape of Helen",
+    "edition": "(ed. A. W. Mair)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0065",
+    "author": "Demades",
+    "title": "On the Twelve Years",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:2008.01.0630",
+    "author": "Demetrius of Phaleron (attributed author)",
+    "title": "Libro de Elocutione",
+    "edition": "(ed. W. Rhys (William Rhys) Roberts)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0067",
+    "author": "Demosthenes",
+    "title": "Exordia",
+    "edition": "(ed. W. Rennie)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0213",
+    "author": "Demosthenes",
+    "title": "Letters",
+    "edition": "(ed. W. Rennie)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0069",
+    "author": "Demosthenes",
+    "title": "Speeches 1-10",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0071",
+    "author": "Demosthenes",
+    "title": "Speeches 11-20",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0073",
+    "author": "Demosthenes",
+    "title": "Speeches 21-30",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0075",
+    "author": "Demosthenes",
+    "title": "Speeches 31-40",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0077",
+    "author": "Demosthenes",
+    "title": "Speeches 41-50",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0079",
+    "author": "Demosthenes",
+    "title": "Speeches 51-61",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0081",
+    "author": "Dinarchus",
+    "title": "Speeches",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:2008.01.0567",
+    "author": "Dio Chrysostom",
+    "title": "Orationes",
+    "edition": "(ed. J. de Arnim)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0593",
+    "author": "Cassius Dio Cocceianus",
+    "title": "Historiae Romanae",
+    "edition": "(ed. Earnest Cary, Herbert Baldwin Foster)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0540",
+    "author": "Diodorus Siculus",
+    "title": "Bibliotheca Historica, Books I-V",
+    "edition": "(ed. Immanuel Bekker, Ludwig Dindorf, Friedrich Vogel, Immanel Bekker)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0541",
+    "author": "Diodorus Siculus",
+    "title": "Bibliotheca Historica, Books XVIII-XX",
+    "edition": "(ed. Immanuel Bekker, Ludwig Dindorf, Friedrich Vogel, Kurt Theodor Fischer, Immanel Bekker)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0083",
+    "author": "Diodorus Siculus",
+    "title": "Library",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0257",
+    "author": "Diogenes Laertius",
+    "title": "Lives of Eminent Philosophers",
+    "edition": "(ed. R.D. Hicks)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0572",
+    "author": "Dionysius of Halicarnassus",
+    "title": "Antiquitates Romanae, Books I-XX",
+    "edition": "(ed. Karl Jacoby)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0576",
+    "author": "Dionysius of Halicarnassus",
+    "title": "De antiquis oratoribus",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0577",
+    "author": "Dionysius of Halicarnassus",
+    "title": "De Lysia",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0578",
+    "author": "Dionysius of Halicarnassus",
+    "title": "De Isocrate",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0579",
+    "author": "Dionysius of Halicarnassus",
+    "title": "De Isaeo",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0580",
+    "author": "Dionysius of Halicarnassus",
+    "title": "De Demosthene",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0583",
+    "author": "Dionysius of Halicarnassus",
+    "title": "De Dinarcho",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0584",
+    "author": "Dionysius of Halicarnassus",
+    "title": "De Thucydide",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0581",
+    "author": "Dionysius of Halicarnassus",
+    "title": "Libri secundi de antiquis oratoribus reliquiae",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0582",
+    "author": "Dionysius of Halicarnassus",
+    "title": "Ad Ammaeum",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0587",
+    "author": "Dionysius of Halicarnassus",
+    "title": "Epistula ad Pompeium Geminum",
+    "edition": "(ed. Ludwig Radermacher)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0585",
+    "author": "Dionysius of Halicarnassus",
+    "title": "De Thucydidis idiomatibus (epistula ad Ammaeum)",
+    "edition": "(ed. Hermann Usener)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0586",
+    "author": "Dionysius of Halicarnassus",
+    "title": "De Compositione Verborum",
+    "edition": "(ed. Ludwig Radermacher)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0477",
+    "author": "",
+    "title": "Elegy and Iambus, Volume I",
+    "edition": "(ed. J. M. Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0478",
+    "author": "",
+    "title": "Elegy and Iambus, Volume II",
+    "edition": "(ed. J. M. Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0235",
+    "author": "Epictetus",
+    "title": "Works",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0085",
+    "author": "Euclid",
+    "title": "Elements",
+    "edition": "(ed. J. L. Heiberg)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0087",
+    "author": "Euripides",
+    "title": "Alcestis",
+    "edition": "(ed. David Kovacs)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0089",
+    "author": "Euripides",
+    "title": "Andromache",
+    "edition": "(ed. David Kovacs)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0091",
+    "author": "Euripides",
+    "title": "Bacchae",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0093",
+    "author": "Euripides",
+    "title": "Cyclops",
+    "edition": "(ed. David Kovacs)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0095",
+    "author": "Euripides",
+    "title": "Electra",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0097",
+    "author": "Euripides",
+    "title": "Hecuba",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0099",
+    "author": "Euripides",
+    "title": "Helen",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0103",
+    "author": "Euripides",
+    "title": "Heracleidae",
+    "edition": "(ed. David Kovacs)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0101",
+    "author": "Euripides",
+    "title": "Heracles",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0105",
+    "author": "Euripides",
+    "title": "Hippolytus",
+    "edition": "(ed. David Kovacs)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0109",
+    "author": "Euripides",
+    "title": "Ion",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0107",
+    "author": "Euripides",
+    "title": "Iphigenia in Aulis",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0111",
+    "author": "Euripides",
+    "title": "Iphigenia in Tauris",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0113",
+    "author": "Euripides",
+    "title": "Medea",
+    "edition": "(ed. David Kovacs)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0115",
+    "author": "Euripides",
+    "title": "Orestes",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0117",
+    "author": "Euripides",
+    "title": "Phoenissae",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0119",
+    "author": "Euripides",
+    "title": "Rhesus",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0121",
+    "author": "Euripides",
+    "title": "Suppliants",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0123",
+    "author": "Euripides",
+    "title": "The Trojan Women",
+    "edition": "(ed. Gilbert Murray)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0640",
+    "author": "Eusebius of Caesarea",
+    "title": "Historia ecclesiastica",
+    "edition": "(ed. Kirsopp Lake, J.E.L. Oulton, H.J. Lawlor)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0255",
+    "author": "Galen",
+    "title": "On the Natural Faculties.",
+    "edition": "(ed. A.J. Brock)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0472",
+    "author": "",
+    "title": "Greek Anthology, Volume I",
+    "edition": "(ed. W. R. Paton)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0473",
+    "author": "",
+    "title": "Greek Anthology, Volume II",
+    "edition": "(ed. W. R. Paton)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0474",
+    "author": "",
+    "title": "Greek Anthology, Volume III",
+    "edition": "(ed. W. R. Paton)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0475",
+    "author": "",
+    "title": "Greek Anthology, Volume IV",
+    "edition": "(ed. W. R. Paton)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0476",
+    "author": "",
+    "title": "Greek Anthology, Volume V",
+    "edition": "(ed. W. R. Paton)"
+  },
+  {
+    "urn": "Perseus:text:2013.01.0002",
+    "author": "Harpocration, Valerius",
+    "title": "Lexicon in decem oratores Atticos",
+    "edition": "(ed. Wilhelm Dindorf)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0125",
+    "author": "Herodotus",
+    "title": "The Histories",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0127",
+    "author": "Hesiod",
+    "title": "Shield of Heracles",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0129",
+    "author": "Hesiod",
+    "title": "Theogony",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0131",
+    "author": "Hesiod",
+    "title": "Works and Days",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0249",
+    "author": "Hippocrates",
+    "title": "Hippocrates Collected Works I",
+    "edition": "(ed. W. H. S. Jones)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0250",
+    "author": "Hippocrates",
+    "title": "Oeuvres Completes D'Hippocrate.",
+    "edition": "(ed. A. Littre)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0133",
+    "author": "Homer",
+    "title": "Iliad",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0135",
+    "author": "Homer",
+    "title": "Odyssey",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0137",
+    "author": "",
+    "title": "Homeric Hymns",
+    "edition": "(ed. Hugh G. Evelyn-White)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0139",
+    "author": "Hyperides",
+    "title": "Speeches",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0141",
+    "author": "Isaeus",
+    "title": "Speeches",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0245",
+    "author": "Isocrates",
+    "title": "Letters",
+    "edition": "(ed. George Norlin)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0143",
+    "author": "Isocrates",
+    "title": "Speeches",
+    "edition": "(ed. George Norlin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0666",
+    "author": "John, of Damascus (attributed author)",
+    "title": "Vita Barlaam et Joasaph",
+    "edition": "(ed. G.R. Woodward, H. Mattingly)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0145",
+    "author": "Flavius Josephus",
+    "title": "Antiquitates Judaicae",
+    "edition": "(ed. B. Niese)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0215",
+    "author": "Flavius Josephus",
+    "title": "Contra Apionem",
+    "edition": "(ed. B. Niese)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0147",
+    "author": "Flavius Josephus",
+    "title": "De bello Judaico libri vii",
+    "edition": "(ed. B. Niese)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0149",
+    "author": "Flavius Josephus",
+    "title": "Josephi vita",
+    "edition": "(ed. B. Niese)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0650",
+    "author": "Julian the Emperor",
+    "title": "The Caesars",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0653",
+    "author": "Julian the Emperor",
+    "title": "Epistula ad Themistium",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0654",
+    "author": "Julian the Emperor",
+    "title": "Letter to the Senate and the People of Athens",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0651",
+    "author": "Julian the Emperor",
+    "title": "Contra Galilaeos",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0652",
+    "author": "Julian the Emperor",
+    "title": "Epistulae",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0657",
+    "author": "Julian the Emperor",
+    "title": "Panegyric in Honor of the Emperor Constantinus, Oration I",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0658",
+    "author": "Julian the Emperor",
+    "title": "A Consolation to Himself Upon the Departure of the Excellent Sallust, Oration VIII",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0655",
+    "author": "Julian the Emperor",
+    "title": "The Heroic Deeds of the Emperor Constantius, or on Kingship, Oration II",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0656",
+    "author": "Julian the Emperor",
+    "title": "Hymn to the Mother of the Gods, Oration V",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0659",
+    "author": "Julian the Emperor",
+    "title": "Panegyric on the Empress Eusebia, Oration III",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0660",
+    "author": "Julian the Emperor",
+    "title": "Misopogon",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0664",
+    "author": "Julian the Emperor",
+    "title": "Hymn to King Helios Dedicated to Sallust, Oration IV",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0662",
+    "author": "Julian the Emperor",
+    "title": "To the Uneducated Cynics, Oration VI",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0663",
+    "author": "Julian the Emperor",
+    "title": "To the Cynic Heracleios, Oration VII",
+    "edition": "(ed. Wilmer Cave (France) Wright)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0639",
+    "author": "Longinus",
+    "title": "De Sublimitate",
+    "edition": "(ed. William Rhys Roberts)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0642",
+    "author": "Longus",
+    "title": "Daphnis & Chloe",
+    "edition": "(ed. Rudolf Hercher)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0471",
+    "author": "Lucian",
+    "title": "Abdicatus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0447",
+    "author": "Lucian",
+    "title": "Adversus indoctum et libros multos ementem",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0457",
+    "author": "Lucian",
+    "title": "Alexander",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0453",
+    "author": "Lucian",
+    "title": "Anacharsis",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0517",
+    "author": "Lucian",
+    "title": "Apologia",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0422",
+    "author": "Lucian",
+    "title": "Bacchus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0445",
+    "author": "Lucian",
+    "title": "Bis accusatus sive tribunalia",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0432",
+    "author": "Lucian",
+    "title": "Calumniae non temere credundum",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0435",
+    "author": "Lucian",
+    "title": "Cataplus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0442",
+    "author": "Lucian",
+    "title": "Contemplantes",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0467",
+    "author": "Lucian",
+    "title": "De astrologia",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0428",
+    "author": "Lucian",
+    "title": "De Domo",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0455",
+    "author": "Lucian",
+    "title": "De luctu",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0452",
+    "author": "Lucian",
+    "title": "De mercede",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0461",
+    "author": "Lucian",
+    "title": "De morte Peregrini",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0449",
+    "author": "Lucian",
+    "title": "De parasito sive artem esse parasiticam",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0446",
+    "author": "Lucian",
+    "title": "De sacrificiis",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0464",
+    "author": "Lucian",
+    "title": "De saltatione",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0460",
+    "author": "Lucian",
+    "title": "De Syria dea",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0451",
+    "author": "Lucian",
+    "title": "Dearum judicium",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0427",
+    "author": "Lucian",
+    "title": "Demonax",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0469",
+    "author": "Lucian",
+    "title": "Deorum concilium",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0526",
+    "author": "Lucian",
+    "title": "Dialogi deorum",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0525",
+    "author": "Lucian",
+    "title": "Dialogi Marini",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0527",
+    "author": "Lucian",
+    "title": "Dialogi meretricii",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0524",
+    "author": "Lucian",
+    "title": "Dialogi mortuorum",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0512",
+    "author": "Lucian",
+    "title": "Dipsades",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0424",
+    "author": "Lucian",
+    "title": "Electrum",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0466",
+    "author": "Lucian",
+    "title": "Eunuchus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0462",
+    "author": "Lucian",
+    "title": "Fugitivi",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0438",
+    "author": "Lucian",
+    "title": "Gallus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0518",
+    "author": "Lucian",
+    "title": "Harmonides",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0423",
+    "author": "Lucian",
+    "title": "Hercules",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0521",
+    "author": "Lucian",
+    "title": "Hermotimus",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0514",
+    "author": "Lucian",
+    "title": "Herodotus",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0519",
+    "author": "Lucian",
+    "title": "Hesiod",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0421",
+    "author": "Lucian",
+    "title": "Hippias",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0440",
+    "author": "Lucian",
+    "title": "Icaromenippus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0458",
+    "author": "Lucian",
+    "title": "Imagines",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0433",
+    "author": "Lucian",
+    "title": "Judicium vocalium",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0436",
+    "author": "Lucian",
+    "title": "Juppiter confuatus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0437",
+    "author": "Lucian",
+    "title": "Juppiter trageodeus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0465",
+    "author": "Lucian",
+    "title": "Lexiphanes",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0430",
+    "author": "Lucian",
+    "title": "Macrobii",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0425",
+    "author": "Lucian",
+    "title": "Muscae Encomium",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0523",
+    "author": "Lucian",
+    "title": "Navigium",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0454",
+    "author": "Lucian",
+    "title": "Necyomantia",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0426",
+    "author": "Lucian",
+    "title": "Nigrinus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0429",
+    "author": "Lucian",
+    "title": "Patriae Encomium",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0420",
+    "author": "Lucian",
+    "title": "Phalaris",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0450",
+    "author": "Lucian",
+    "title": "Philopsuedes sive incredulus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0444",
+    "author": "Lucian",
+    "title": "Piscator",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0529",
+    "author": "Lucian",
+    "title": "Podagra",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0459",
+    "author": "Lucian",
+    "title": "Pro imaginibus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0516",
+    "author": "Lucian",
+    "title": "Pro lapsu inter salutandum",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0439",
+    "author": "Lucian",
+    "title": "Prometheus",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0522",
+    "author": "Lucian",
+    "title": "Prometheus es in verbis",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0468",
+    "author": "Lucian",
+    "title": "Pseudologista",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0511",
+    "author": "Lucian",
+    "title": "Quomodo historia conscribenda sit",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0456",
+    "author": "Lucian",
+    "title": "Rhetorum praeceptor",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0513",
+    "author": "Lucian",
+    "title": "Saturnalia",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0520",
+    "author": "Lucian",
+    "title": "Scytha",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0528",
+    "author": "Lucian",
+    "title": "Soleocista",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0448",
+    "author": "Lucian",
+    "title": "Somnium sive vita Luciani",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0434",
+    "author": "Lucian",
+    "title": "Symposium",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0441",
+    "author": "Lucian",
+    "title": "Timon",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0463",
+    "author": "Lucian",
+    "title": "Toxaris vel amicitia",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0470",
+    "author": "Lucian",
+    "title": "Tyrannicida",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0431",
+    "author": "Lucian",
+    "title": "Verae Historiae",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0443",
+    "author": "Lucian",
+    "title": "Vitarum auctio",
+    "edition": "(ed. A. M. Harmon)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0515",
+    "author": "Lucian",
+    "title": "Zeuxis",
+    "edition": "(ed. Karl Jacobitz)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0484",
+    "author": "Lycophron",
+    "title": "Alexandra",
+    "edition": "(ed. A.W. Mair)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0151",
+    "author": "Lycurgus",
+    "title": "Speeches",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0153",
+    "author": "Lysias",
+    "title": "Speeches",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:2008.01.0602",
+    "author": "Philostratus Minor",
+    "title": "Imagines",
+    "edition": "(ed. Carl Ludwig Kayser)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0647",
+    "author": "Moschus",
+    "title": "Epitaphius Bios",
+    "edition": "(ed. J. M. (John Maxwell) Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0648",
+    "author": "Moschus",
+    "title": "Eros Drapeta",
+    "edition": "(ed. J. M. (John Maxwell) Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0644",
+    "author": "Moschus",
+    "title": "Europa",
+    "edition": "(ed. J. M. (John Maxwell) Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0646",
+    "author": "Moschus",
+    "title": "Fragmenta",
+    "edition": "(ed. J. M. (John Maxwell) Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0645",
+    "author": "Moschus",
+    "title": "Megara",
+    "edition": "(ed. J. M. (John Maxwell) Edmonds)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0155",
+    "author": "",
+    "title": "New Testament",
+    "edition": "(ed. Brooke Foss Westcott, Fenton John Anthony Hort)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0485",
+    "author": "Nonnus of Panopolis",
+    "title": "Dionysiaca",
+    "edition": "(ed. W.H.D. Rouse)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0634",
+    "author": "Onasander",
+    "title": "Strategicus",
+    "edition": "(ed. William Abbott Oldfather)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0489",
+    "author": "Oppian of Apamea",
+    "title": "Cynegetica",
+    "edition": "(ed. A. W. Mair)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0488",
+    "author": "Oppian",
+    "title": "Halieutica",
+    "edition": "(ed. A. W. Mair)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0643",
+    "author": "Parthenius",
+    "title": "Narrationes Amatoriae",
+    "edition": "(ed. Rudolf Hercher)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0159",
+    "author": "Pausanias",
+    "title": "Description of Greece",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:2008.01.0600",
+    "author": "Philostratus the Athenian",
+    "title": "De Gymnastica",
+    "edition": "(ed. Carl Ludwig Kayser)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0599",
+    "author": "Philostratus the Athenian",
+    "title": "Epistulae et dialexeis",
+    "edition": "(ed. Carl Ludwig Kayser)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0597",
+    "author": "Philostratus the Athenian",
+    "title": "Heroicus",
+    "edition": "(ed. Carl Ludwig Kayser)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0598",
+    "author": "Philostratus the Athenian",
+    "title": "Nero",
+    "edition": "(ed. Carl Ludwig Kayser)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0595",
+    "author": "Philostratus the Athenian",
+    "title": "Vita Apollonii",
+    "edition": "(ed. Carl Ludwig Kayser)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0596",
+    "author": "Philostratus the Athenian",
+    "title": "Vitae Sophistarum",
+    "edition": "(ed. Carl Ludwig Kayser)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0601",
+    "author": "Philostratus the Lemnian (Philostratus Major)",
+    "title": "Imagines",
+    "edition": "(ed. Carl Ludwig Kayser)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0161",
+    "author": "Pindar",
+    "title": "Odes",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0175",
+    "author": "Plato",
+    "title": "Alcibiades 1, Alcibiades 2, Hipparchus, Lovers, Theages, Charmides, Laches, Lysis",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0171",
+    "author": "Plato",
+    "title": "Cratylus, Theaetetus, Sophist, Statesman",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0163",
+    "author": "Plato",
+    "title": "Epistles",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0177",
+    "author": "Plato",
+    "title": "Euthydemus, Protagoras, Gorgias, Meno",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0169",
+    "author": "Plato",
+    "title": "Euthyphro, Apology, Crito, Phaedo",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0179",
+    "author": "Plato",
+    "title": "Hippias Major, Hippias Minor, Ion, Menexenus, Cleitophon, Timaeus, Critias, Minos, Epinomis",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0165",
+    "author": "Plato",
+    "title": "Laws",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0173",
+    "author": "Plato",
+    "title": "Parmenides, Philebus, Symposium, Phaedrus",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0167",
+    "author": "Plato",
+    "title": "Republic",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:2008.01.0324",
+    "author": "Plutarch",
+    "title": "Ad principem ineruditum",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0396",
+    "author": "Plutarch",
+    "title": "Adversus Colotem",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0080",
+    "author": "Plutarch",
+    "title": "Aemilius Paulus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0081",
+    "author": "Plutarch",
+    "title": "Agesilaus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0082",
+    "author": "Plutarch",
+    "title": "Agis",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0181",
+    "author": "Plutarch",
+    "title": "Alcibiades",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0129",
+    "author": "Plutarch",
+    "title": "Alexander",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0316",
+    "author": "Plutarch",
+    "title": "Amatoriae narrationes",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0313",
+    "author": "Plutarch",
+    "title": "Amatorius",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0282",
+    "author": "Plutarch",
+    "title": "Animine an corporis affectiones sint peiores",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0077",
+    "author": "Plutarch",
+    "title": "Antony",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0195",
+    "author": "Plutarch",
+    "title": "Apophthegmata Laconica",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0196",
+    "author": "Plutarch",
+    "title": "Apophthegmata Laconica",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0364",
+    "author": "Plutarch",
+    "title": "Aquane an ignis sit utilior",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0083",
+    "author": "Plutarch",
+    "title": "Aratus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0182",
+    "author": "Plutarch",
+    "title": "Aristides",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0084",
+    "author": "Plutarch",
+    "title": "Artaxerxes",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0372",
+    "author": "Plutarch",
+    "title": "Bruta animalia ratione uti",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0085",
+    "author": "Plutarch",
+    "title": "Brutus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0130",
+    "author": "Plutarch",
+    "title": "Caesar",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0089",
+    "author": "Plutarch",
+    "title": "Caius Gracchus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0109",
+    "author": "Plutarch",
+    "title": "Caius Marcius Coriolanus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0132",
+    "author": "Plutarch",
+    "title": "Caius Marius",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0086",
+    "author": "Plutarch",
+    "title": "Camillus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0088",
+    "author": "Plutarch",
+    "title": "Cato the Younger",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0090",
+    "author": "Plutarch",
+    "title": "Cicero",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0069",
+    "author": "Plutarch",
+    "title": "Cimon",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0091",
+    "author": "Plutarch",
+    "title": "Cleomenes",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0348",
+    "author": "Plutarch",
+    "title": "Comparationis Aristophanis et Menandri compendium",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0092",
+    "author": "Plutarch",
+    "title": "Comparison of Agesilaus and Pompey",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0093",
+    "author": "Plutarch",
+    "title": "Comparison of Agis and Cleomenes and the Gracchi",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0094",
+    "author": "Plutarch",
+    "title": "Comparison of Alcibiades and Coriolanus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0095",
+    "author": "Plutarch",
+    "title": "Comparison of Aristides with Marcus Cato",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0078",
+    "author": "Plutarch",
+    "title": "Comparison of Demetrius and Antony",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0096",
+    "author": "Plutarch",
+    "title": "Comparison of Demosthenes with Cicero",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0097",
+    "author": "Plutarch",
+    "title": "Comparison of Dion and Brutus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0098",
+    "author": "Plutarch",
+    "title": "Comparison of Lucullus and Cimon",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0099",
+    "author": "Plutarch",
+    "title": "Comparison of Lycurgus and Numa",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0100",
+    "author": "Plutarch",
+    "title": "Comparison of Lysander and Sulla",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0101",
+    "author": "Plutarch",
+    "title": "Comparison of Nicias and Crassus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0102",
+    "author": "Plutarch",
+    "title": "Comparison of Pelopidas and Marcellus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0103",
+    "author": "Plutarch",
+    "title": "Comparison of Pericles and Fabius Maximus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0104",
+    "author": "Plutarch",
+    "title": "Comparison of Philopoemen and Titus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0105",
+    "author": "Plutarch",
+    "title": "Comparison of Sertorius and Eumenes",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0106",
+    "author": "Plutarch",
+    "title": "Comparison of Solon and Publicola",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0107",
+    "author": "Plutarch",
+    "title": "Comparison of Theseus and Romulus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0108",
+    "author": "Plutarch",
+    "title": "Comparison of Timoleon and Aemilius",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0390",
+    "author": "Plutarch",
+    "title": "Compendium Argumenti Stoicos absurdiora poetis dicere",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0387",
+    "author": "Plutarch",
+    "title": "Compendium libri de animae procreatione in Timaeo",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0180",
+    "author": "Plutarch",
+    "title": "Conjugalia Praecepta",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0172",
+    "author": "Plutarch",
+    "title": "Consolatio ad Apollonium",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0309",
+    "author": "Plutarch",
+    "title": "Consolatio ad uxorem",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0110",
+    "author": "Plutarch",
+    "title": "Crassus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0229",
+    "author": "Plutarch",
+    "title": "De Alexandri magni fortuna aut virtute",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0230",
+    "author": "Plutarch",
+    "title": "De Alexandri magni fortuna aut virtute",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0160",
+    "author": "Plutarch",
+    "title": "De amicorum multitudine",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0274",
+    "author": "Plutarch",
+    "title": "De amore prolis",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0385",
+    "author": "Plutarch",
+    "title": "De animae procreatione in Timaeo",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0156",
+    "author": "Plutarch",
+    "title": "De capienda ex inimicis utilitate",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0262",
+    "author": "Plutarch",
+    "title": "De cohibenda ira",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0392",
+    "author": "Plutarch",
+    "title": "De communibus notitiis adversus Stoicos",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0293",
+    "author": "Plutarch",
+    "title": "De cupiditate divitiarum",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0290",
+    "author": "Plutarch",
+    "title": "De curiositate",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0250",
+    "author": "Plutarch",
+    "title": "De defectu oraculorum",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0242",
+    "author": "Plutarch",
+    "title": "De E apud Delphos",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0376",
+    "author": "Plutarch",
+    "title": "De esu carnium I",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0380",
+    "author": "Plutarch",
+    "title": "De esu carnium II",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0307",
+    "author": "Plutarch",
+    "title": "De exilio",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0356",
+    "author": "Plutarch",
+    "title": "De faciae quae in orbe lunae apparet",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0303",
+    "author": "Plutarch",
+    "title": "De fato",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0164",
+    "author": "Plutarch",
+    "title": "De fortuna",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0221",
+    "author": "Plutarch",
+    "title": "De fortuna Romanorum",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0222",
+    "author": "Plutarch",
+    "title": "De fortuna Romanorum",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0270",
+    "author": "Plutarch",
+    "title": "De fraterno amore",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0286",
+    "author": "Plutarch",
+    "title": "De garrulitate",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0305",
+    "author": "Plutarch",
+    "title": "De genio Socratis",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0233",
+    "author": "Plutarch",
+    "title": "De gloria Atheniensium",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0234",
+    "author": "Plutarch",
+    "title": "De gloria Atheniensium",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0351",
+    "author": "Plutarch",
+    "title": "De Herodoti malignitate",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0297",
+    "author": "Plutarch",
+    "title": "De invidia et odio",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0238",
+    "author": "Plutarch",
+    "title": "De Iside et Osiride",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0136",
+    "author": "Plutarch",
+    "title": "De liberis educandis",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0360",
+    "author": "Plutarch",
+    "title": "De primo frigido",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0361",
+    "author": "Plutarch",
+    "title": "De primo frigido",
+    "edition": "(ed. Harold Cherniss and William C. Helmbold)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0246",
+    "author": "Plutarch",
+    "title": "De Pythiae oraculis",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0144",
+    "author": "Plutarch",
+    "title": "De Recta Ratione Audiendi",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0299",
+    "author": "Plutarch",
+    "title": "De Se Ipsum Citra Invidiam Laudando",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0301",
+    "author": "Plutarch",
+    "title": "De sera numinis vindicta",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0368",
+    "author": "Plutarch",
+    "title": "De sollertia animalium",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0388",
+    "author": "Plutarch",
+    "title": "De Stoicorum repugnantiis",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0188",
+    "author": "Plutarch",
+    "title": "De superstitione",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0266",
+    "author": "Plutarch",
+    "title": "De tranquilitate animi",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0176",
+    "author": "Plutarch",
+    "title": "De tuenda sanitate praecepta",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0336",
+    "author": "Plutarch",
+    "title": "De unius in republica dominatione",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0168",
+    "author": "Plutarch",
+    "title": "De virtute et vitio",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0258",
+    "author": "Plutarch",
+    "title": "De virtute morali",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0340",
+    "author": "Plutarch",
+    "title": "De vitando aere alieno",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0295",
+    "author": "Plutarch",
+    "title": "De vitioso pudore",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0076",
+    "author": "Plutarch",
+    "title": "Demetrius",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0111",
+    "author": "Plutarch",
+    "title": "Demosthenes",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0112",
+    "author": "Plutarch",
+    "title": "Dion",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0113",
+    "author": "Plutarch",
+    "title": "Eumenes",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0114",
+    "author": "Plutarch",
+    "title": "Fabius Maximus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0116",
+    "author": "Plutarch",
+    "title": "Galba",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0200",
+    "author": "Plutarch",
+    "title": "Instituta Laconica",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0199",
+    "author": "Plutarch",
+    "title": "Instituta Laconica",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0202",
+    "author": "Plutarch",
+    "title": "Lacaenarum Apophthegmata",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0203",
+    "author": "Plutarch",
+    "title": "Lacaenarum Apophthegmata",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0117",
+    "author": "Plutarch",
+    "title": "Lucullus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0131",
+    "author": "Plutarch",
+    "title": "Lycurgus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0070",
+    "author": "Plutarch",
+    "title": "Lysander",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0118",
+    "author": "Plutarch",
+    "title": "Marcellus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0087",
+    "author": "Plutarch",
+    "title": "Marcus Cato",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0320",
+    "author": "Plutarch",
+    "title": "Maxime cum principbus philosopho esse diserendum",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0206",
+    "author": "Plutarch",
+    "title": "Mulierum virtutes",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0205",
+    "author": "Plutarch",
+    "title": "Mulierum virtutes",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0071",
+    "author": "Plutarch",
+    "title": "Nicias",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0394",
+    "author": "Plutarch",
+    "title": "Non posse suaviter vivi secundum Epicurum",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0133",
+    "author": "Plutarch",
+    "title": "Numa",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0119",
+    "author": "Plutarch",
+    "title": "Otho",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0217",
+    "author": "Plutarch",
+    "title": "Parallela minora",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0218",
+    "author": "Plutarch",
+    "title": "Parallela minora",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0120",
+    "author": "Plutarch",
+    "title": "Pelopidas",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0072",
+    "author": "Plutarch",
+    "title": "Pericles",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0121",
+    "author": "Plutarch",
+    "title": "Philopoemen",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0122",
+    "author": "Plutarch",
+    "title": "Phocion",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0383",
+    "author": "Plutarch",
+    "title": "Platonicae quaestiones",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0123",
+    "author": "Plutarch",
+    "title": "Pompey",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0332",
+    "author": "Plutarch",
+    "title": "Praecepta gerendae reipublicae",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0124",
+    "author": "Plutarch",
+    "title": "Publicola",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0134",
+    "author": "Plutarch",
+    "title": "Pyrrhus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0311",
+    "author": "Plutarch",
+    "title": "Quaestiones Convivales",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0213",
+    "author": "Plutarch",
+    "title": "Quaestiones Graecae",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0214",
+    "author": "Plutarch",
+    "title": "Quaestiones Graecae",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0353",
+    "author": "Plutarch",
+    "title": "Quaestiones Naturales",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0209",
+    "author": "Plutarch",
+    "title": "Quaestiones Romanae",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0210",
+    "author": "Plutarch",
+    "title": "Quaestiones Romanae",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0140",
+    "author": "Plutarch",
+    "title": "Quomodo adolescens poetas audire debeat",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0148",
+    "author": "Plutarch",
+    "title": "Quomodo adulator ab amico internoscatur",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0152",
+    "author": "Plutarch",
+    "title": "Quomodo quis suos in virtute sentiat profectus",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0398",
+    "author": "Plutarch",
+    "title": "An Recte Dictum Sit Latenter Esse Vivendum",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0191",
+    "author": "Plutarch",
+    "title": "Regum et imperatorum apophthegmata",
+    "edition": "(ed. Frank Cole Babbitt)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0192",
+    "author": "Plutarch",
+    "title": "Regum et imperatorum apophthegmata",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0079",
+    "author": "Plutarch",
+    "title": "Romulus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0328",
+    "author": "Plutarch",
+    "title": "An seni respublica gerenda sit",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0184",
+    "author": "Plutarch",
+    "title": "Septem sapientium convivium",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0125",
+    "author": "Plutarch",
+    "title": "Sertorius",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0073",
+    "author": "Plutarch",
+    "title": "Solon",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0126",
+    "author": "Plutarch",
+    "title": "Sulla",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0074",
+    "author": "Plutarch",
+    "title": "Themistocles",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0075",
+    "author": "Plutarch",
+    "title": "Theseus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0127",
+    "author": "Plutarch",
+    "title": "Tiberius Gracchus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0128",
+    "author": "Plutarch",
+    "title": "Timoleon",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0115",
+    "author": "Plutarch",
+    "title": "Titus Flamininus",
+    "edition": "(ed. Bernadotte Perrin)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0254",
+    "author": "Plutarch",
+    "title": "An virtus doceri possit",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0344",
+    "author": "Plutarch",
+    "title": "Vitae decem oratorum",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0278",
+    "author": "Plutarch",
+    "title": "An vitiositas ad infelicitatem sufficia",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0233",
+    "author": "Polybius",
+    "title": "Histories",
+    "edition": "(ed. Theodorus Büttner-Wobst after L. Dindorf)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0670",
+    "author": "Procopius",
+    "title": "de Bellis",
+    "edition": "(ed. H.B. (Henry Bronson) Dewing)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0669",
+    "author": "Procopius",
+    "title": "Historia Arcana (Anecdota)",
+    "edition": "(ed. Michael Krascheninnikov)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0401",
+    "author": "Pseudo-Plutarch",
+    "title": "De musica",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0403",
+    "author": "Pseudo-Plutarch",
+    "title": "Placita Philosophorum",
+    "edition": "(ed. Gregorius N. Bernardakis)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0157",
+    "author": "Pseudo-Xenophon",
+    "title": "Constitution of the Athenians",
+    "edition": "(ed. E. C. Marchant)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0636",
+    "author": "Claudius Ptolemy",
+    "title": "Tetrabiblos",
+    "edition": "(ed. F.E. Robbins)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0490",
+    "author": "Quintus Smyrnaeus",
+    "title": "Fall of Troy",
+    "edition": "(ed. Arthur S. Way)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0183",
+    "author": "Sophocles",
+    "title": "Ajax",
+    "edition": "(ed. Francis Storr)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0185",
+    "author": "Sophocles",
+    "title": "Antigone",
+    "edition": "(ed. Francis Storr)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0187",
+    "author": "Sophocles",
+    "title": "Electra",
+    "edition": "(ed. Francis Storr)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0220",
+    "author": "Sophocles",
+    "title": "Ichneutae",
+    "edition": "(ed. Arthur S. Hunt)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0189",
+    "author": "Sophocles",
+    "title": "Oedipus at Colonus",
+    "edition": "(ed. Francis Storr)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0191",
+    "author": "Sophocles",
+    "title": "Oedipus Tyrannus",
+    "edition": "(ed. Francis Storr)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0193",
+    "author": "Sophocles",
+    "title": "Philoctetes",
+    "edition": "(ed. Francis Storr)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0195",
+    "author": "Sophocles",
+    "title": "Trachiniae",
+    "edition": "(ed. Francis Storr)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0197",
+    "author": "Strabo",
+    "title": "Geography",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0228",
+    "author": "Theocritus",
+    "title": "Idylls",
+    "edition": "(ed. R. J. Cholmeley, M.A.)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0225",
+    "author": "Theophrastus",
+    "title": "Characters",
+    "edition": "(ed. Hermann Diels)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0199",
+    "author": "Thucydides",
+    "title": "The Peloponnesian War",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:2008.01.0491",
+    "author": "Tryphiodorus",
+    "title": "The Taking of Ilios",
+    "edition": "(ed. A. W. Mair)"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0649",
+    "author": "Xenophon of Ephesus",
+    "title": "Ephesiaca",
+    "edition": "(ed. Rudolf Hercher)"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0201",
+    "author": "Xenophon",
+    "title": "Anabasis",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0203",
+    "author": "Xenophon",
+    "title": "Cyropaedia",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0205",
+    "author": "Xenophon",
+    "title": "Hellenica",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0207",
+    "author": "Xenophon",
+    "title": "Memorabilia",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0209",
+    "author": "Xenophon",
+    "title": "Minor Works",
+    "edition": ""
+  },
+  {
+    "urn": "Perseus:text:1999.01.0211",
+    "author": "Xenophon",
+    "title": "Works on Socrates",
+    "edition": ""
+  }
+]
