@@ -26,10 +26,12 @@ Matching, in order:
 A row with zero matches after all three gets `matched_urns: []` and a
 `skip_reason` -- always recorded, never silently dropped. Several
 GBWW rows are expected to land here: pure category headers ("Dialogues",
-"The Oresteia"), authors/works Perseus's Greek vocab tool simply doesn't
-carry (Archimedes, Apollonius of Perga, Nicomachus of Gerasa, most of
-Aristotle's logical/biological/psychological works), and the Latin GBWW
-rows (Lucretius, Virgil) under this Greek-only catalog.
+"The Oresteia"), and authors/works Perseus's Greek vocab tool simply
+doesn't carry (Archimedes, Apollonius of Perga, Nicomachus of Gerasa,
+most of Aristotle's logical/biological/psychological works). Rows for
+authors who wrote in Latin (Lucretius, Virgil) were removed from
+great_books.tsv itself rather than left to skip here -- this catalog
+is Greek-only, so they could never match.
 
 Usage
 -----

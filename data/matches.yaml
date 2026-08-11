@@ -1042,13 +1042,6 @@ matches:
   seq: '148'
   matched_urns: []
   skip_reason: no Perseus Greek text found for 'Nicomachus of Gerasa', 'Introduction to Arithmetic'
-- title: On the Nature of Things
-  author: Lucretius
-  group: '12'
-  year: '1473'
-  seq: '149'
-  matched_urns: []
-  skip_reason: no Perseus Greek text found for 'Lucretius', 'On the Nature of Things'
 - title: The Discourses
   author: Epictetus
   group: '12'
@@ -1065,27 +1058,6 @@ matches:
   matched_urns:
   - Perseus:text:2008.01.0641
   method: alias
-- title: Eclogues
-  author: Virgil
-  group: '13'
-  year: '-38'
-  seq: '152'
-  matched_urns: []
-  skip_reason: no Perseus Greek text found for 'Virgil', 'Eclogues'
-- title: Georgics
-  author: Virgil
-  group: '13'
-  year: '-29'
-  seq: '153'
-  matched_urns: []
-  skip_reason: no Perseus Greek text found for 'Virgil', 'Georgics'
-- title: Aeneid
-  author: Virgil
-  group: '13'
-  year: '-19'
-  seq: '154'
-  matched_urns: []
-  skip_reason: no Perseus Greek text found for 'Virgil', 'Aeneid'
 - title: The Lives of the Noble Grecians and Romans
   author: Plutarch
   group: '14'
