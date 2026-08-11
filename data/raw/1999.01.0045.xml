@@ -1,0 +1,4866 @@
+<?xml version="1.0" encoding="utf-8"?>
+<frequencies>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(</headword>
+    <shortDefinition>the following</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o(" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>5238</maxFrequency>
+  <minFrequency>1837</minFrequency>
+  <weightedFrequency>2174.3</weightedFrequency>
+  <keyTermScore>0.0525</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>de/</headword>
+    <shortDefinition>but</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=de/1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=de/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=de/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=de/1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>777</maxFrequency>
+  <minFrequency>777</minFrequency>
+  <weightedFrequency>777</weightedFrequency>
+  <keyTermScore>0.0078</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ei)mi/</headword>
+    <shortDefinition>sum</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ei)mi/1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ei)mi/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ei)mi/1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ei)mi/1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>2559</maxFrequency>
+  <minFrequency>138</minFrequency>
+  <weightedFrequency>303.84</weightedFrequency>
+  <keyTermScore>0.0285</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ou(=tos</headword>
+    <shortDefinition>this</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ou(=tos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ou(=tos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ou(=tos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ou(=tos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>308</maxFrequency>
+  <minFrequency>292</minFrequency>
+  <weightedFrequency>296</weightedFrequency>
+  <keyTermScore>0.0041</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>me/n</headword>
+    <shortDefinition>indeed, of a truth</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=me/n" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=me/n" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=me/n" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=me/n" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>264</maxFrequency>
+  <minFrequency>264</minFrequency>
+  <weightedFrequency>264</weightedFrequency>
+  <keyTermScore>0.0032</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kai/</headword>
+    <shortDefinition>and now</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kai/2" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>3744</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>234</weightedFrequency>
+  <keyTermScore>0.0417</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kai/</headword>
+    <shortDefinition>and indeed, and further</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kai/4" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>3744</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>234</weightedFrequency>
+  <keyTermScore>0.0417</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kai/</headword>
+    <shortDefinition>and</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kai/1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0073:entry=kai/1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>3744</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>234</weightedFrequency>
+  <keyTermScore>0.0417</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kai/</headword>
+    <shortDefinition>and so</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kai/3" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kai/3" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=kai/3" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>3744</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>234</weightedFrequency>
+  <keyTermScore>0.0417</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/s</headword>
+    <shortDefinition>yas, yā, yad,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(/s1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(/s1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/s1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>2312</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>218.67</weightedFrequency>
+  <keyTermScore>0.0258</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/s</headword>
+    <shortDefinition>his, her,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(/s2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o(/s2" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(/s2" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/s2" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>2312</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>218.67</weightedFrequency>
+  <keyTermScore>0.0258</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ti/s</headword>
+    <shortDefinition>who? which?</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=ti/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ti/s1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ti/s1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>1879</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>196.22</weightedFrequency>
+  <keyTermScore>0.0209</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>au)to/s</headword>
+    <shortDefinition>self</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=au)to/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=au)to/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=au)to/s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=au)to/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>190</maxFrequency>
+  <minFrequency>160</minFrequency>
+  <weightedFrequency>167.5</weightedFrequency>
+  <keyTermScore>0.0021</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ga/r</headword>
+    <shortDefinition>for</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ga/r" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ga/r" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ga/r" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ga/r" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>111</maxFrequency>
+  <minFrequency>111</minFrequency>
+  <weightedFrequency>111</weightedFrequency>
+  <keyTermScore>0.0015</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>gi/gnomai</headword>
+    <shortDefinition>come into a new state of being</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=gi/gnomai" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=gi/gnomai" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=gi/gnomai" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>118</maxFrequency>
+  <minFrequency>106</minFrequency>
+  <weightedFrequency>109</weightedFrequency>
+  <keyTermScore>0.0021</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ei)s</headword>
+    <shortDefinition>into</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ei)s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ei)s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ei)s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ei)s1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>1265</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>107.42</weightedFrequency>
+  <keyTermScore>0.0141</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)k</headword>
+    <shortDefinition>from out of,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)k" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)k" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)k" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)k" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>166</maxFrequency>
+  <minFrequency>84</minFrequency>
+  <weightedFrequency>104.5</weightedFrequency>
+  <keyTermScore>0.0028</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>meta/</headword>
+    <shortDefinition>mip</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=meta/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=meta/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=meta/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=meta/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>108</maxFrequency>
+  <minFrequency>99</minFrequency>
+  <weightedFrequency>100</weightedFrequency>
+  <keyTermScore>0.005</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e(/kastos</headword>
+    <shortDefinition>each,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e(/kastos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e(/kastos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e(/kastos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e(/kastos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>95</maxFrequency>
+  <minFrequency>95</minFrequency>
+  <weightedFrequency>95</weightedFrequency>
+  <keyTermScore>0.01</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tis</headword>
+    <shortDefinition>any one, any thing</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tis" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=tis" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>1469</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>93.72</weightedFrequency>
+  <keyTermScore>0.018</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tis</headword>
+    <shortDefinition>anyone, anything</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0072:entry=tis2" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>1469</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>93.72</weightedFrequency>
+  <keyTermScore>0.018</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pro/s</headword>
+    <shortDefinition>on the side of, in the direction of,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pro/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pro/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pro/s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=pro/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>99</maxFrequency>
+  <minFrequency>86</minFrequency>
+  <weightedFrequency>86.08</weightedFrequency>
+  <keyTermScore>0.0017</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)/rxw</headword>
+    <shortDefinition>to be first,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)/rxw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)/rxw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)/rxw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)/rxw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>373</maxFrequency>
+  <minFrequency>25</minFrequency>
+  <weightedFrequency>80.83</weightedFrequency>
+  <keyTermScore>0.0232</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)pi/</headword>
+    <shortDefinition>being upon</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)pi/2" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>278</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>69.5</weightedFrequency>
+  <keyTermScore>0.0047</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)pi/</headword>
+    <shortDefinition>on, upon with gen., dat., and acc.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=e)pi/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)pi/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)pi/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>278</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>69.5</weightedFrequency>
+  <keyTermScore>0.0047</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>peri/</headword>
+    <shortDefinition>round about, all round</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=peri/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=peri/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=peri/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=peri/1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>68</maxFrequency>
+  <minFrequency>68</minFrequency>
+  <weightedFrequency>68</weightedFrequency>
+  <keyTermScore>0.0018</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)rxh/</headword>
+    <shortDefinition>beginning, origin,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)rxh/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)rxh/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)rxh/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>238</maxFrequency>
+  <minFrequency>51</minFrequency>
+  <weightedFrequency>67.83</weightedFrequency>
+  <keyTermScore>0.0209</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dikasth/rion</headword>
+    <shortDefinition>court of justice,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=dikasth/rion" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=dikasth/rion" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>65</maxFrequency>
+  <minFrequency>65</minFrequency>
+  <weightedFrequency>65</weightedFrequency>
+  <keyTermScore>0.0383</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>poie/w</headword>
+    <shortDefinition>make</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=poie/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=poie/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=poie/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>107</maxFrequency>
+  <minFrequency>55</minFrequency>
+  <weightedFrequency>64.45</weightedFrequency>
+  <keyTermScore>0.0025</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)n</headword>
+    <shortDefinition>in, into.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)n" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)n" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)n" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)n" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>565</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>63.67</weightedFrequency>
+  <keyTermScore>0.0076</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>politei/a</headword>
+    <shortDefinition>condition and rights of a citizen, citizenship,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=politei/a" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=politei/a" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>63</maxFrequency>
+  <minFrequency>63</minFrequency>
+  <weightedFrequency>63</weightedFrequency>
+  <keyTermScore>0.0248</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ei)=mi</headword>
+    <shortDefinition>ibo</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ei)=mi2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0072:entry=ei)=mi2" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ei)=mi2" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>1014</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>62.77</weightedFrequency>
+  <keyTermScore>0.0147</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ei)=mi</headword>
+    <shortDefinition>to go</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=ei)=mi" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>1014</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>62.77</weightedFrequency>
+  <keyTermScore>0.0147</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ou)=n</headword>
+    <shortDefinition>certainly, in fact</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ou)=n" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ou)=n" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ou)=n" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ou)=n" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>72</maxFrequency>
+  <minFrequency>52</minFrequency>
+  <weightedFrequency>57</weightedFrequency>
+  <keyTermScore>0.0018</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>polu/s</headword>
+    <shortDefinition>many,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=polu/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=polu/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=polu/s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=polu/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>63</maxFrequency>
+  <minFrequency>53</minFrequency>
+  <weightedFrequency>54.67</weightedFrequency>
+  <keyTermScore>0.0012</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)/llos</headword>
+    <shortDefinition>y</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)/llos1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)/llos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)/llos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>345</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>53.78</weightedFrequency>
+  <keyTermScore>0.0046</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)/llos</headword>
+    <shortDefinition>other, another</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0072:entry=a)/llos2" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>345</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>53.78</weightedFrequency>
+  <keyTermScore>0.0046</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pro/teros</headword>
+    <shortDefinition>before, in front</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pro/teros" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pro/teros" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pro/teros" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=pro/teros" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>255</maxFrequency>
+  <minFrequency>30</minFrequency>
+  <weightedFrequency>52.28</weightedFrequency>
+  <keyTermScore>0.0087</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)a/n</headword>
+    <shortDefinition>if haply, if</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)a/n" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)a/n" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>667</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>51.7</weightedFrequency>
+  <keyTermScore>0.0097</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>boulh/</headword>
+    <shortDefinition>will, determination</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=boulh/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=boulh/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=boulh/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>148</maxFrequency>
+  <minFrequency>19</minFrequency>
+  <weightedFrequency>46.67</weightedFrequency>
+  <keyTermScore>0.0524</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e(/</headword>
+    <shortDefinition>sui.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e(/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e(/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e(/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e(/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>766</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>45.58</weightedFrequency>
+  <keyTermScore>0.0138</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dhmo/s</headword>
+    <shortDefinition>fat</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=dhmo/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>222</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>44.67</weightedFrequency>
+  <keyTermScore>0.0641</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dh=mos</headword>
+    <shortDefinition>a country-district, country, land</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=dh=mos" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>222</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>44.67</weightedFrequency>
+  <keyTermScore>0.0633</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>su/</headword>
+    <shortDefinition>thou</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=su/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0072:entry=su/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=su/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>170</maxFrequency>
+  <minFrequency>2</minFrequency>
+  <weightedFrequency>44</weightedFrequency>
+  <keyTermScore>0.0029</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>lamba/nw</headword>
+    <shortDefinition>a</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=lamba/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=lamba/nw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=lamba/nw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=lamba/nw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>62</maxFrequency>
+  <minFrequency>36</minFrequency>
+  <weightedFrequency>42.5</weightedFrequency>
+  <keyTermScore>0.0029</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>te</headword>
+    <shortDefinition>both . . and</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=te1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=te" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=te" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>166</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>41.5</weightedFrequency>
+  <keyTermScore>0.0047</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)/rxwn</headword>
+    <shortDefinition>ruler, commander,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)/rxwn" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)/rxwn" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>249</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>41.5</weightedFrequency>
+  <keyTermScore>0.0607</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e(autou=</headword>
+    <shortDefinition>Stadtrecht von Gortyn</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e(autou=" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e(autou=" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>49</maxFrequency>
+  <minFrequency>37</minFrequency>
+  <weightedFrequency>40</weightedFrequency>
+  <keyTermScore>0.0024</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>bou/lomai</headword>
+    <shortDefinition>will, wish, be willing</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=bou/lomai" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=bou/lomai" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=bou/lomai" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=bou/lomai" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>81</maxFrequency>
+  <minFrequency>33</minFrequency>
+  <weightedFrequency>40</weightedFrequency>
+  <keyTermScore>0.0061</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)/tos</headword>
+    <shortDefinition>year</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)/tos1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)/tos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)/tos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)/tos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>85</maxFrequency>
+  <minFrequency>25</minFrequency>
+  <weightedFrequency>38.33</weightedFrequency>
+  <keyTermScore>0.0194</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>klhro/w</headword>
+    <shortDefinition>appoint by lot</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=klhro/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=klhro/w" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>71</maxFrequency>
+  <minFrequency>33</minFrequency>
+  <weightedFrequency>37.5</weightedFrequency>
+  <keyTermScore>0.0492</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>po/lis</headword>
+    <shortDefinition>city,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=po/lis" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=po/lis" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=po/lis" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=po/lis" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>56</maxFrequency>
+  <minFrequency>32</minFrequency>
+  <weightedFrequency>37.17</weightedFrequency>
+  <keyTermScore>0.0038</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>th=|</headword>
+    <shortDefinition>here, there</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=th=|" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=th=|" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=th=|" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>144</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>36</weightedFrequency>
+  <keyTermScore>0.0043</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ai(re/w</headword>
+    <shortDefinition>take with the hand, grasp, seize</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ai(re/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ai(re/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ai(re/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ai(re/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>39</maxFrequency>
+  <minFrequency>35</minFrequency>
+  <weightedFrequency>35.25</weightedFrequency>
+  <keyTermScore>0.0059</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>fulh/</headword>
+    <shortDefinition>a race, tribe;</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=fulh/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=fulh/" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>131</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>34.17</weightedFrequency>
+  <keyTermScore>0.088</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a(/pas</headword>
+    <shortDefinition>sṃ-,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a(/pas" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a(/pas" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a(/pas" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a(/pas" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>33</maxFrequency>
+  <minFrequency>33</minFrequency>
+  <weightedFrequency>33</weightedFrequency>
+  <keyTermScore>0.0021</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ka)n</headword>
+    <shortDefinition>and if, even if, although</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=ka)n" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>31</maxFrequency>
+  <minFrequency>31</minFrequency>
+  <weightedFrequency>31</weightedFrequency>
+  <keyTermScore>0.0048</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kaqi/sthmi</headword>
+    <shortDefinition>set down</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kaqi/sthmi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kaqi/sthmi" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=kaqi/sthmi" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>64</maxFrequency>
+  <minFrequency>22</minFrequency>
+  <weightedFrequency>30</weightedFrequency>
+  <keyTermScore>0.0096</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)/xw</headword>
+    <shortDefinition>bear, carry, bring</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)/xw2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)/xw2" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)/xw2" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>157</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>29.53</weightedFrequency>
+  <keyTermScore>0.0023</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)/xw</headword>
+    <shortDefinition>check</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)/xw1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)/xw1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>157</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>29.53</weightedFrequency>
+  <keyTermScore>0.0023</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>lagxa/nw</headword>
+    <shortDefinition>obtain by lot</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=lagxa/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=lagxa/nw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=lagxa/nw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=lagxa/nw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>49</maxFrequency>
+  <minFrequency>27</minFrequency>
+  <weightedFrequency>29.33</weightedFrequency>
+  <keyTermScore>0.0205</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>du/o</headword>
+    <shortDefinition>Acut.(Sp.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=du/o" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=du/o" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=du/o" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=du/o" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>29</maxFrequency>
+  <minFrequency>29</minFrequency>
+  <weightedFrequency>29</weightedFrequency>
+  <keyTermScore>0.0034</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)po/</headword>
+    <shortDefinition>ápa,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)po/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)po/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)po/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)po/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>67</maxFrequency>
+  <minFrequency>27</minFrequency>
+  <weightedFrequency>28.6</weightedFrequency>
+  <keyTermScore>0.0022</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kata/</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kata/2" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>291</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>28.07</weightedFrequency>
+  <keyTermScore>0.0059</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ka/tos</headword>
+    <shortDefinition>following</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ka/tos" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>291</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>28.07</weightedFrequency>
+  <keyTermScore>0.0056</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kata/</headword>
+    <shortDefinition>downwards.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kata/1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kata/1" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=kata/1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=kata/1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>291</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>28.07</weightedFrequency>
+  <keyTermScore>0.0059</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pa/lin</headword>
+    <shortDefinition>back, backwards</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pa/lin" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pa/lin" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pa/lin" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=pa/lin" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>28</maxFrequency>
+  <minFrequency>28</minFrequency>
+  <weightedFrequency>28</weightedFrequency>
+  <keyTermScore>0.0029</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>bouleu/s</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=bouleu/s" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>132</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>28</weightedFrequency>
+  <keyTermScore>0.0346</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>di/dwmi</headword>
+    <shortDefinition>Aër.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=di/dwmi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=di/dwmi" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=di/dwmi" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=di/dwmi" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>39</maxFrequency>
+  <minFrequency>23</minFrequency>
+  <weightedFrequency>27</weightedFrequency>
+  <keyTermScore>0.0024</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/sos</headword>
+    <shortDefinition>as great as, how great</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(/sos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o(/sos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(/sos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/sos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>27</maxFrequency>
+  <minFrequency>27</minFrequency>
+  <weightedFrequency>27</weightedFrequency>
+  <keyTermScore>0.0014</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>fula/zw</headword>
+    <shortDefinition>form into tribes,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=fula/zw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=fula/zw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>123</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>26.17</weightedFrequency>
+  <keyTermScore>0.0316</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>sumbai/nw</headword>
+    <shortDefinition>stand with the feet together</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=sumbai/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=sumbai/nw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>26</maxFrequency>
+  <minFrequency>26</minFrequency>
+  <weightedFrequency>26</weightedFrequency>
+  <keyTermScore>0.0059</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dika/zw</headword>
+    <shortDefinition>Bis Acc.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=dika/zw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=dika/zw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=dika/zw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=dika/zw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>49</maxFrequency>
+  <minFrequency>19</minFrequency>
+  <weightedFrequency>25.67</weightedFrequency>
+  <keyTermScore>0.0111</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kale/w</headword>
+    <shortDefinition>call, summon</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kale/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kale/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=kale/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=kale/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>30</maxFrequency>
+  <minFrequency>25</minFrequency>
+  <weightedFrequency>25.2</weightedFrequency>
+  <keyTermScore>0.0016</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>xrh=ma</headword>
+    <shortDefinition>need,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=xrh=ma" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=xrh=ma" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=xrh=ma" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=xrh=ma" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>25</maxFrequency>
+  <minFrequency>25</minFrequency>
+  <weightedFrequency>25</weightedFrequency>
+  <keyTermScore>0.004</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)/stu</headword>
+    <shortDefinition>town,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)/stu" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)/stu" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)/stu" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)/stu" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>29</maxFrequency>
+  <minFrequency>24</minFrequency>
+  <weightedFrequency>24.83</weightedFrequency>
+  <keyTermScore>0.0137</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ei(=s</headword>
+    <shortDefinition>sem</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ei(=s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0072:entry=ei(=s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ei(=s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>164</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>24.42</weightedFrequency>
+  <keyTermScore>0.0066</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)na/</headword>
+    <shortDefinition>on board</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)na/1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)na/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)na/1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)na/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>391</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>24.14</weightedFrequency>
+  <keyTermScore>0.0079</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)/n</headword>
+    <shortDefinition>he came,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)/n1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)/n1" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)/n1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)/n1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>384</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>24</weightedFrequency>
+  <keyTermScore>0.0073</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)/n</headword>
+    <shortDefinition />
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)/n2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)/n2" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)/n2" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>384</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>24</weightedFrequency>
+  <keyTermScore>0.0078</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dikasth/s</headword>
+    <shortDefinition>a judge,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=dikasth/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=dikasth/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>24</maxFrequency>
+  <minFrequency>24</minFrequency>
+  <weightedFrequency>24</weightedFrequency>
+  <keyTermScore>0.0113</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)a/w</headword>
+    <shortDefinition>suffer, permit</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)a/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)a/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)a/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)a/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>89</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>23</weightedFrequency>
+  <keyTermScore>0.0039</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)nh/r</headword>
+    <shortDefinition>nar-</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)nh/r" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)nh/r" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)nh/r" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)nh/r" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>31</maxFrequency>
+  <minFrequency>22</minFrequency>
+  <weightedFrequency>23</weightedFrequency>
+  <keyTermScore>0.0012</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ou)dei/s</headword>
+    <shortDefinition>not one</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ou)dei/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ou)dei/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ou)dei/s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ou)dei/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>23</maxFrequency>
+  <minFrequency>23</minFrequency>
+  <weightedFrequency>23</weightedFrequency>
+  <keyTermScore>0.0008</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tw=|</headword>
+    <shortDefinition>therefore, in this wise, then,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tw=|" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=tw=|" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=tw=|" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>570</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>22.8</weightedFrequency>
+  <keyTermScore>0.0102</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>po/lemos</headword>
+    <shortDefinition>war,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=po/lemos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=po/lemos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=po/lemos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=po/lemos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>30</maxFrequency>
+  <minFrequency>21</minFrequency>
+  <weightedFrequency>22</weightedFrequency>
+  <keyTermScore>0.0052</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ei)sa/gw</headword>
+    <shortDefinition>lead in</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ei)sa/gw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ei)sa/gw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=ei)sa/gw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>31</maxFrequency>
+  <minFrequency>19</minFrequency>
+  <weightedFrequency>22</weightedFrequency>
+  <keyTermScore>0.0114</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>mh/s</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=mh/s" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>352</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>22</weightedFrequency>
+  <keyTermScore>0.0051</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h(=</headword>
+    <shortDefinition>where,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h(=" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>348</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>21.75</weightedFrequency>
+  <keyTermScore>0.0095</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>prw=tos</headword>
+    <shortDefinition>first</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=prw=tos1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0072:entry=prw=tos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=prw=tos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>219</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>21.62</weightedFrequency>
+  <keyTermScore>0.0104</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>prwto/s</headword>
+    <shortDefinition>destined</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=prwto/s2" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>219</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>21.62</weightedFrequency>
+  <keyTermScore>0.0104</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)pimele/omai</headword>
+    <shortDefinition>take</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)pimele/omai" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)pimele/omai" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>23</maxFrequency>
+  <minFrequency>21</minFrequency>
+  <weightedFrequency>21.5</weightedFrequency>
+  <keyTermScore>0.0065</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>basileu/s</headword>
+    <shortDefinition>king, chief,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=basileu/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=basileu/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=basileu/s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=basileu/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>23</maxFrequency>
+  <minFrequency>21</minFrequency>
+  <weightedFrequency>21.5</weightedFrequency>
+  <keyTermScore>0.003</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>xeirotone/w</headword>
+    <shortDefinition>stretch out the hand,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=xeirotone/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=xeirotone/w" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>21</maxFrequency>
+  <minFrequency>21</minFrequency>
+  <weightedFrequency>21</weightedFrequency>
+  <keyTermScore>0.0174</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ma/lista</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=ma/lista" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=ma/lista" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>21</maxFrequency>
+  <minFrequency>21</minFrequency>
+  <weightedFrequency>21</weightedFrequency>
+  <keyTermScore>0.0016</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>xro/nos</headword>
+    <shortDefinition>time,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=xro/nos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=xro/nos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=xro/nos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=xro/nos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>33</maxFrequency>
+  <minFrequency>17</minFrequency>
+  <weightedFrequency>21</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)c</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=e)c" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>82</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>20.5</weightedFrequency>
+  <keyTermScore>0.0048</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>mh/</headword>
+    <shortDefinition>mā´</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=mh/1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=mh/1" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=mh/1" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>328</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>20.5</weightedFrequency>
+  <keyTermScore>0.007</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>mh/</headword>
+    <shortDefinition>lest perchance</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=mh/3" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0073:entry=mh/3" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>328</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>20.5</weightedFrequency>
+  <keyTermScore>0.007</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>mh/</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=mh/2" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>328</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>20.5</weightedFrequency>
+  <keyTermScore>0.007</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)podi/dwmi</headword>
+    <shortDefinition>give up</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)podi/dwmi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)podi/dwmi" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)podi/dwmi" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)podi/dwmi" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>23</maxFrequency>
+  <minFrequency>20</minFrequency>
+  <weightedFrequency>20.33</weightedFrequency>
+  <keyTermScore>0.0044</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>i(/na</headword>
+    <shortDefinition>in that place, there</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=i(/na" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=i(/na" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=i(/na" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=i(/na" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>20</maxFrequency>
+  <minFrequency>20</minFrequency>
+  <weightedFrequency>20</weightedFrequency>
+  <keyTermScore>0.003</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>u(po/</headword>
+    <shortDefinition>úpa</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=u(po/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=u(po/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=u(po/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=u(po/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>20</maxFrequency>
+  <minFrequency>20</minFrequency>
+  <weightedFrequency>20</weightedFrequency>
+  <keyTermScore>0.0004</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pa=s</headword>
+    <shortDefinition>all</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pa=s1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pa=s1" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pa=s1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=pa=s1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>242</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>19.73</weightedFrequency>
+  <keyTermScore>0.0032</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pa=s</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pa=s2" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>242</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>19.73</weightedFrequency>
+  <keyTermScore>0.0032</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pa=s</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pa=s3" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>242</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>19.73</weightedFrequency>
+  <keyTermScore>0.0032</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ti/qhmi</headword>
+    <shortDefinition>p</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ti/qhmi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ti/qhmi" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ti/qhmi" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ti/qhmi" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>34</maxFrequency>
+  <minFrequency>17</minFrequency>
+  <weightedFrequency>19.5</weightedFrequency>
+  <keyTermScore>0.0029</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>doke/w</headword>
+    <shortDefinition>expect</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=doke/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=doke/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=doke/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=doke/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>135</maxFrequency>
+  <minFrequency>5</minFrequency>
+  <weightedFrequency>19.49</weightedFrequency>
+  <keyTermScore>0.0049</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>u(pe/r</headword>
+    <shortDefinition>upaári</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=u(pe/r" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=u(pe/r" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=u(pe/r" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=u(pe/r" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>19</maxFrequency>
+  <minFrequency>19</minFrequency>
+  <weightedFrequency>19</weightedFrequency>
+  <keyTermScore>0.0013</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e(/teros</headword>
+    <shortDefinition>D Mort.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e(/teros" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e(/teros" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e(/teros" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e(/teros" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>20</maxFrequency>
+  <minFrequency>18</minFrequency>
+  <weightedFrequency>18.5</weightedFrequency>
+  <keyTermScore>0.0012</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>turanni/s</headword>
+    <shortDefinition>monarchy, sovereignty,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=turanni/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=turanni/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=turanni/s" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>18</maxFrequency>
+  <minFrequency>18</minFrequency>
+  <weightedFrequency>18</weightedFrequency>
+  <keyTermScore>0.0087</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)peida/n</headword>
+    <shortDefinition>whenever,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)peida/n" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)peida/n" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)peida/n" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>18</maxFrequency>
+  <minFrequency>18</minFrequency>
+  <weightedFrequency>18</weightedFrequency>
+  <keyTermScore>0.0094</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/tan</headword>
+    <shortDefinition>whenever</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(/tan" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o(/tan" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(/tan" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/tan" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>18</maxFrequency>
+  <minFrequency>18</minFrequency>
+  <weightedFrequency>18</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)/peita</headword>
+    <shortDefinition>thereupon, thereafter, then,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)/peita" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)/peita" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)/peita" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)/peita" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>70</maxFrequency>
+  <minFrequency>17</minFrequency>
+  <weightedFrequency>17.93</weightedFrequency>
+  <keyTermScore>0.0128</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)/cesti</headword>
+    <shortDefinition>it is allowed, is possible,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)/cesti" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)/cesti" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>40</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>17.53</weightedFrequency>
+  <keyTermScore>0.0049</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>plh=qos</headword>
+    <shortDefinition>great number, multitude,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=plh=qos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=plh=qos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=plh=qos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=plh=qos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>22</maxFrequency>
+  <minFrequency>16</minFrequency>
+  <weightedFrequency>17.5</weightedFrequency>
+  <keyTermScore>0.0041</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>paradi/dwmi</headword>
+    <shortDefinition>give, hand over to another, transmit</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=paradi/dwmi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=paradi/dwmi" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=paradi/dwmi" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>19</maxFrequency>
+  <minFrequency>17</minFrequency>
+  <weightedFrequency>17.5</weightedFrequency>
+  <keyTermScore>0.0045</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>katalu/w</headword>
+    <shortDefinition>put down, destroy</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=katalu/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=katalu/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=katalu/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>22</maxFrequency>
+  <minFrequency>16</minFrequency>
+  <weightedFrequency>17.5</weightedFrequency>
+  <keyTermScore>0.0099</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dioike/w</headword>
+    <shortDefinition>keep house:</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=dioike/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=dioike/w" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>19</maxFrequency>
+  <minFrequency>17</minFrequency>
+  <weightedFrequency>17.5</weightedFrequency>
+  <keyTermScore>0.0109</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>gra/fw</headword>
+    <shortDefinition>scratch, graze</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=gra/fw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=gra/fw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=gra/fw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=gra/fw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>21</maxFrequency>
+  <minFrequency>17</minFrequency>
+  <weightedFrequency>17.25</weightedFrequency>
+  <keyTermScore>0.0033</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)/ti</headword>
+    <shortDefinition>yet, still</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)/ti" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)/ti" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)/ti" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)/ti" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>17</maxFrequency>
+  <minFrequency>17</minFrequency>
+  <weightedFrequency>17</weightedFrequency>
+  <keyTermScore>0.0008</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o)/mnumi</headword>
+    <shortDefinition>swear,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o)/mnumi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o)/mnumi" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o)/mnumi" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o)/mnumi" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>17</maxFrequency>
+  <minFrequency>17</minFrequency>
+  <weightedFrequency>17</weightedFrequency>
+  <keyTermScore>0.008</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h)mi/</headword>
+    <shortDefinition>say</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h)mi/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=h)mi/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=h)mi/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>741</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>16.57</weightedFrequency>
+  <keyTermScore>0.0099</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pe/nte</headword>
+    <shortDefinition>five</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pe/nte" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pe/nte" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pe/nte" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=pe/nte" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>18</maxFrequency>
+  <minFrequency>16</minFrequency>
+  <weightedFrequency>16.5</weightedFrequency>
+  <keyTermScore>0.0059</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>me/gas</headword>
+    <shortDefinition>big</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=me/gas" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=me/gas" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=me/gas" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=me/gas" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>18</maxFrequency>
+  <minFrequency>16</minFrequency>
+  <weightedFrequency>16.5</weightedFrequency>
+  <keyTermScore>0.0005</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>deka/zw</headword>
+    <shortDefinition>bribe, corrupt,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=deka/zw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=deka/zw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>239</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>16.25</weightedFrequency>
+  <keyTermScore>0.0809</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dio/</headword>
+    <shortDefinition>wherefore, on which account,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=dio/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=dio/" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>125</maxFrequency>
+  <minFrequency>15</minFrequency>
+  <weightedFrequency>16.1</weightedFrequency>
+  <keyTermScore>0.0116</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pra=gma</headword>
+    <shortDefinition>deed, act,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pra=gma" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pra=gma" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pra=gma" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>16</maxFrequency>
+  <minFrequency>16</minFrequency>
+  <weightedFrequency>16</weightedFrequency>
+  <keyTermScore>0.0013</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)niauto/s</headword>
+    <shortDefinition>anniversary,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)niauto/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)niauto/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)niauto/s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)niauto/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>16</maxFrequency>
+  <minFrequency>16</minFrequency>
+  <weightedFrequency>16</weightedFrequency>
+  <keyTermScore>0.008</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>strathgo/s</headword>
+    <shortDefinition>leader</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=strathgo/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=strathgo/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>28</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>16</weightedFrequency>
+  <keyTermScore>0.008</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>mhdei/s</headword>
+    <shortDefinition>not one, not even one, nobody</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=mhdei/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=mhdei/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=mhdei/s" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>16</maxFrequency>
+  <minFrequency>16</minFrequency>
+  <weightedFrequency>16</weightedFrequency>
+  <keyTermScore>0.0012</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>deka/w</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=deka/w" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>244</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>15.92</weightedFrequency>
+  <keyTermScore>0.0842</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>xra/w</headword>
+    <shortDefinition>proclaim,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=xra/w2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=xra/w2" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=xra/w2" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=xra/w2" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>164</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>15.17</weightedFrequency>
+  <keyTermScore>0.0068</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tetrako/sioi</headword>
+    <shortDefinition>four hundred</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tetrako/sioi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=tetrako/sioi" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>15</maxFrequency>
+  <minFrequency>15</minFrequency>
+  <weightedFrequency>15</weightedFrequency>
+  <keyTermScore>0.0133</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>nu=n</headword>
+    <shortDefinition>now,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=nu=n1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=nu=n1" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>60</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>15</weightedFrequency>
+  <keyTermScore>0.0045</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>te/ssares</headword>
+    <shortDefinition>four</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=te/ssares" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=te/ssares" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=te/ssares" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=te/ssares" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>15</maxFrequency>
+  <minFrequency>15</minFrequency>
+  <weightedFrequency>15</weightedFrequency>
+  <keyTermScore>0.0046</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>nu=n</headword>
+    <shortDefinition>now, even now,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=nu=n2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=nu=n2" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=nu=n2" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=nu=n2" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>60</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>15</weightedFrequency>
+  <keyTermScore>0.0045</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)nagra/fw</headword>
+    <shortDefinition>engrave and set up publicly,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)nagra/fw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)nagra/fw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>15</maxFrequency>
+  <minFrequency>15</minFrequency>
+  <weightedFrequency>15</weightedFrequency>
+  <keyTermScore>0.0095</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)mba/llw</headword>
+    <shortDefinition>throw in</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)mba/llw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)mba/llw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)mba/llw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)mba/llw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>15</maxFrequency>
+  <minFrequency>15</minFrequency>
+  <weightedFrequency>15</weightedFrequency>
+  <keyTermScore>0.0033</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/de</headword>
+    <shortDefinition>this,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(/de" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o(/de" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(/de" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/de" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>22</maxFrequency>
+  <minFrequency>13</minFrequency>
+  <weightedFrequency>14.83</weightedFrequency>
+  <keyTermScore>0.0034</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>de/ka</headword>
+    <shortDefinition>ten,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=de/ka^" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=de/ka" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=de/ka" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=de/ka" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>236</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>14.75</weightedFrequency>
+  <keyTermScore>0.0889</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>deka/s</headword>
+    <shortDefinition>company of ten,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=deka/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=deka/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>236</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>14.75</weightedFrequency>
+  <keyTermScore>0.0873</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)lla/</headword>
+    <shortDefinition>otheruise</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)lla/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)lla/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)lla/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)lla/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>175</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>14.62</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>nomo/s</headword>
+    <shortDefinition>place of pasturage,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=nomo/s1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=nomo/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=nomo/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>261</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>14.53</weightedFrequency>
+  <keyTermScore>0.0299</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>no/mos</headword>
+    <shortDefinition>that which is in habitual practice, use</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=no/mos2" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>261</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>14.53</weightedFrequency>
+  <keyTermScore>0.0299</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>no/mos</headword>
+    <shortDefinition>anything assigned, a usage, custom, law, ordinance</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=no/mos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=no/mos1" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>261</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>14.53</weightedFrequency>
+  <keyTermScore>0.0299</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>nomo/s</headword>
+    <shortDefinition>herbage</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0072:entry=nomo/s2" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>261</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>14.53</weightedFrequency>
+  <keyTermScore>0.0299</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/stis</headword>
+    <shortDefinition>that</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(/stis" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o(/stis" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(/stis" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/stis" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>71</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>14.5</weightedFrequency>
+  <keyTermScore>0.0016</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)ggra/fw</headword>
+    <shortDefinition>make incisions into</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)ggra/fw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)ggra/fw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>16</maxFrequency>
+  <minFrequency>14</minFrequency>
+  <weightedFrequency>14.5</weightedFrequency>
+  <keyTermScore>0.01</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kate/xw</headword>
+    <shortDefinition>hold fast</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kate/xw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kate/xw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=kate/xw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=kate/xw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>14</maxFrequency>
+  <minFrequency>14</minFrequency>
+  <weightedFrequency>14</weightedFrequency>
+  <keyTermScore>0.003</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dhmo/sios</headword>
+    <shortDefinition>belonging to the people</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=dhmo/sios" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>26</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>14</weightedFrequency>
+  <keyTermScore>0.0101</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dhmotiko/s</headword>
+    <shortDefinition>of</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=dhmotiko/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>14</maxFrequency>
+  <minFrequency>14</minFrequency>
+  <weightedFrequency>14</weightedFrequency>
+  <keyTermScore>0.0097</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dokima/zw</headword>
+    <shortDefinition>assay, test,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=dokima/zw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=dokima/zw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>14</maxFrequency>
+  <minFrequency>14</minFrequency>
+  <weightedFrequency>14</weightedFrequency>
+  <keyTermScore>0.0087</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>i(ppeu/s</headword>
+    <shortDefinition>one who fights from a chariot</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=i(ppeu/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=i(ppeu/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=i(ppeu/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>15</maxFrequency>
+  <minFrequency>13</minFrequency>
+  <weightedFrequency>13.5</weightedFrequency>
+  <keyTermScore>0.0074</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>poli/ths</headword>
+    <shortDefinition>citizen, freeman,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=poli/ths" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=poli/ths" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=poli/ths" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>15</maxFrequency>
+  <minFrequency>13</minFrequency>
+  <weightedFrequency>13.5</weightedFrequency>
+  <keyTermScore>0.0036</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>mh/te</headword>
+    <shortDefinition>and not</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=mh/te" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=mh/te" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=mh/te" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=mh/te" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>25</maxFrequency>
+  <minFrequency>13</minFrequency>
+  <weightedFrequency>13.33</weightedFrequency>
+  <keyTermScore>0.0034</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>i(/hmi</headword>
+    <shortDefinition>Ja-c-io</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=i(/hmi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=i(/hmi" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=i(/hmi" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=i(/hmi" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>139</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>13.33</weightedFrequency>
+  <keyTermScore>0.0066</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>bouleu/w</headword>
+    <shortDefinition>take counsel, deliberate</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=bouleu/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=bouleu/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=bouleu/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=bouleu/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>13</minFrequency>
+  <weightedFrequency>13</weightedFrequency>
+  <keyTermScore>0.0038</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)ei/</headword>
+    <shortDefinition>ever, always</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)ei/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)ei/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)ei/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)ei/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>13</minFrequency>
+  <weightedFrequency>13</weightedFrequency>
+  <keyTermScore>0.0011</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)/ths</headword>
+    <shortDefinition>clansmen</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)/ths1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)/ths" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)/ths" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>57</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>13</weightedFrequency>
+  <keyTermScore>0.0137</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>w(s</headword>
+    <shortDefinition>so, thus.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=w(s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=w(s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=w(s1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=w(s1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>208</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>13</weightedFrequency>
+  <keyTermScore>0.003</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>w(s</headword>
+    <shortDefinition>as, how;</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0073:entry=w(s2" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>208</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>13</weightedFrequency>
+  <keyTermScore>0.003</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>feu/gw</headword>
+    <shortDefinition>flee, take flight,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=feu/gw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=feu/gw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=feu/gw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=feu/gw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>14</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12.5</weightedFrequency>
+  <keyTermScore>0.0015</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>u(/steros</headword>
+    <shortDefinition>latter, last,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=u(/steros" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=u(/steros" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=u(/steros" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=u(/steros" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>50</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>12.5</weightedFrequency>
+  <keyTermScore>0.0067</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>fhmi/</headword>
+    <shortDefinition>Spir. Prooem., Eratosth.Prooem.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=fhmi/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=fhmi/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=fhmi/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>37</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>12.42</weightedFrequency>
+  <keyTermScore>0.0012</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ou)/te</headword>
+    <shortDefinition>and not</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ou)/te" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ou)/te" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ou)/te" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ou)/te" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>36</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12.38</weightedFrequency>
+  <keyTermScore>0.0024</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>de/w</headword>
+    <shortDefinition>bind, tie, fetter,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=de/w1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=de/w1" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=de/w1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=de/w1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>197</maxFrequency>
+  <minFrequency>2</minFrequency>
+  <weightedFrequency>12.35</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>me/xri</headword>
+    <shortDefinition>as far as</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=me/xri^" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=me/xri" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=me/xri" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>u(/steron</headword>
+    <shortDefinition>the afterbirth,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=u(/steron" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>48</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.008</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ou(/tws</headword>
+    <shortDefinition>in this way</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ou(/tws" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ou(/tws" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.0004</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)/rxomai</headword>
+    <shortDefinition>ibo</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)/rxomai" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)/rxomai" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)/rxomai" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)/rxomai" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.0012</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>deu/teros</headword>
+    <shortDefinition>second,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=deu/teros" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=deu/teros" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=deu/teros" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=deu/teros" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.0025</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pina/kion</headword>
+    <shortDefinition>small tablet</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pina/kion" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pina/kion" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.0155</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kibw/tion</headword>
+    <shortDefinition>box</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kibw/tion" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kibw/tion" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.02</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>keleu/w</headword>
+    <shortDefinition>urge, drive on</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=keleu/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=keleu/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=keleu/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=keleu/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.0019</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)sa/w</headword>
+    <shortDefinition>glut oneself, take a surfeit,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)sa/w" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>48</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.0107</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)poktei/nw</headword>
+    <shortDefinition>kill, slay,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)poktei/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)poktei/nw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)poktei/nw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>12</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.0039</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e(ka/teros</headword>
+    <shortDefinition>each of two, each singly,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e(ka/teros" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e(ka/teros" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e(ka/teros" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>21</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>12</weightedFrequency>
+  <keyTermScore>0.0069</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)naire/w</headword>
+    <shortDefinition>take up,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)naire/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)naire/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)naire/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)naire/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>22</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>11.83</weightedFrequency>
+  <keyTermScore>0.0053</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h(me/ra</headword>
+    <shortDefinition>day</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h(me/ra" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=h(me/ra" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>50</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>11.67</weightedFrequency>
+  <keyTermScore>0.0074</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h(/meros</headword>
+    <shortDefinition>tame</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h(/meros" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=h(/meros" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=h(/meros" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>50</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>11.67</weightedFrequency>
+  <keyTermScore>0.0064</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)mfo/teros</headword>
+    <shortDefinition>either,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)mfo/teros" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)mfo/teros" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)mfo/teros" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)mfo/teros" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>19</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>11.5</weightedFrequency>
+  <keyTermScore>0.0042</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>me/llw</headword>
+    <shortDefinition>to be destined</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=me/llw1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=me/llw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=me/llw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=me/llw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>11</minFrequency>
+  <weightedFrequency>11.5</weightedFrequency>
+  <keyTermScore>0.0017</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ku/rios</headword>
+    <shortDefinition>a lord, master</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=ku/rios2" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>143</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>11.1</weightedFrequency>
+  <keyTermScore>0.0424</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ku/rios</headword>
+    <shortDefinition>having power</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ku/rios" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ku/rios1" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ku/rios" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>143</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>11.1</weightedFrequency>
+  <keyTermScore>0.0424</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ple/w</headword>
+    <shortDefinition>sail, go by sea,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ple/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ple/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ple/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ple/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>62</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>11.07</weightedFrequency>
+  <keyTermScore>0.0034</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>xwri/s</headword>
+    <shortDefinition>separately, apart,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=xwri/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=xwri/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=xwri/s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=xwri/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>11</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0041</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>paralamba/nw</headword>
+    <shortDefinition>receive from</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=paralamba/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=paralamba/nw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>11</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kri/nw</headword>
+    <shortDefinition>separate, put asunder, distinguish</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kri/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kri/nw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=kri/nw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=kri/nw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>14</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tria/konta</headword>
+    <shortDefinition>thirty,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tria/konta" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=tria/konta" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>44</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0199</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)pigra/fw</headword>
+    <shortDefinition>mark the surface, graze</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)pigra/fw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)pigra/fw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)pigra/fw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>11</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0055</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>w(/ste</headword>
+    <shortDefinition>as being, inasmuch as,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=w(/ste" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=w(/ste" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=w(/ste" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=w(/ste" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>11</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0007</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/qen</headword>
+    <shortDefinition>whence,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(/qen" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o(/qen" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(/qen" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/qen" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>11</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0022</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pentako/sioi</headword>
+    <shortDefinition>five hundred</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pentako/sioi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pentako/sioi" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>11</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0072</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>triakonta/s</headword>
+    <shortDefinition>the number thirty,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=triakonta/s" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>44</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.021</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o)bolo/s</headword>
+    <shortDefinition>obol,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o)bolo/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o)bolo/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>11</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0095</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>draxmh/</headword>
+    <shortDefinition>as much as one can hold in the hand,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=draxmh/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=draxmh/" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>14</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>11</weightedFrequency>
+  <keyTermScore>0.0087</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)fi/hmi</headword>
+    <shortDefinition>send forth, discharge,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)fi/hmi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)fi/hmi" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)fi/hmi" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)fi/hmi" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>18</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>10.83</weightedFrequency>
+  <keyTermScore>0.0019</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tugxa/nw</headword>
+    <shortDefinition>happen to be at</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tugxa/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=tugxa/nw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=tugxa/nw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=tugxa/nw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>10.5</weightedFrequency>
+  <keyTermScore>0.0009</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)dike/w</headword>
+    <shortDefinition>to be</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)dike/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)dike/w" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>10.5</weightedFrequency>
+  <keyTermScore>0.0027</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>qesmoqe/ths</headword>
+    <shortDefinition>lawgiver, legislator</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=qesmoqe/ths" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=qesmoqe/ths" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>18</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>10.5</weightedFrequency>
+  <keyTermScore>0.0244</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>*zeu/s</headword>
+    <shortDefinition>dyaús</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=*zeu/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=*zeu/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=*zeu/s" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>446</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>10.43</weightedFrequency>
+  <keyTermScore>0.0111</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>di=os</headword>
+    <shortDefinition>heavenly,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=di=os1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=di=os" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=di=os" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=di=os" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>446</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>10.43</weightedFrequency>
+  <keyTermScore>0.0111</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dia/</headword>
+    <shortDefinition>through;</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=dia/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=dia/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=dia/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=dia/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>446</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>10.43</weightedFrequency>
+  <keyTermScore>0.0111</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>*di/h</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0073:entry=*di/h" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>446</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>10.43</weightedFrequency>
+  <keyTermScore>0.0111</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>*di=a</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=*di=a" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>446</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>10.43</weightedFrequency>
+  <keyTermScore>0.0111</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>*di/on</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0073:entry=*di/on" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>446</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>10.43</weightedFrequency>
+  <keyTermScore>0.0111</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kaqa/</headword>
+    <shortDefinition>according as, just as,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kaqa/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kaqa/" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>68</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>10.4</weightedFrequency>
+  <keyTermScore>0.0042</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>de/w</headword>
+    <shortDefinition>lack, miss, stand in need of,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=de/w2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=de/w2" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>195</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>10.35</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>proi/sthmi</headword>
+    <shortDefinition>to set before</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=proi/sthmi" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>10.33</weightedFrequency>
+  <keyTermScore>0.0068</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>gignw/skw</headword>
+    <shortDefinition>come to know, perceive</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=gignw/skw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=gignw/skw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=gignw/skw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>10</weightedFrequency>
+  <keyTermScore>0.0016</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)gw/</headword>
+    <shortDefinition>I at least, for my part, indeed, for myself</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)gw/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)gw/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)gw/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)gw/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>10</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>10</weightedFrequency>
+  <keyTermScore>0.0003</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)kro/polis</headword>
+    <shortDefinition>upper</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)kro/polis" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)kro/polis" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)kro/polis" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)kro/polis" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>10</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>10</weightedFrequency>
+  <keyTermScore>0.0059</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>du/namai</headword>
+    <shortDefinition>to be able, strong enough</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=du/namai" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=du/namai" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=du/namai" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=du/namai" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>10</weightedFrequency>
+  <keyTermScore>0.001</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ge/nos</headword>
+    <shortDefinition>race, stock, kin</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ge/nos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ge/nos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ge/nos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ge/nos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>16</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>10</weightedFrequency>
+  <keyTermScore>0.0022</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>te/los</headword>
+    <shortDefinition>coming to pass, performance, consummation</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=te/los" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=te/los" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=te/los" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=te/los" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>24</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>10</weightedFrequency>
+  <keyTermScore>0.0034</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>w(/sper</headword>
+    <shortDefinition>like as, even as,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=w(/sper" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=w(/sper" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=w(/sper" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=w(/sper" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>10</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>10</weightedFrequency>
+  <keyTermScore>0.0007</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h(ge/omai</headword>
+    <shortDefinition>go before, lead the way</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h(ge/omai" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=h(ge/omai" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=h(ge/omai" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>10</weightedFrequency>
+  <keyTermScore>0.0015</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/sper</headword>
+    <shortDefinition>the very man who, the very thing which</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(/sper" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o(/sper" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(/sper" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/sper" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>10</maxFrequency>
+  <minFrequency>10</minFrequency>
+  <weightedFrequency>10</weightedFrequency>
+  <keyTermScore>0.0027</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>nika/w</headword>
+    <shortDefinition>conquer, prevail</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=nika/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=nika/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=nika/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=nika/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>19</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9.92</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>mo/nos</headword>
+    <shortDefinition>alone, solitary</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=mo/nos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=mo/nos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=mo/nos" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>24</maxFrequency>
+  <minFrequency>6</minFrequency>
+  <weightedFrequency>9.75</weightedFrequency>
+  <keyTermScore>0.0009</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>di/kh</headword>
+    <shortDefinition>custom, usage,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=di/kh" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=di/kh" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=di/kh" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>39</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>9.67</weightedFrequency>
+  <keyTermScore>0.0066</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>me/ros</headword>
+    <shortDefinition>share, portion</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=me/ros" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=me/ros" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=me/ros" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>20</maxFrequency>
+  <minFrequency>6</minFrequency>
+  <weightedFrequency>9.5</weightedFrequency>
+  <keyTermScore>0.0032</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>katagignw/skw</headword>
+    <shortDefinition>remark, observe</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=katagignw/skw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=katagignw/skw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>14</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>9.5</weightedFrequency>
+  <keyTermScore>0.0079</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>teleuta/w</headword>
+    <shortDefinition>bring to pass, accomplish</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=teleuta/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=teleuta/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=teleuta/w" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=teleuta/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9.5</weightedFrequency>
+  <keyTermScore>0.0022</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ei)=pon</headword>
+    <shortDefinition>said</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ei)=pon" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ei)=pon" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ei)=pon" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ei)=pon" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>14</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>9.5</weightedFrequency>
+  <keyTermScore>0.0006</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>turanneu/w</headword>
+    <shortDefinition>to be a monarch, absolute ruler,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=turanneu/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=turanneu/w" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>29</maxFrequency>
+  <minFrequency>3</minFrequency>
+  <weightedFrequency>9.5</weightedFrequency>
+  <keyTermScore>0.0119</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pra/ssw</headword>
+    <shortDefinition>pass through, pass over,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pra/ssw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pra/ssw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pra/ssw" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9.5</weightedFrequency>
+  <keyTermScore>0.0009</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>zhmio/w</headword>
+    <shortDefinition>cause loss</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=zhmio/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=zhmio/w" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>15</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>9.33</weightedFrequency>
+  <keyTermScore>0.011</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>yh=fos</headword>
+    <shortDefinition>a small round worn stone, pebble,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=yh=fos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=yh=fos" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>27</maxFrequency>
+  <minFrequency>4</minFrequency>
+  <weightedFrequency>9.33</weightedFrequency>
+  <keyTermScore>0.0133</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)pw/numos</headword>
+    <shortDefinition>given as a significant name,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)pw/numos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)pw/numos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)pw/numos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)pw/numos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0066</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>danei/zw</headword>
+    <shortDefinition>put out money at usury, lend,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=danei/zw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=danei/zw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0064</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tessara/konta</headword>
+    <shortDefinition>forty</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tessara/konta" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=tessara/konta" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=tessara/konta" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=tessara/konta" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0059</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ei)se/rxomai</headword>
+    <shortDefinition>go in</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ei)se/rxomai" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ei)se/rxomai" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=ei)se/rxomai" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0033</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pro/</headword>
+    <shortDefinition>before, forth</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pro/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pro/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pro/" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=pro/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.001</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kathgore/w</headword>
+    <shortDefinition>speak against</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kathgore/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kathgore/w" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0033</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)qe/lw</headword>
+    <shortDefinition>to be willing</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)qe/lw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)qe/lw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)qe/lw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)qe/lw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0014</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pole/marxos</headword>
+    <shortDefinition>chieftain, war-lord,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pole/marxos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pole/marxos" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0113</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>be/ltistos</headword>
+    <shortDefinition>best, most excellent</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=be/ltistos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=be/ltistos" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0037</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>gnw/rimos</headword>
+    <shortDefinition>well-known</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=gnw/rimos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=gnw/rimos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=gnw/rimos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0043</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pentakisxi/lioi</headword>
+    <shortDefinition>five thousand</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pentakisxi/lioi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pentakisxi/lioi" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0077</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>plh/n</headword>
+    <shortDefinition>except, save,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=plh/n" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=plh/n" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=plh/n" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>36</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0057</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>mete/xw</headword>
+    <shortDefinition>partake of, share in</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=mete/xw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=mete/xw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=mete/xw" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0026</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>plh/rhs</headword>
+    <shortDefinition>full of,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=plh/rhs" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=plh/rhs" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0046</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>sw=ma</headword>
+    <shortDefinition>body</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=sw=ma" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=sw=ma" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=sw=ma" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=sw=ma" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>9</minFrequency>
+  <weightedFrequency>9</weightedFrequency>
+  <keyTermScore>0.0008</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ta/ssw</headword>
+    <shortDefinition>draw up in order of battle, form, array, marshal</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ta/ssw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ta/ssw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ta/ssw" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>16</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>8.83</weightedFrequency>
+  <keyTermScore>0.0032</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dhmo/omai</headword>
+    <shortDefinition>to talk popularly</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=dhmo/omai" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>78</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.67</weightedFrequency>
+  <keyTermScore>0.0386</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>lo/gos</headword>
+    <shortDefinition>computation, reckoning</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=lo/gos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=lo/gos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=lo/gos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=lo/gos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>17</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>8.67</weightedFrequency>
+  <keyTermScore>0.0007</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>koino/s</headword>
+    <shortDefinition>common</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=koino/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=koino/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=koino/s" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>40</maxFrequency>
+  <minFrequency>3</minFrequency>
+  <weightedFrequency>8.5</weightedFrequency>
+  <keyTermScore>0.0044</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e(kato/n</headword>
+    <shortDefinition>a hundred,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e(kato/n" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e(kato/n" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e(kato/n" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e(kato/n" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>34</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.5</weightedFrequency>
+  <keyTermScore>0.0152</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tu/rannos</headword>
+    <shortDefinition>an absolute ruler,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tu/rannos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=tu/rannos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=tu/rannos" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>28</maxFrequency>
+  <minFrequency>2</minFrequency>
+  <weightedFrequency>8.5</weightedFrequency>
+  <keyTermScore>0.0088</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e(/katos</headword>
+    <shortDefinition>far-shooting</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e(/katos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e(/katos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=e(/katos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>34</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.5</weightedFrequency>
+  <keyTermScore>0.0152</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h)/</headword>
+    <shortDefinition>hi</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h)/2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=h)/2" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>536</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.38</weightedFrequency>
+  <keyTermScore>0.009</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h)=</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h)=3" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>536</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.38</weightedFrequency>
+  <keyTermScore>0.009</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h)=</headword>
+    <shortDefinition>in truth, of a surety</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h)=1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=h)=1" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=h)=1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=h)=1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>536</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.38</weightedFrequency>
+  <keyTermScore>0.009</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h)=</headword>
+    <shortDefinition>sum</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h)=2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0072:entry=h)=2" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>536</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.38</weightedFrequency>
+  <keyTermScore>0.009</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h)=</headword>
+    <shortDefinition>surely, doubtless</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h)=4" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0073:entry=h)=4" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>536</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.38</weightedFrequency>
+  <keyTermScore>0.009</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h)/</headword>
+    <shortDefinition>or</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h)/1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=h)/1" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=h)/1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=h)/1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>536</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.38</weightedFrequency>
+  <keyTermScore>0.009</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dei=</headword>
+    <shortDefinition>there is need</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=dei=" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=dei=" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=dei=" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=dei=" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>177</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.35</weightedFrequency>
+  <keyTermScore>0.0038</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)rxh/n</headword>
+    <shortDefinition>[unavailable]</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)rxh/n" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)rxh/n" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>75</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.33</weightedFrequency>
+  <keyTermScore>0.0149</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pwle/w</headword>
+    <shortDefinition>sell</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pwle/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pwle/w" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>15</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>8.25</weightedFrequency>
+  <keyTermScore>0.008</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h)/n</headword>
+    <shortDefinition>if;</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h)/n1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0073:entry=h)/n1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>205</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.2</weightedFrequency>
+  <keyTermScore>0.0082</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h)/n</headword>
+    <shortDefinition>see there!</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h)/n2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=h)/n2" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>205</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.2</weightedFrequency>
+  <keyTermScore>0.0082</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>trei=s</headword>
+    <shortDefinition>three</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=trei=s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=trei=s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=trei=s" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=trei=s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>81</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8.13</weightedFrequency>
+  <keyTermScore>0.0156</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tropo/s</headword>
+    <shortDefinition>twisted leathern thong,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tropo/s1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=tropo/s" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=tropo/s" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>72</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0084</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)llh/lwn</headword>
+    <shortDefinition>of one another, to one another, one another</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)llh/lwn" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)llh/lwn" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)llh/lwn" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0012</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pentakosiome/dimnos</headword>
+    <shortDefinition>possessing land which produced</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pentakosiome/dimnos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pentakosiome/dimnos" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0161</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>bakthri/a</headword>
+    <shortDefinition>staff, cane,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=bakthri/a" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=bakthri/a" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0077</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tro/pos</headword>
+    <shortDefinition>turn, direction, way,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tro/pos2" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>72</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0084</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>grammateu/s</headword>
+    <shortDefinition>secretary, registrar</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=grammateu/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=grammateu/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0081</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>diane/mw</headword>
+    <shortDefinition>in D.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=diane/mw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=diane/mw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=diane/mw" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0065</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>oi(=os</headword>
+    <shortDefinition>such as, of what sort,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=oi(=os" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=oi(=os" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=oi(=os" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0005</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dhmokrati/a</headword>
+    <shortDefinition>democracy, popular government</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=dhmokrati/a" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0061</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>yhfi/zw</headword>
+    <shortDefinition>count, reckon,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=yhfi/zw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=yhfi/zw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0045</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pri/n</headword>
+    <shortDefinition>before, until.</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pri/n" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pri/n" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pri/n" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=pri/n" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0017</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>h(liki/a</headword>
+    <shortDefinition>time of life, age</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=h(liki/a" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=h(liki/a" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0026</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kri/sis</headword>
+    <shortDefinition>separating, distinguishing</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kri/sis" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kri/sis" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=kri/sis" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>pa/trios</headword>
+    <shortDefinition>of</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=pa/trios" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=pa/trios" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=pa/trios" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>24</maxFrequency>
+  <minFrequency>6</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0107</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o)straki/zw</headword>
+    <shortDefinition>banish</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o)straki/zw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o)straki/zw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0167</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tro/pos</headword>
+    <shortDefinition>a turn, direction, course, way</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=tro/pos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=tro/pos" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>72</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0084</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)poti/nw</headword>
+    <shortDefinition>repay,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)poti/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)poti/nw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)poti/nw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0064</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>path/r</headword>
+    <shortDefinition>pitṛ[snull ]u</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=path/r" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=path/r" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=path/r" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=path/r" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.001</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>dhmo/ths</headword>
+    <shortDefinition>one of the people, a commoner, plebeian</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=dhmo/ths" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>8</minFrequency>
+  <weightedFrequency>8</weightedFrequency>
+  <keyTermScore>0.0071</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ai)/tios</headword>
+    <shortDefinition>culpable, responsible</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ai)/tios" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ai)/tios" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=ai)/tios" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=ai)/tios" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>27</maxFrequency>
+  <minFrequency>2</minFrequency>
+  <weightedFrequency>7.83</weightedFrequency>
+  <keyTermScore>0.0032</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>diaithth/s</headword>
+    <shortDefinition>arbitrator, umpire,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=diaithth/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=diaithth/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7.67</weightedFrequency>
+  <keyTermScore>0.0159</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>a)/gw</headword>
+    <shortDefinition>lead, carry, fetch, bring</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=a)/gw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=a)/gw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=a)/gw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=a)/gw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>38</maxFrequency>
+  <minFrequency>5</minFrequency>
+  <weightedFrequency>7.52</weightedFrequency>
+  <keyTermScore>0.0013</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>fe/rw</headword>
+    <shortDefinition>fero,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=fe/rw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=fe/rw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=fe/rw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=fe/rw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7.5</weightedFrequency>
+  <keyTermScore>0.0005</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>me/nw</headword>
+    <shortDefinition>stay, wait</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=me/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=me/nw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=me/nw" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=me/nw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>9</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7.5</weightedFrequency>
+  <keyTermScore>0.0013</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>au)tou=</headword>
+    <shortDefinition>just there</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=au)tou=" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=au)tou=" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=au)tou=" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=au)tou=" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>30</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>7.5</weightedFrequency>
+  <keyTermScore>0.0021</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kata/lusis</headword>
+    <shortDefinition>dissolution, putting down</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kata/lusis" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kata/lusis" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>12</maxFrequency>
+  <minFrequency>6</minFrequency>
+  <weightedFrequency>7.5</weightedFrequency>
+  <keyTermScore>0.0094</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>gra/mma</headword>
+    <shortDefinition>that which is drawn</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=gra/mma" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=gra/mma" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>18</maxFrequency>
+  <minFrequency>4</minFrequency>
+  <weightedFrequency>7.5</weightedFrequency>
+  <keyTermScore>0.0059</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>eu)qu/nw</headword>
+    <shortDefinition>guide straight, direct</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=eu)qu/nw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=eu)qu/nw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=eu)qu/nw" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>32</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>7.5</weightedFrequency>
+  <keyTermScore>0.0223</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>doko/w</headword>
+    <shortDefinition>furnish with rafters,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=doko/w" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>67</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>7.4</weightedFrequency>
+  <keyTermScore>0.0068</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>mna=</headword>
+    <shortDefinition>mina</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=mna=" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=mna=" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>10</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7.33</weightedFrequency>
+  <keyTermScore>0.0075</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>i(/pparxos</headword>
+    <shortDefinition>ruling the horse</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=i(/pparxos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=i(/pparxos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=i(/pparxos" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>6</minFrequency>
+  <weightedFrequency>7.33</weightedFrequency>
+  <keyTermScore>0.0147</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>gunh/</headword>
+    <shortDefinition>woman,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=gunh/" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=gunh/" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=gunh/" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>11</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7.25</weightedFrequency>
+  <keyTermScore>0.0011</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>i)/dios</headword>
+    <shortDefinition>one's own, pertaining to oneself</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=i)/dios" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=i)/dios" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=i)/dios" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>43</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>7.1</weightedFrequency>
+  <keyTermScore>0.0064</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e(/nos</headword>
+    <shortDefinition>belonging to the former of two periods, last year's</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=e(/nos2" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>104</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>7.08</weightedFrequency>
+  <keyTermScore>0.0152</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e(/nos</headword>
+    <shortDefinition>belonging to the former of two periods</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e(/nos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e(/nos1" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>104</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>7.08</weightedFrequency>
+  <keyTermScore>0.0152</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>plei/wn</headword>
+    <shortDefinition>more,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=plei/wn1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=plei/wn" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=plei/wn" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>40</maxFrequency>
+  <minFrequency>2</minFrequency>
+  <weightedFrequency>7.07</weightedFrequency>
+  <keyTermScore>0.0029</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>misqo/w</headword>
+    <shortDefinition>let out for hire, farm out</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=misqo/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=misqo/w" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>13</maxFrequency>
+  <minFrequency>5</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.0068</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>xrhmati/zw</headword>
+    <shortDefinition>negotiate, have dealings,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=xrhmati/zw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=xrhmati/zw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>7</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.005</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>naumaxi/a</headword>
+    <shortDefinition>sea-fight,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=naumaxi/a" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=naumaxi/a" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>7</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.0056</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>trupa/w</headword>
+    <shortDefinition>bore, pierce through,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=trupa/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=trupa/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=trupa/w" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>7</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.0097</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o)/noma</headword>
+    <shortDefinition>name</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o)/noma" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o)/noma" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=o)/noma" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>16</maxFrequency>
+  <minFrequency>4</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.0018</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kataba/llw</headword>
+    <shortDefinition>throw down, overthrow</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kataba/llw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kataba/llw" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=kataba/llw" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>7</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.0027</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>kwlu/w</headword>
+    <shortDefinition>hinder, prevent</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=kwlu/w" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=kwlu/w" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=kwlu/w" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>7</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.0019</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>poio/w</headword>
+    <shortDefinition>make of a certain quality,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=poio/w" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>35</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.0033</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>politiko/s</headword>
+    <shortDefinition>of, for,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=politiko/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=politiko/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>7</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.0031</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o)ligarxi/a</headword>
+    <shortDefinition>oligarchy, government in the hands of a few families</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o)ligarxi/a" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o)ligarxi/a" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>7</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.007</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>stasia/zw</headword>
+    <shortDefinition>to be at variance</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=stasia/zw" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=stasia/zw" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>7</maxFrequency>
+  <minFrequency>7</minFrequency>
+  <weightedFrequency>7</weightedFrequency>
+  <keyTermScore>0.0048</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>ei)/seimi</headword>
+    <shortDefinition>enter, go into,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=ei)/seimi" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=ei)/seimi" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=ei)/seimi" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>70</maxFrequency>
+  <minFrequency>2</minFrequency>
+  <weightedFrequency>6.92</weightedFrequency>
+  <keyTermScore>0.0107</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>de/omai</headword>
+    <shortDefinition>lack</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0072:entry=de/omai" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>128</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>6.85</weightedFrequency>
+  <keyTermScore>0.0062</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>xwri/on</headword>
+    <shortDefinition>place, spot, district,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=xwri/on" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=xwri/on" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>14</maxFrequency>
+  <minFrequency>5</minFrequency>
+  <weightedFrequency>6.83</weightedFrequency>
+  <keyTermScore>0.0051</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>le/gw</headword>
+    <shortDefinition>lay</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=le/gw1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=le/gw1" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=le/gw1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>59</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>6.75</weightedFrequency>
+  <keyTermScore>0.0015</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>le/gw</headword>
+    <shortDefinition>pick up</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=le/gw2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=le/gw2" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=le/gw2" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>59</maxFrequency>
+  <minFrequency>1</minFrequency>
+  <weightedFrequency>6.75</weightedFrequency>
+  <keyTermScore>0.0017</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>to/te</headword>
+    <shortDefinition>at that time, then,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=to/te1" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=to/te" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=to/te1" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=to/te1" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>60</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>6.67</weightedFrequency>
+  <keyTermScore>0.0061</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/plon</headword>
+    <shortDefinition>tool, implement,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=o(/plon" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=o(/plon" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=o(/plon" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/plon" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>35</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>6.67</weightedFrequency>
+  <keyTermScore>0.0092</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tote/</headword>
+    <shortDefinition>at times, now and then,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=tote/2" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0072:entry=tote/2" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=tote/2" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>60</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>6.67</weightedFrequency>
+  <keyTermScore>0.0061</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>tote/</headword>
+    <shortDefinition>at times, now and then</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=tote/" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>60</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>6.67</weightedFrequency>
+  <keyTermScore>0.0061</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>klhrwto/s</headword>
+    <shortDefinition>appointed by lot</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=klhrwto/s" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=klhrwto/s" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>18</maxFrequency>
+  <minFrequency>4</minFrequency>
+  <weightedFrequency>6.67</weightedFrequency>
+  <keyTermScore>0.0301</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>o(/ti</headword>
+    <shortDefinition>that</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0058:entry=o(/ti2" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0073:entry=o(/ti2" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>63</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>6.5</weightedFrequency>
+  <keyTermScore>0.0019</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>xw/ra</headword>
+    <shortDefinition>space</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=xw/ra" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=xw/ra" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=xw/ra" name="Slater" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>26</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>6.5</weightedFrequency>
+  <keyTermScore>0.005</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>e)leu/qeros</headword>
+    <shortDefinition>free</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=e)leu/qeros" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=e)leu/qeros" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=e)leu/qeros" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=e)leu/qeros" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>6</minFrequency>
+  <weightedFrequency>6.5</weightedFrequency>
+  <keyTermScore>0.002</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>plei=stos</headword>
+    <shortDefinition>most, greatest, largest,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=plei=stos" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=plei=stos" name="Middle Liddell" />
+      <query ref="Perseus:text:1999.04.0072:entry=plei=stos" name="Slater" />
+      <query ref="Perseus:text:1999.04.0073:entry=plei=stos" name="Autenrieth" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>8</maxFrequency>
+  <minFrequency>6</minFrequency>
+  <weightedFrequency>6.5</weightedFrequency>
+  <keyTermScore>0.0011</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>xwra/zw</headword>
+    <shortDefinition>set up,</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=xwra/zw" name="LSJ" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>26</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>6.5</weightedFrequency>
+  <keyTermScore>0.0048</keyTermScore>
+</frequency>
+	<frequency>
+  <lemma lang="greek">
+    <headword>eu)/quna</headword>
+    <shortDefinition>setting straight, correction, chastisement</shortDefinition>
+    <lexiconQueries>
+      <query ref="Perseus:text:1999.04.0057:entry=eu)/quna" name="LSJ" />
+      <query ref="Perseus:text:1999.04.0058:entry=eu)/quna" name="Middle Liddell" />
+    </lexiconQueries>
+  </lemma>
+  <maxFrequency>31</maxFrequency>
+  <minFrequency>0</minFrequency>
+  <weightedFrequency>6.5</weightedFrequency>
+  <keyTermScore>0.0255</keyTermScore>
+</frequency>
+</frequencies>

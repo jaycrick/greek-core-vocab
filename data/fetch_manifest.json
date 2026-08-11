@@ -1,0 +1,821 @@
+[
+  {
+    "urn": "Perseus:text:1999.01.0003",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0003.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0005",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0005.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0007",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0007.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0009",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0009.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0011",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0011.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0013",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0013.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0015",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0015.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0023",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0023.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0025",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0025.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0027",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0027.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0029",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0029.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0031",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0031.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0033",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0033.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0035",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0035.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0037",
+    "success": true,
+    "method": "table",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0037.table.html"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0039",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0039.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0041",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0041.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0043",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0043.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0045",
+    "success": true,
+    "method": "xml",
+    "filt": 75,
+    "cache_file": "data/raw/1999.01.0045.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0051",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0051.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0053",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0053.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0055",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0055.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0057",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0057.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0059",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0059.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0085",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0085.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0087",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0087.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0089",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0089.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0091",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0091.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0095",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0095.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0097",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0097.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0099",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0099.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0101",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0101.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0103",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0103.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0105",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0105.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0107",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0107.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0109",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0109.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0111",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0111.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0113",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0113.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0115",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0115.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0117",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0117.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0119",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0119.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0121",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0121.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0123",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0123.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0125",
+    "success": true,
+    "method": "table",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0125.table.html"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0133",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0133.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0135",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0135.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0163",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0163.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0165",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0165.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0167",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0167.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0169",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0169.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0171",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0171.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0173",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0173.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0175",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0175.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0177",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0177.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0179",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0179.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0181",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0181.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0182",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0182.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0183",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0183.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0185",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0185.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0187",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0187.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0189",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0189.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0191",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0191.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0193",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0193.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0195",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0195.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0199",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0199.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0235",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0235.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0249",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0249.xml"
+  },
+  {
+    "urn": "Perseus:text:1999.01.0255",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/1999.01.0255.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0069",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0069.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0070",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0070.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0071",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0071.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0072",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0072.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0073",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0073.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0074",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0074.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0075",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0075.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0076",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0076.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0077",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0077.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0079",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0079.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0080",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0080.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0081",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0081.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0082",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0082.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0083",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0083.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0084",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0084.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0085",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0085.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0086",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0086.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0087",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0087.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0088",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0088.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0089",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0089.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0090",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0090.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0091",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0091.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0109",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0109.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0110",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0110.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0111",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0111.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0112",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0112.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0113",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0113.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0114",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0114.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0115",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0115.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0116",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0116.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0117",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0117.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0118",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0118.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0119",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0119.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0120",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0120.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0121",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0121.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0122",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0122.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0123",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0123.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0124",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0124.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0125",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0125.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0126",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0126.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0127",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0127.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0128",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0128.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0129",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0129.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0130",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0130.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0131",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0131.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0132",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0132.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0133",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0133.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0134",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0134.xml"
+  },
+  {
+    "urn": "Perseus:text:2008.01.0641",
+    "success": true,
+    "method": "xml",
+    "filt": 100,
+    "cache_file": "data/raw/2008.01.0641.xml"
+  }
+]
