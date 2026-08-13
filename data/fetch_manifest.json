@@ -336,13 +336,6 @@
     "cache_file": "data/raw/1999.01.0165.xml"
   },
   {
-    "urn": "Perseus:text:1999.01.0167",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0167.xml"
-  },
-  {
     "urn": "Perseus:text:1999.01.0169",
     "success": true,
     "method": "xml",
@@ -446,13 +439,6 @@
     "method": "xml",
     "filt": 100,
     "cache_file": "data/raw/1999.01.0195.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0199",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0199.xml"
   },
   {
     "urn": "Perseus:text:1999.01.0235",

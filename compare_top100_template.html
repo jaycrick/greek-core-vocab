@@ -1,0 +1,465 @@
+<!--
+  Template for output/top100_compare.html, filled in by
+  compare_top100.py (the __DATA_JSON__ placeholder below). Edit this
+  file for layout/copy changes, then re-run
+  `uv run python3 compare_top100.py` -- don't hand-edit the generated
+  output/top100_compare.html itself, it's overwritten every run.
+-->
+<title>Core Vocab vs. Corpus Prep</title>
+<style>
+  :root {
+    --bg:        #eef0ea;
+    --surface:   #fafbf7;
+    --surface-2: #f2f4ee;
+    --ink:       #171c1a;
+    --ink-2:     #4a534e;
+    --muted:     #838d86;
+    --line:      #dbe0d8;
+    --line-2:    #c7cec3;
+    --master:      #2a78d6;
+    --master-soft: #2a78d61a;
+    --corpus:      #eb6834;
+    --corpus-soft: #eb68341a;
+    --focus:     #2a78d6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg:        #101312;
+      --surface:   #171b19;
+      --surface-2: #1c211e;
+      --ink:       #f2f4f0;
+      --ink-2:     #b7bfb9;
+      --muted:     #7d8781;
+      --line:      #2a302c;
+      --line-2:    #363d38;
+      --master:      #3987e5;
+      --master-soft: #3987e526;
+      --corpus:      #e97a4a;
+      --corpus-soft: #e97a4a26;
+      --focus:     #3987e5;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg:        #101312;
+    --surface:   #171b19;
+    --surface-2: #1c211e;
+    --ink:       #f2f4f0;
+    --ink-2:     #b7bfb9;
+    --muted:     #7d8781;
+    --line:      #2a302c;
+    --line-2:    #363d38;
+    --master:      #3987e5;
+    --master-soft: #3987e526;
+    --corpus:      #e97a4a;
+    --corpus-soft: #e97a4a26;
+    --focus:     #3987e5;
+  }
+
+  * { box-sizing: border-box; }
+  html { color-scheme: light dark; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+
+  .wrap {
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 48px 24px 96px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  header.masthead {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid var(--line);
+  }
+  .eyebrow {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  h1 {
+    margin: 0;
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(28px, 4vw, 38px);
+    line-height: 1.15;
+    text-wrap: balance;
+    color: var(--ink);
+  }
+  h1 em {
+    font-style: normal;
+    color: var(--master);
+  }
+  h1 .vs { color: var(--muted); font-style: italic; margin: 0 6px; font-size: 0.75em; }
+  h1 .corp { color: var(--corpus); }
+  p.dek {
+    margin: 0;
+    max-width: 62ch;
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--ink-2);
+  }
+
+  .legend {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    font-size: 13px;
+    color: var(--ink-2);
+  }
+  .legend-item { display: flex; align-items: center; gap: 8px; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; flex: none; }
+  .swatch.master { background: var(--master); }
+  .swatch.corpus { background: var(--corpus); }
+
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .stat {
+    background: var(--surface);
+    padding: 16px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .stat .label {
+    font-size: 11px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .stat .value {
+    font-size: 22px;
+    font-variant-numeric: tabular-nums;
+    color: var(--ink);
+  }
+  .stat .value small {
+    font-size: 13px;
+    color: var(--muted);
+    font-weight: 400;
+  }
+
+  section.method {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 18px 20px;
+    font-size: 13.5px;
+    line-height: 1.65;
+    color: var(--ink-2);
+  }
+  section.method h2 {
+    margin: 0 0 8px;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 600;
+  }
+  section.method code {
+    background: var(--surface-2);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-size: 0.92em;
+  }
+  section.method ul { margin: 8px 0 0; padding-left: 20px; }
+  section.method li + li { margin-top: 4px; }
+
+  .table-shell {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--surface);
+  }
+  .table-scroll { overflow-x: auto; }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13.5px;
+    min-width: 760px;
+  }
+  thead th {
+    position: sticky;
+    top: 0;
+    background: var(--surface-2);
+    z-index: 1;
+    text-align: right;
+    padding: 0;
+    border-bottom: 1px solid var(--line-2);
+  }
+  thead th:first-child, thead th:nth-child(2) { text-align: left; }
+  thead button {
+    all: unset;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 4px;
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--muted);
+    cursor: pointer;
+  }
+  thead th:first-child button, thead th:nth-child(2) button { justify-content: flex-start; }
+  thead button:hover { color: var(--ink); }
+  thead button:focus-visible {
+    outline: 2px solid var(--focus);
+    outline-offset: -2px;
+    border-radius: 4px;
+  }
+  thead button .arrow { font-size: 9px; opacity: 0; width: 8px; }
+  thead button[data-active] .arrow { opacity: 1; }
+  th.group-master button { color: color-mix(in srgb, var(--master) 78%, var(--muted)); }
+  th.group-corpus button { color: color-mix(in srgb, var(--corpus) 78%, var(--muted)); }
+
+  tbody td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--line);
+    text-align: right;
+    vertical-align: middle;
+    color: var(--ink);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  tbody tr:hover td { background: var(--surface-2); }
+  tbody tr.miss-master td.col-master-count,
+  tbody tr.miss-master td.col-master-pct { color: var(--muted); }
+  tbody tr.miss-corpus td.col-corpus-count,
+  tbody tr.miss-corpus td.col-corpus-pct { color: var(--muted); }
+
+  td.col-rank { text-align: left; color: var(--muted); font-variant-numeric: tabular-nums; width: 34px; }
+  td.col-lemma {
+    text-align: left;
+    font-family: Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  td.col-lemma .gloss {
+    display: block;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 11px;
+    color: var(--muted);
+    white-space: normal;
+    max-width: 20ch;
+    line-height: 1.3;
+    margin-top: 1px;
+  }
+  td.num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+  td.col-master-rank { color: color-mix(in srgb, var(--master) 82%, var(--ink)); font-weight: 600; }
+  td.col-corpus-rank { color: color-mix(in srgb, var(--corpus) 82%, var(--ink)); font-weight: 600; }
+
+  .pct-cell { display: flex; align-items: center; justify-content: flex-end; gap: 8px; }
+  .bar-track {
+    position: relative;
+    width: 56px;
+    height: 6px;
+    border-radius: 3px;
+    background: var(--surface-2);
+    flex: none;
+  }
+  .bar-track .fill {
+    position: absolute;
+    inset: 0 auto 0 0;
+    border-radius: 3px;
+    height: 100%;
+  }
+  .bar-track .fill.master { background: var(--master); }
+  .bar-track .fill.corpus { background: var(--corpus); }
+  .pct-num { min-width: 46px; text-align: right; }
+
+  .dash { color: var(--muted); }
+
+  footer {
+    font-size: 12px;
+    color: var(--muted);
+    line-height: 1.6;
+    border-top: 1px solid var(--line);
+    padding-top: 20px;
+  }
+  footer code { background: var(--surface-2); border-radius: 3px; padding: 1px 4px; }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="eyebrow">Lemma frequency &middot; top 100</div>
+    <h1><em>greek-core-vocab</em><span class="vs">vs.</span><span class="corp">vocabulary-corpus-prep</span></h1>
+    <p class="dek">
+      How the pipeline's own combined vocabulary list (Perseus weighted frequency +
+      gold corpus lemma counts) stacks up against
+      <span style="color:var(--corpus)">vocabulary-corpus-prep</span>'s 49-work gold
+      tagging, aggregated to its own lemma frequency ranking. Click a column header to sort.
+    </p>
+    <div class="legend">
+      <span class="legend-item"><span class="swatch master"></span>greek-core-vocab (master_vocab.csv)</span>
+      <span class="legend-item"><span class="swatch corpus"></span>vocabulary-corpus-prep (49 works, aggregated)</span>
+    </div>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <section class="method">
+    <h2>How to read this</h2>
+    Both top-100 lists are ranked by their own frequency measure, then percent is
+    computed against <strong>that list's own top-100 sum</strong> as denominator
+    &mdash; not the full corpus. <code>master_vocab.csv</code> ranks by
+    <code>combined_weighted_frequency</code> (Perseus weighted frequency, scaled
+    where a Plato volume overlaps the corpus, plus corpus lemma counts).
+    The corpus ranking sums raw lemma-token counts across all 49
+    <code>one/&lt;work_id&gt;/lemma.tsv</code> files (492,766 tokens, 12,232
+    distinct lemmas total), the same skip-punctuation/skip-unmatched rule
+    <code>corpus_vocab.py</code> uses per work.
+    <ul>
+      <li>78 of the top 100 lemmas appear on <em>both</em> lists.</li>
+      <li>The single biggest driver of the other 44: genre. greek-core-vocab spans
+        121 works across epic, tragedy, comedy, history, oratory and philosophy
+        (Homer through Marcus Aurelius); vocabulary-corpus-prep's own ranking here
+        is aggregated across all 49 of its works, but every one of them is Attic
+        prose &mdash; history, oratory, philosophy, no verse at all (its own
+        <code>CORPUS.md</code>). A word common in verse but rare in prose ranks
+        well in one list and not the other.</li>
+      <li>22 appear only in <span style="color:var(--master)">greek-core-vocab</span>'s
+        top 100 &mdash; several (<span lang="grc">τῷ</span>, <span lang="grc">τῇ</span>,
+        <span lang="grc">εἶμι</span>, <span lang="grc">οὔτε</span>,
+        <span lang="grc">δεῖ</span>, <span lang="grc">εἶπον</span>) occur only a
+        handful of times across all 49 corpus-repo works &mdash; consistent with
+        genre, not a lemmatization mismatch.</li>
+      <li>22 appear only in <span style="color:var(--corpus)">vocabulary-corpus-prep</span>'s
+        top 100 &mdash; common prose words (<span lang="grc">θεός</span>,
+        <span lang="grc">δίκαιος</span>, <span lang="grc">ἀκούω</span>) and proper
+        nouns concentrated in Thucydides (<span lang="grc">Ἀθηναῖος</span>,
+        <span lang="grc">Σωκράτης</span> from Plato) that place well within a
+        49-work prose corpus but don't crack the master list's top 100 once
+        diluted across 121 works of every genre.</li>
+    </ul>
+  </section>
+
+  <div class="table-shell">
+    <div class="table-scroll">
+      <table>
+        <thead>
+          <tr>
+            <th><button data-key="master_rank" data-dir="asc" data-active>Row<span class="arrow">▾</span></button></th>
+            <th><button data-key="lemma" data-dir="asc">Lemma<span class="arrow">▾</span></button></th>
+            <th class="group-master"><button data-key="master_rank" data-dir="asc">Rank<span class="arrow">▾</span></button></th>
+            <th class="group-master"><button data-key="master_count" data-dir="desc">Count<span class="arrow">▾</span></button></th>
+            <th class="group-master"><button data-key="master_pct" data-dir="desc">% of top 100<span class="arrow">▾</span></button></th>
+            <th class="group-corpus"><button data-key="corpus_rank" data-dir="asc">Rank<span class="arrow">▾</span></button></th>
+            <th class="group-corpus"><button data-key="corpus_count" data-dir="desc">Count<span class="arrow">▾</span></button></th>
+            <th class="group-corpus"><button data-key="corpus_pct" data-dir="desc">% of top 100<span class="arrow">▾</span></button></th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <footer>
+    greek-core-vocab: <code>output/master_vocab.csv</code>, ranked by
+    <code>combined_weighted_frequency</code> &middot; vocabulary-corpus-prep:
+    <code>one/*/lemma.tsv</code> across all 49 works, aggregated locally by lemma
+    (skip blank <code>lemma</code>, skip <code>postag</code> starting <code>u</code>,
+    NFC-normalized) &middot; percentages are each list's own top-100 share, not a
+    share of either corpus's full vocabulary.
+  </footer>
+
+</div>
+
+<script>
+  const DATA = __DATA_JSON__;
+
+  const fmtInt = new Intl.NumberFormat('en-US');
+  const fmtCount = (n) => n == null ? null : (Number.isInteger(n) ? fmtInt.format(n) : n.toLocaleString('en-US', {maximumFractionDigits: 1}));
+  const fmtPct = (n) => n == null ? null : n.toFixed(2) + '%';
+
+  const maxMasterPct = Math.max(...DATA.rows.filter(r => r.master_pct != null).map(r => r.master_pct));
+  const maxCorpusPct = Math.max(...DATA.rows.filter(r => r.corpus_pct != null).map(r => r.corpus_pct));
+
+  function barCell(pct, max, cls) {
+    if (pct == null) return '<span class="pct-cell"><span class="dash">—</span></span>';
+    const w = Math.max(4, (pct / max) * 100);
+    return `<span class="pct-cell">
+      <span class="bar-track"><span class="fill ${cls}" style="width:${w}%"></span></span>
+      <span class="pct-num">${fmtPct(pct)}</span>
+    </span>`;
+  }
+
+  function renderStats() {
+    const el = document.getElementById('stats');
+    const both = DATA.rows.filter(r => r.both).length;
+    el.innerHTML = `
+      <div class="stat"><div class="label">Overlap</div><div class="value">${both}<small> / 100 lemmas on both lists</small></div></div>
+      <div class="stat"><div class="label">greek-core-vocab top-100 &Sigma;</div><div class="value">${fmtCount(DATA.master_sum100)}</div></div>
+      <div class="stat"><div class="label">corpus-prep top-100 &Sigma;</div><div class="value">${fmtCount(DATA.corpus_sum100)}<small> tokens</small></div></div>
+      <div class="stat"><div class="label">corpus-prep full corpus</div><div class="value">${fmtCount(DATA.corpus_total_tokens)}<small> tokens, ${fmtCount(DATA.corpus_total_lemmas)} lemmas</small></div></div>
+    `;
+  }
+
+  function renderRows(rows) {
+    const tbody = document.getElementById('tbody');
+    tbody.innerHTML = rows.map((r, i) => {
+      const rowClasses = [];
+      if (r.master_rank == null) rowClasses.push('miss-master');
+      if (r.corpus_rank == null) rowClasses.push('miss-corpus');
+      return `<tr class="${rowClasses.join(' ')}">
+        <td class="col-rank">${i + 1}</td>
+        <td class="col-lemma" lang="grc">${r.lemma}${r.gloss ? `<span class="gloss">${r.gloss}</span>` : ''}</td>
+        <td class="num col-master-rank">${r.master_rank ?? '<span class="dash">—</span>'}</td>
+        <td class="num col-master-count">${fmtCount(r.master_count) ?? '<span class="dash">—</span>'}</td>
+        <td class="num col-master-pct">${barCell(r.master_pct, maxMasterPct, 'master')}</td>
+        <td class="num col-corpus-rank">${r.corpus_rank ?? '<span class="dash">—</span>'}</td>
+        <td class="num col-corpus-count">${fmtCount(r.corpus_count) ?? '<span class="dash">—</span>'}</td>
+        <td class="num col-corpus-pct">${barCell(r.corpus_pct, maxCorpusPct, 'corpus')}</td>
+      </tr>`;
+    }).join('');
+  }
+
+  let currentRows = DATA.rows.slice();
+  renderStats();
+  renderRows(currentRows);
+
+  const buttons = document.querySelectorAll('thead button');
+  buttons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.key;
+      let dir = btn.dataset.dir;
+      buttons.forEach(b => { if (b !== btn) b.removeAttribute('data-active'); });
+      btn.dataset.active = '';
+      const rows = DATA.rows.slice().sort((a, b) => {
+        let av = a[key], bv = b[key];
+        if (key === 'lemma') { av = av || ''; bv = bv || ''; return dir === 'asc' ? av.localeCompare(bv, 'el') : bv.localeCompare(av, 'el'); }
+        const aMissing = av == null, bMissing = bv == null;
+        if (aMissing && bMissing) return 0;
+        if (aMissing) return 1;
+        if (bMissing) return -1;
+        return dir === 'asc' ? av - bv : bv - av;
+      });
+      btn.dataset.dir = dir === 'asc' ? 'desc' : 'asc';
+      renderRows(rows);
+    });
+  });
+</script>

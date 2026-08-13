@@ -379,9 +379,9 @@ matches:
   group: '6'
   year: '-400'
   seq: '61'
-  matched_urns:
-  - Perseus:text:1999.01.0199
-  method: normalized-match
+  matched_urns: []
+  corpus_work_id: tlg0003.tlg001
+  method: corpus
 - title: Dialogues
   author: Plato
   group: '7'
@@ -458,9 +458,9 @@ matches:
   group: '7'
   year: '-367'
   seq: '71'
-  matched_urns:
-  - Perseus:text:1999.01.0173
-  method: normalized-match
+  matched_urns: []
+  corpus_work_id: tlg0059.tlg011
+  method: corpus
 - title: Meno
   author: Plato
   group: '7'
@@ -474,25 +474,25 @@ matches:
   group: '7'
   year: '-390'
   seq: '73'
-  matched_urns:
-  - Perseus:text:1999.01.0169
-  method: normalized-match
+  matched_urns: []
+  corpus_work_id: tlg0059.tlg001
+  method: corpus
 - title: Apology
   author: Plato
   group: '7'
   year: '-390'
   seq: '74'
-  matched_urns:
-  - Perseus:text:1999.01.0169
-  method: normalized-match
+  matched_urns: []
+  corpus_work_id: tlg0059.tlg002
+  method: corpus
 - title: Crito
   author: Plato
   group: '7'
   year: '-390'
   seq: '75'
-  matched_urns:
-  - Perseus:text:1999.01.0169
-  method: normalized-match
+  matched_urns: []
+  corpus_work_id: tlg0059.tlg003
+  method: corpus
 - title: Phaedo
   author: Plato
   group: '7'
@@ -514,9 +514,9 @@ matches:
   group: '7'
   year: '-375'
   seq: '78'
-  matched_urns:
-  - Perseus:text:1999.01.0167
-  method: normalized-match
+  matched_urns: []
+  corpus_work_id: tlg0059.tlg030
+  method: corpus
 - title: Timaeus
   author: Plato
   group: '7'
