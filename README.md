@@ -4,18 +4,22 @@ Pipeline. Fetch Perseus Greek Vocabulary Tool word-freq lists, one per
 Great Books work with Greek-text match. For a handful of works,
 substitute gold per-work lemma counts from
 [`greek-learner-texts/vocabulary-corpus-prep`](https://github.com/greek-learner-texts/vocabulary-corpus-prep)
-instead (see "Ground truth from vocabulary-corpus-prep", below).
-Combine into one master core-vocab freq list.
+(see "Ground truth from vocabulary-corpus-prep", below) or from
+[`jaycrick/ag-cloze-cards`](https://github.com/jaycrick/ag-cloze-cards)'s
+own WordHoard-tagged Homer parse (see "Ground truth for Homer from
+ag-cloze-cards", below) instead. Combine into one master core-vocab
+freq list.
 
 Output: `output/master_vocab.csv` (+ `.json` mirror), plus
-`output/lemma_join_report.tsv` (how each corpus lemma joined onto the
-Perseus-derived vocabulary). Checked into repo, `make all` regenerates.
-One row per distinct Greek headword, sorted combined weighted freq,
-descending.
+`output/lemma_join_report.tsv` (how each external-source lemma joined
+onto the Perseus-derived vocabulary). Checked into repo, `make all`
+regenerates. One row per distinct Greek headword, sorted combined
+weighted freq, descending.
 
-Current state: 138 `great_books.tsv` rows, 94 matched to Perseus (115
-unique Perseus URNs, all fetched OK), 6 matched to the corpus repo
-instead, 38 skipped (why, below). 35,641 headwords in
+Current state: 138 `great_books.tsv` rows, 92 matched to Perseus (113
+unique Perseus URNs, all fetched OK), 8 matched to an external
+gold-tagged source instead (6 vocabulary-corpus-prep, 2 Homer/
+ag-cloze-cards), 38 skipped (why, below). 36,240 headwords in
 `master_vocab.csv`. Top of list: ὁ, καί, δέ, εἰμί, ὅς, τις, οὗτος,
 αὐτός, οὐ, μέν -- core Greek function words, as expected.
 
@@ -24,15 +28,17 @@ instead, 38 skipped (why, below). 35,641 headwords in
 ```sh
 uv sync
 make corpus-clone                        # once, or point CORPUS_REPO at an existing clone
-make all        # work-list -> match -> fetch -> corpus -> combine
+make homer-clone                         # once, or point AG_CLOZE_CARDS_REPO at an existing clone
+make all        # work-list -> match -> fetch -> corpus -> homer -> combine
 ```
 
 `data/raw/*` and `output/master_vocab.*` checked in. Fresh clone
 already has current output, no network needed (beyond
-`corpus-clone`'s one-time ~50 MB git clone). `make all` safe to
-re-run: fetch skips cached URNs. Edit `aliases.yaml`/`overrides.yaml`/
-`corpus_map.yaml`/`great_books.tsv`, re-run -- only match+corpus+combine
-redo, not Perseus fetches.
+`corpus-clone`'s one-time ~50 MB git clone and `homer-clone` + that
+repo's own `fetch`, which caches its own WordHoard download). `make
+all` safe to re-run: fetch skips cached URNs. Edit `aliases.yaml`/
+`overrides.yaml`/`corpus_map.yaml`/`great_books.tsv`, re-run -- only
+match+corpus+homer+combine redo, not Perseus fetches.
 
 ## Ground truth from vocabulary-corpus-prep
 
@@ -128,6 +134,41 @@ trace to genre -- this pipeline spans 121 works across every genre
 (epic, tragedy, comedy, history, oratory, philosophy), the corpus repo
 is Attic prose only. See the report itself for the full breakdown.
 
+## Ground truth for Homer from ag-cloze-cards
+
+Perseus's Iliad/Odyssey vocab-tool output is an automatic parse, and
+it misses genuine Homeric vocabulary that a hand-checked tagging
+catches. `homer_vocab.py` (`make homer`) replaces both instead: it
+shells out to `jaycrick/ag-cloze-cards`'s own `uv` environment (cloned
+locally to `$AG_CLOZE_CARDS_REPO`, default `~/git_repos/ag-cloze-cards`)
+and calls that repo's `ag_cloze_cards.corpus.WordHoardHomerAdapter`
+directly -- Northwestern's hand-disambiguated WordHoard/Chicago Homer
+tagging, the same tokenization that repo's own Homer Anki deck is
+built from -- rather than reimplementing WordHoard's XML parsing here
+and risking it drifting from that repo's own parsing decisions (see
+`homer_vocab.py`'s docstring). `corpus_map.yaml` resolves the Iliad and
+Odyssey rows to `homer:IL`/`homer:OD` and fully displaces Perseus's
+`1999.01.0133`/`1999.01.0135` -- unlike the Plato omnibus volumes,
+WordHoard's Homer corpus covers each epic completely, so there is no
+partial-overlap case to downweight.
+
+**Scale check.** Perseus's Iliad volume sums to a `weightedFrequency`
+of 102,658; WordHoard counts 111,710 actual tokens for the same text
+(8.8% apart). Odyssey: Perseus 83,072 vs. WordHoard 87,084 (4.8%
+apart) -- the same order of magnitude as the Republic calibration
+above, looser because WordHoard's count is exact where Perseus's is a
+probabilistic estimate over ambiguous morphology, but still close
+enough to combine directly.
+
+**What WordHoard adds.** The join report's corpus-only rows for
+`homer:IL`/`homer:OD` are dominated by exactly what a hand-tagged
+epic parse should catch and an automatic one might not: major
+character/place names as their own high-frequency headwords
+(Ἀχιλλεύς, Ἕκτωρ, Ὀδυσσεύς, Ἀγαμέμνων, Πρίαμος, Ἀθήνη, Τρώς, Ἀχαιός)
+and genuine Ionic/epic dialect forms (`ξεῖνος` for Attic ξένος,
+`θύρη` for θύρα, `ἐύς` "noble, good") that Perseus's Iliad/Odyssey
+headword list doesn't carry as distinct entries.
+
 ## How it works
 
 1. `fetch_work_list.py` scrapes Perseus's vocablist page, full catalog
@@ -138,9 +179,10 @@ is Attic prose only. See the report itself for the full breakdown.
 3. `match_books.py` resolves each row to zero or more Perseus URNs, or
    a corpus work id -> `data/matches.yaml`. Order:
    - `corpus_map.yaml` (`corpus_works`: exact author+title -> a
-     `vocabulary-corpus-prep` work id) -- resolves that row to gold
-     local lemma tagging instead of Perseus; see "Ground truth from
-     vocabulary-corpus-prep" above.
+     work id in one of two external gold-tagged sources, `source:`
+     tagged) -- resolves that row to gold local lemma tagging instead
+     of Perseus; see "Ground truth from vocabulary-corpus-prep" and
+     "Ground truth for Homer from ag-cloze-cards" above.
    - `overrides.yaml` (exact author+title, or every row by one
      author) -- two rows needed human judgment call, see below.
    - `aliases.yaml` -- title pairs sharing no usable substring
@@ -165,13 +207,17 @@ is Attic prose only. See the report itself for the full breakdown.
    counting) -> `data/raw/<urn>.xml`, fallback ladder below ->
    `data/fetch_manifest.json`, records what happened per URN.
 5. `corpus_vocab.py` counts lemma frequencies for every
-   corpus-resolved row from `$CORPUS_REPO/one/<work_id>/lemma.tsv` ->
-   `data/corpus_counts.json`. Local, no network (beyond cloning
-   `$CORPUS_REPO` once).
-6. `combine.py` parses every cached Perseus file, downweights the
+   `vocabulary-corpus-prep`-sourced row from
+   `$CORPUS_REPO/one/<work_id>/lemma.tsv` -> `data/corpus_counts.json`.
+   Local, no network (beyond cloning `$CORPUS_REPO` once).
+6. `homer_vocab.py` counts lemma frequencies for the two Homer rows by
+   calling `$AG_CLOZE_CARDS_REPO`'s own WordHoard parser (via
+   `uv run` inside that project) -> `data/homer_counts.json`. Local, no
+   network beyond that repo's own one-time `fetch`.
+7. `combine.py` parses every cached Perseus file, downweights the
    Plato volumes `corpus_map.yaml`'s `overlaps` names (see the table
-   above), groups entries by NFC Unicode headword/lemma across both
-   sources (the "collapse identical forms" step), sums frequencies per
+   above), groups entries by NFC Unicode headword/lemma across every
+   source (the "collapse identical forms" step), sums frequencies per
    group, writes `output/master_vocab.csv`/`.json` +
    `output/lemma_join_report.tsv`.
 
@@ -203,10 +249,12 @@ own printed summary lists every skip.
 
 `output=xml&filt=100` (every word, not just a percentile) unreliable
 for big/heavy texts. Two failure modes hit fetching this repo's own
-data: 504s near-instant for the Iliad some runs (looks like cached
-negative response, not real per-request timeout); one work
-(Aristophanes' *Peace*) reliably returns HTTP 200, starts as valid
-XML, turns into raw Java stack trace mid-document (server-side
+data: 504s near-instant for the Iliad some runs, back when it was
+still fetched from Perseus (looks like cached negative response, not
+real per-request timeout -- now moot, the Iliad is Homer/ag-cloze-cards-
+sourced, see above, but the fallback ladder this motivated stays);
+one work (Aristophanes' *Peace*) reliably returns HTTP 200, starts as
+valid XML, turns into raw Java stack trace mid-document (server-side
 Hibernate lazy-init exception hit rendering one lemma). `looks_valid()`
 actually parses every XML response with ElementTree, not
 substring-sniffs -- a substring check let that broken response through
@@ -216,8 +264,8 @@ works reliably. `fetch_vocab.py` tries per URN in order till one
 works: `xml,100` -> `table,100` -> `xml,75` -> `xml,50`. Whichever
 succeeds recorded per-URN in `data/fetch_manifest.json` -- check it to
 know whether a work's contribution is full vocab or a percentile
-subset. This repo's own data (115 fetched URNs, after the corpus
-displacement above removed 2): 112 works via `xml,100`, 2 via
+subset. This repo's own data (113 fetched URNs, after the corpus/Homer
+displacements above removed 4): 110 works via `xml,100`, 2 via
 `table,100` (Herodotus's *Histories*; Aristophanes' *Peace*), 1 via
 `xml,75` (Aristotle's *Athenian Constitution*).
 
@@ -280,4 +328,9 @@ Full source list, every text/dictionary/tool credited: `SOURCES.md`.
   override with the `CORPUS_REPO` env var (`make corpus`/`corpus-clone`
   read it too) if cloned elsewhere. Pull that repo and re-run `make
   corpus combine` to pick up any upstream tagging changes.
+- `$AG_CLOZE_CARDS_REPO` defaults to `~/git_repos/ag-cloze-cards`;
+  override with the `AG_CLOZE_CARDS_REPO` env var (`make homer`/
+  `homer-clone` read it too) if cloned elsewhere. Pull that repo (and
+  re-run its own `fetch` if WordHoard's data changed) then `make homer
+  combine` to pick up changes to its Homer parsing.
 - Lint: `uv run ruff check .`.

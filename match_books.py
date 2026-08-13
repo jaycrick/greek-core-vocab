@@ -7,18 +7,20 @@ local tagging instead, or a reason it has none.
 
 Matching, in order:
 
-1. **corpus_map.yaml** (`corpus_works`: exact (author, title) ->
-   work_id in greek-learner-texts/vocabulary-corpus-prep) -- rows
-   whose vocabulary should come from that repo's gold per-work lemma
-   tagging rather than Perseus's Vocabulary Tool (see that file's own
-   header and README.md for why: real gaps in Perseus's lemma
-   inventory, and no per-dialogue Plato selection at all). Checked
-   first; if it applies, nothing else runs for that row -- its
-   `matched_urns` stays `[]` (never fetched from Perseus), and
-   `corpus_work_id` is set instead. `corpus_map.yaml`'s `overlaps`
-   section is applied afterwards, once every row is resolved: URNs a
-   corpus work `displaces_urns` are removed from every other row's
-   `matched_urns` (see step 5 below).
+1. **corpus_map.yaml** (`corpus_works`: exact (author, title) -> a
+   work_id in one of two external gold-tagged sources -- see that
+   file's own header for which `source:` tag maps to which counting
+   script/repo) -- rows whose vocabulary should come from gold
+   per-work tagging rather than Perseus's Vocabulary Tool (see that
+   file's own header and README.md for why: real gaps in Perseus's
+   lemma inventory, no per-dialogue Plato selection at all, and a
+   Homer parse that can't disambiguate epic formulae the way a
+   hand-checked tagging can). Checked first; if it applies, nothing
+   else runs for that row -- its `matched_urns` stays `[]` (never
+   fetched from Perseus), and `corpus_work_id` is set instead.
+   `corpus_map.yaml`'s `overlaps` section is applied afterwards, once
+   every row is resolved: URNs a corpus work `displaces_urns` are
+   removed from every other row's `matched_urns` (see step 5 below).
 2. **overrides.yaml** (exact (author, title), or `gbww_title: __ALL__`
    for every row by that author) -- the two rows a human had to decide
    (see that file's own header). Checked first (after corpus_map); if

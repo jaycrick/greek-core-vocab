@@ -308,20 +308,6 @@
     "cache_file": "data/raw/1999.01.0125.table.html"
   },
   {
-    "urn": "Perseus:text:1999.01.0133",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0133.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0135",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0135.xml"
-  },
-  {
     "urn": "Perseus:text:1999.01.0163",
     "success": true,
     "method": "xml",

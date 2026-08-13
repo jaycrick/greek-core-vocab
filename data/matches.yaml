@@ -4,17 +4,17 @@ matches:
   group: '4'
   year: '-700'
   seq: '14'
-  matched_urns:
-  - Perseus:text:1999.01.0133
-  method: normalized-match
+  matched_urns: []
+  corpus_work_id: homer:IL
+  method: corpus
 - title: The Odyssey
   author: Homer
   group: '4'
   year: '-700'
   seq: '15'
-  matched_urns:
-  - Perseus:text:1999.01.0135
-  method: normalized-match
+  matched_urns: []
+  corpus_work_id: homer:OD
+  method: corpus
 - title: The Suppliant Maidens
   author: Aeschylus
   group: '5'

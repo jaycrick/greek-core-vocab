@@ -1,20 +1,22 @@
 #!/usr/bin/env python3
 """Parse every successfully-fetched Perseus work in
-data/fetch_manifest.json PLUS every corpus-sourced work in
-data/corpus_counts.json (see corpus_vocab.py), collapse identical
-headwords together (within and across both sources), sum their
-frequencies, and write the single reusable deliverable:
-output/master_vocab.csv (+ a .json mirror). Also writes
-output/lemma_join_report.tsv, the transparency trail for how each
-corpus lemma was joined onto the Perseus-derived vocabulary (see
-step 3 below).
+data/fetch_manifest.json PLUS every gold-sourced work in
+CORPUS_COUNT_FILES (data/corpus_counts.json from corpus_vocab.py,
+data/homer_counts.json from homer_vocab.py -- see corpus_map.yaml's
+header for which source is which), collapse identical headwords
+together (within and across every source), sum their frequencies, and
+write the single reusable deliverable: output/master_vocab.csv (+ a
+.json mirror). Also writes output/lemma_join_report.tsv, the
+transparency trail for how each corpus/Homer lemma was joined onto the
+Perseus-derived vocabulary (see step 3 below).
 
 Collapsing key: NFC-normalized Unicode headword/lemma. Perseus's own
 identifier is a beta-code string (`lemma/headword` in the XML, the
-`l=` query param of a table row's word link); the corpus repo's
-lemma.tsv already gives Unicode. Unicode is the only key both sources
-can share -- Perseus entries are converted via `beta_code`, corpus
-lemmas are used as-is (NFC-normalized by corpus_vocab.py already).
+`l=` query param of a table row's word link); every external source's
+own lemma is already Unicode. Unicode is the only key every source can
+share -- Perseus entries are converted via `beta_code`, external
+lemmas are used as-is (already NFC-normalized by their own counting
+script).
 Perseus doesn't fully disambiguate homographs at this field -- two
 different LSJ senses can share one headword, split apart only in the
 `lexiconQueries`/"Lexicon Entries" refs -- so grouping on the headword
@@ -29,8 +31,8 @@ Overlap downweighting: corpus_map.yaml's `overlaps` list names Perseus
 volumes that are KEPT (they carry a Great Books dialogue with no other
 source) but PARTLY duplicate a corpus-sourced work. Each such volume's
 every entry is scaled by `1 - dup_tokens/volume_sum_wf`, computed at
-run time from data/corpus_counts.json's token counts and this run's
-own summed weightedFrequency for that volume -- see README.md's
+run time from CORPUS_COUNT_FILES' token counts and this run's own
+summed weightedFrequency for that volume -- see README.md's
 overlap-accounting table for the numbers this produces on the current
 data (~0.545 and ~0.739).
 
@@ -79,7 +81,12 @@ import yaml
 from fetch_vocab import urn_id
 
 MANIFEST = Path("data/fetch_manifest.json")
-CORPUS_COUNTS = Path("data/corpus_counts.json")
+# Every external gold-tagged source's counted-output file (see
+# corpus_map.yaml's header for which counting script writes which
+# file). A record's work_id is the only thing that ties it back to a
+# corpus_map.yaml corpus_works entry -- combine.py doesn't care which
+# file a record came from once loaded.
+CORPUS_COUNT_FILES = [Path("data/corpus_counts.json"), Path("data/homer_counts.json")]
 CORPUS_MAP = Path("corpus_map.yaml")
 OUT_CSV = Path("output/master_vocab.csv")
 OUT_JSON = Path("output/master_vocab.json")
@@ -216,9 +223,11 @@ def load_overlaps() -> list[dict]:
 
 
 def load_corpus_counts() -> list[dict]:
-    if not CORPUS_COUNTS.is_file():
-        return []
-    return json.loads(CORPUS_COUNTS.read_text(encoding="utf-8"))
+    records = []
+    for path in CORPUS_COUNT_FILES:
+        if path.is_file():
+            records.extend(json.loads(path.read_text(encoding="utf-8")))
+    return records
 
 
 def main() -> int:
@@ -357,7 +366,8 @@ def main() -> int:
     if conversion_failures:
         print(f"{conversion_failures} headword(s) failed beta-code conversion (kept as-is)")
     if corpus_counts:
-        print(f"{len(corpus_counts)} corpus work(s) folded in from {CORPUS_COUNTS}")
+        sources = ", ".join(str(p) for p in CORPUS_COUNT_FILES if p.is_file())
+        print(f"{len(corpus_counts)} corpus work(s) folded in from {sources}")
         print(
             f"  lemma join: {accent_blind_hits} accent-blind, "
             f"{len(corpus_only_lemmas)} corpus-only (no Perseus match) -> {OUT_JOIN_REPORT}"

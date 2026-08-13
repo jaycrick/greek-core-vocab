@@ -1,17 +1,19 @@
-.PHONY: all work-list match fetch corpus corpus-clone combine report clean distclean
+.PHONY: all work-list match fetch corpus corpus-clone homer homer-clone combine report clean distclean
 
 CORPUS_REPO ?= $(HOME)/git_repos/vocabulary-corpus-prep
+AG_CLOZE_CARDS_REPO ?= $(HOME)/git_repos/ag-cloze-cards
 
 # End-to-end: scrape Perseus's catalog -> match great_books.tsv against
 # it (+ corpus_map.yaml, resolving some rows to
-# greek-learner-texts/vocabulary-corpus-prep instead) -> fetch each
-# matched work's Perseus vocabulary -> count each corpus-resolved
-# work's gold lemma tagging -> combine both into the one reusable
-# output file. Safe to re-run: fetch skips anything already cached in
-# data/raw/ (see fetch_vocab.py), so a re-run after editing
-# aliases.yaml/overrides.yaml/corpus_map.yaml only re-does the (cheap,
-# local) match/corpus/combine steps.
-all: work-list match fetch corpus combine
+# greek-learner-texts/vocabulary-corpus-prep or ag-cloze-cards's
+# WordHoard Homer parse instead) -> fetch each matched work's Perseus
+# vocabulary -> count each corpus/Homer-resolved work's gold lemma
+# tagging -> combine every source into the one reusable output file.
+# Safe to re-run: fetch skips anything already cached in data/raw/ (see
+# fetch_vocab.py), so a re-run after editing aliases.yaml/
+# overrides.yaml/corpus_map.yaml only re-does the (cheap, local)
+# match/corpus/homer/combine steps.
+all: work-list match fetch corpus homer combine
 
 # Re-scrapes Perseus's own work list (data/perseus_works.json) --
 # re-run this if Perseus's catalog might have changed since the last run.
@@ -44,7 +46,21 @@ corpus-clone:
 corpus:
 	CORPUS_REPO=$(CORPUS_REPO) uv run python3 corpus_vocab.py
 
-# Parse data/raw/* + data/corpus_counts.json ->
+# Clone jaycrick/ag-cloze-cards to $(AG_CLOZE_CARDS_REPO) if it isn't
+# there already. Not part of `all` -- run once, or point
+# AG_CLOZE_CARDS_REPO at an existing clone.
+homer-clone:
+	test -d $(AG_CLOZE_CARDS_REPO) || git clone \
+		https://github.com/jaycrick/ag-cloze-cards.git $(AG_CLOZE_CARDS_REPO)
+
+# Count WordHoard lemma frequencies for Homer's Iliad/Odyssey by
+# shelling out to $(AG_CLOZE_CARDS_REPO)'s own parser (its `uv`
+# environment, not this repo's) -> data/homer_counts.json. Local, no
+# network (beyond homer-clone and that repo's own `fetch`, done once).
+homer:
+	AG_CLOZE_CARDS_REPO=$(AG_CLOZE_CARDS_REPO) uv run python3 homer_vocab.py
+
+# Parse data/raw/* + data/corpus_counts.json + data/homer_counts.json ->
 # output/master_vocab.csv + .json + output/lemma_join_report.tsv, the
 # reusable deliverables.
 combine:
@@ -61,9 +77,11 @@ report:
 
 # Remove generated data/output, but keep great_books.tsv/aliases.yaml/
 # overrides.yaml/corpus_map.yaml (the hand-authored inputs). Does not
-# touch $(CORPUS_REPO) -- that's a separate clone, not generated here.
+# touch $(CORPUS_REPO)/$(AG_CLOZE_CARDS_REPO) -- separate clones, not
+# generated here.
 clean:
-	rm -rf data/perseus_works.json data/matches.yaml data/corpus_counts.json output
+	rm -rf data/perseus_works.json data/matches.yaml data/corpus_counts.json \
+		data/homer_counts.json output
 
 # Also drop the fetched raw cache -- a full re-run from `make all`
 # after this re-downloads everything from Perseus.

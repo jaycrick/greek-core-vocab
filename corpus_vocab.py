@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
-"""Count lemma frequencies for every great_books.tsv row that
-data/matches.yaml resolved to a corpus_work_id (see corpus_map.yaml) --
-the local counterpart of fetch_vocab.py, reading
-greek-learner-texts/vocabulary-corpus-prep's gold per-work lemma
-tagging instead of hitting Perseus over the network.
+"""Count lemma frequencies for every corpus_map.yaml `corpus_works`
+entry whose `source: vocabulary-corpus-prep` -- the local counterpart
+of fetch_vocab.py, reading greek-learner-texts/vocabulary-corpus-prep's
+gold per-work lemma tagging instead of hitting Perseus over the
+network. (Other `source`s, e.g. homer_vocab.py's `ag-cloze-cards-
+wordhoard`, are a different script's job -- see corpus_map.yaml's own
+header.)
 
 Source layout (cloned locally, see CORPUS_REPO below):
     one/works.tsv              -- work_id, author, title, genre
@@ -45,8 +47,10 @@ from pathlib import Path
 
 import yaml
 
-MATCHES = Path("data/matches.yaml")
+CORPUS_MAP = Path("corpus_map.yaml")
 OUT = Path("data/corpus_counts.json")
+
+SOURCE = "vocabulary-corpus-prep"
 
 CORPUS_REPO = Path(
     os.environ.get("CORPUS_REPO", "~/git_repos/vocabulary-corpus-prep")
@@ -55,8 +59,12 @@ WORKS_TSV = CORPUS_REPO / "one" / "works.tsv"
 
 
 def load_work_ids() -> list[str]:
-    doc = yaml.safe_load(MATCHES.read_text(encoding="utf-8"))
-    return sorted({r["corpus_work_id"] for r in doc["matches"] if r.get("corpus_work_id")})
+    """work_ids from corpus_map.yaml's corpus_works whose `source` is
+    this script's own (SOURCE) -- corpus_map.yaml also lists work_ids
+    for other sources (e.g. homer_vocab.py's `homer:IL`/`homer:OD`),
+    which don't live under $CORPUS_REPO and must not be looked up here."""
+    doc = yaml.safe_load(CORPUS_MAP.read_text(encoding="utf-8"))
+    return sorted({c["work_id"] for c in doc["corpus_works"] if c.get("source") == SOURCE})
 
 
 def load_works_meta() -> dict[str, dict[str, str]]:

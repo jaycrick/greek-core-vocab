@@ -24,7 +24,7 @@ Beta-code-to-Unicode conversion (`headword_unicode` in the output) uses
 [`beta-code-py`](https://github.com/perseids-tools/beta-code-py)
 (the `beta-code` package on PyPI).
 
-## The 115 individual texts fetched from Perseus
+## The 113 individual texts fetched from Perseus
 
 Every text is Perseus's own digitization/edition of the Greek original,
 one Perseus URN (`Perseus:text:...`) per row of `data/matches.yaml`'s
@@ -33,7 +33,7 @@ repo's:
 
 | author | works fetched | editor(s), per Perseus |
 |---|---|---|
-| Homer | 2 (Iliad, Odyssey) | -- |
+| Homer | 0 -- both Iliad and Odyssey displaced entirely by ag-cloze-cards's WordHoard parse, below | -- |
 | Aeschylus | 7 | Herbert Weir Smyth |
 | Sophocles | 7 | Francis Storr |
 | Euripides | 18 | David Kovacs; Gilbert Murray |
@@ -48,11 +48,11 @@ repo's:
 | Marcus Aurelius | 1 | Jan Hendrik Leopold |
 | Plutarch | 50 (individual *Lives*) | Bernadotte Perrin |
 
-(115 total -- Thucydides' *History* and Plato's *Republic* are no
-longer fetched from Perseus at all, superseded by the corpus repo
-below. The exact per-work URN list is `data/matches.yaml`'s
-`matched_urns` fields; the raw fetched data itself is cached verbatim
-in `data/raw/`.)
+(113 total -- Thucydides' *History*, Plato's *Republic*, and Homer's
+*Iliad*/*Odyssey* are no longer fetched from Perseus at all, superseded
+by the corpus repo and ag-cloze-cards below. The exact per-work URN
+list is `data/matches.yaml`'s `matched_urns` fields; the raw fetched
+data itself is cached verbatim in `data/raw/`.)
 
 ## The 6 works counted from vocabulary-corpus-prep instead
 
@@ -86,6 +86,25 @@ XML, except Euthyphro, which uses the higher-quality text from
 Perseus's own `grc1` Euthyphro edition has encoding/accentuation
 issues the corpus repo's own validation caught. Base-text quality is
 itself validated with [greek-check](https://github.com/jtauber/greek-check).
+
+## The Iliad and Odyssey, counted from ag-cloze-cards instead
+
+[`jaycrick/ag-cloze-cards`](https://github.com/jaycrick/ag-cloze-cards)
+is a sibling repo (this pipeline is itself one of its dependencies, as
+a definition-fallback source) whose Homer Anki deck is built on
+Northwestern University's **WordHoard**/Chicago Homer project: a
+hand-disambiguated morphological tagging of early Greek epic (Martin
+Mueller). See README.md's "Ground truth for Homer from ag-cloze-cards"
+section for why these two `great_books.tsv` rows use it instead of
+Perseus. `homer_vocab.py` reads it by calling that repo's own
+`ag_cloze_cards.corpus.WordHoardHomerAdapter` (via `uv run` inside
+`$AG_CLOZE_CARDS_REPO`), not a local reimplementation of WordHoard's
+XML format:
+
+| author | work | work id |
+|---|---|---|
+| Homer | The Iliad | `homer:IL` |
+| Homer | The Odyssey | `homer:OD` |
 
 ## The input list
 
