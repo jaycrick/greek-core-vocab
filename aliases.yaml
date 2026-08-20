@@ -1,30 +1,35 @@
 # Title aliases for match_books.py.
 #
-# Most great_books.tsv titles match a Perseus work automatically once
-# both sides are normalized (lowercased, a leading "the"/"a"/"an"
-# stripped, trailing punctuation stripped) and compared for equality or
-# substring-containment in either direction, or as an exact match
-# against one comma-separated component of a Perseus title that covers
-# several works at once (Perseus groups some Plato dialogues that way --
-# see README.md).
+# Most great_books.tsv titles match a vocab.perseus.org work automatically
+# once both sides are normalized (lowercased, a leading "the"/"a"/"an"
+# stripped, trailing punctuation stripped) and compared for equality, or
+# as an exact match against one comma-separated component of a Perseus
+# title that covers several works at once.
 #
-# These few pairs don't share enough of a substring for that to work --
-# different English renderings of the same Greek title, a translated
-# vs. transliterated title, or a genuinely different conventional name.
+# These pairs don't share a normalized-equal string -- different English
+# renderings, an English GBWW title against vocab.perseus.org's Latin
+# title (most of Hippocrates and about half of Aristotle are catalogued
+# in Latin, not English), or a genuinely different conventional name.
 # Each entry replaces the search title used for matching (still scoped
 # to the same author) for one specific great_books.tsv row; it does not
 # change what's displayed anywhere. Keyed by (author, gbww_title) so an
 # alias never accidentally fires for a different author's same-named
-# work (e.g. both Sophocles and Euripides have an "Electra" -- neither
-# needs an alias, and none is listed here for either).
+# work.
+#
+# match_books.py only accepts an EXACT normalized match (or a
+# comma-component match) for an alias-driven search, never word-
+# subsequence containment -- see its own docstring/comment for why:
+# several of these Latin titles would otherwise also catch an unrelated
+# work that happens to share a short Latin phrase (Hippocrates' "De
+# diaeta in morbis acutis" contains the separate treatise "De diaeta";
+# Aristotle's "Physica" contains the alternate-recension "Physica
+# (textus alter)"). Every target below is copied verbatim from
+# vocab.perseus.org's own title string, so exact equality is enough.
 
 aliases:
   - author: Aeschylus
     gbww_title: Choephoroe
     perseus_title: Libation Bearers
-  - author: Aeschylus
-    gbww_title: The Suppliant Maidens
-    perseus_title: Suppliant Women
   - author: Sophocles
     gbww_title: Oedipus the King
     perseus_title: Oedipus Tyrannus
@@ -34,21 +39,129 @@ aliases:
   - author: Euripides
     gbww_title: Heracles Mad
     perseus_title: Heracles
-  - author: Euripides
-    gbww_title: The Phoenician Women
-    perseus_title: Phoenissae
   - author: Herodotus
     gbww_title: The History
     perseus_title: The Histories
   - author: Aristophanes
     gbww_title: Ecclesiazousae
     perseus_title: Ecclesiazusae
-  - author: Plato
-    gbww_title: The Seventh Letter
-    perseus_title: Epistles
-  - author: Epictetus
-    gbww_title: The Discourses
-    perseus_title: Works
-  - author: Marcus Aurelius
-    gbww_title: The Meditations
-    perseus_title: M. Antonius Imperator Ad Se Ipsum
+
+  # Hippocrates: all 17 great_books.tsv treatises now have their own
+  # individual vocab.perseus.org edition (the old hopper had only two
+  # omnibus editions, no per-treatise selection at all -- see
+  # overrides.yaml's former Hippocrates entry, now removed).
+  - author: Hippocrates
+    gbww_title: The Hippocratic Oath
+    perseus_title: Iusiurandum
+  - author: Hippocrates
+    gbww_title: On Ancient Medicine
+    perseus_title: De prisca medicina
+  - author: Hippocrates
+    gbww_title: On Airs, Water, and Places
+    perseus_title: De aere, aquis, locis
+  - author: Hippocrates
+    gbww_title: The Book of Prognostics
+    perseus_title: Prognosticon
+  - author: Hippocrates
+    gbww_title: On Regimen in Acute Diseases
+    perseus_title: De diaeta in morbis acutis
+  - author: Hippocrates
+    gbww_title: Of the Epidemics
+    perseus_title: Epidemiarum
+  - author: Hippocrates
+    gbww_title: On Injuries of the Head
+    perseus_title: De capitis vulneribus
+  - author: Hippocrates
+    gbww_title: On the Surgery
+    perseus_title: De officina medici
+  - author: Hippocrates
+    gbww_title: On Fractures
+    perseus_title: De fracturis
+  - author: Hippocrates
+    gbww_title: On the Articulations
+    perseus_title: De articulis
+  - author: Hippocrates
+    gbww_title: Instruments of Reduction
+    perseus_title: Vectiarius
+  - author: Hippocrates
+    gbww_title: Aphorisms
+    perseus_title: Aphorismi
+  - author: Hippocrates
+    gbww_title: The Law
+    perseus_title: Lex
+  - author: Hippocrates
+    gbww_title: The Ulcer
+    perseus_title: De ulceribus
+  - author: Hippocrates
+    gbww_title: On Fistulae
+    perseus_title: De fistulis
+  - author: Hippocrates
+    gbww_title: On Hemorrhoids
+    perseus_title: De haemorrhoidibus
+  - author: Hippocrates
+    gbww_title: On the Sacred Disease
+    perseus_title: De morbo sacro
+
+  # Aristotle: vocab.perseus.org's catalog is Latin-titled for these.
+  # (Nicomachean Ethics, Politics, Rhetoric, Metaphysics, Posterior
+  # Analytics, On the Heavens, On Generation and Corruption, and the
+  # animal-motion works have no edition in the new catalog at all --
+  # not an aliasing problem, a real coverage gap, see README.md.)
+  - author: Aristotle
+    gbww_title: Categories
+    perseus_title: Categoriae
+  - author: Aristotle
+    gbww_title: On Interpretation
+    perseus_title: De interpretatione
+  - author: Aristotle
+    gbww_title: Prior Analytics
+    perseus_title: Analytica priora
+  - author: Aristotle
+    gbww_title: Topics
+    perseus_title: Topica
+  - author: Aristotle
+    gbww_title: Sophistical Refutations
+    perseus_title: De sophisticis elenchis
+  - author: Aristotle
+    gbww_title: Physics
+    perseus_title: Physica
+  - author: Aristotle
+    gbww_title: Meteorology
+    perseus_title: Meteorologica
+  - author: Aristotle
+    gbww_title: On the Soul
+    perseus_title: De anima
+  - author: Aristotle
+    gbww_title: On Sense and the Sensible
+    perseus_title: De sensu et sensibilibus
+  - author: Aristotle
+    gbww_title: On Memory and Reminisence
+    perseus_title: De memoria et reminiscentia
+  - author: Aristotle
+    gbww_title: On Sleep and Sleeplessness
+    perseus_title: De somno et vigilia
+  - author: Aristotle
+    gbww_title: On Dreams
+    perseus_title: De insomniis
+  - author: Aristotle
+    gbww_title: On Prophesying by Dreams
+    perseus_title: De divinatione per somnum
+  - author: Aristotle
+    gbww_title: On Longevity and Shortness of Life
+    perseus_title: De longitudine et brevitate vitae
+  - author: Aristotle
+    gbww_title: History of Animals
+    perseus_title: Historia animalium
+  - author: Aristotle
+    gbww_title: Parts of Animals
+    perseus_title: De partibus animalium
+  - author: Aristotle
+    gbww_title: The Athenian Constitution
+    perseus_title: Res Publica Atheniensium
+  - author: Aristotle
+    gbww_title: Poetics
+    perseus_title: Ars Poetica
+
+  - author: Galen
+    gbww_title: On the Natural Faculties
+    perseus_title: De naturalibus facultatibus

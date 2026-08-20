@@ -1,336 +1,255 @@
 # greek-core-vocab
 
-Pipeline. Fetch Perseus Greek Vocabulary Tool word-freq lists, one per
-Great Books work with Greek-text match. For a handful of works,
-substitute gold per-work lemma counts from
-[`greek-learner-texts/vocabulary-corpus-prep`](https://github.com/greek-learner-texts/vocabulary-corpus-prep)
-(see "Ground truth from vocabulary-corpus-prep", below) or from
-[`jaycrick/ag-cloze-cards`](https://github.com/jaycrick/ag-cloze-cards)'s
-own WordHoard-tagged Homer parse (see "Ground truth for Homer from
-ag-cloze-cards", below) instead. Combine into one master core-vocab
-freq list.
+Pipeline. Fetch [vocab.perseus.org](https://vocab.perseus.org/)'s exact
+word-count lists, one per Great Books work with a Greek-text match.
+Combine into one master core-vocab freq list.
 
-Output: `output/master_vocab.csv` (+ `.json` mirror), plus
-`output/lemma_join_report.tsv` (how each external-source lemma joined
-onto the Perseus-derived vocabulary). Checked into repo, `make all`
-regenerates. One row per distinct Greek headword, sorted combined
-weighted freq, descending.
+Output: `output/master_vocab.csv` (+ `.json` mirror). Checked into repo,
+`make all` regenerates. One row per distinct Greek headword, sorted by
+combined count, descending.
 
-Current state: 138 `great_books.tsv` rows, 92 matched to Perseus (113
-unique Perseus URNs, all fetched OK), 8 matched to an external
-gold-tagged source instead (6 vocabulary-corpus-prep, 2 Homer/
-ag-cloze-cards), 38 skipped (why, below). 36,240 headwords in
-`master_vocab.csv`. Top of list: ὁ, καί, δέ, εἰμί, ὅς, τις, οὗτος,
-αὐτός, οὐ, μέν -- core Greek function words, as expected.
+Current state: 138 `great_books.tsv` rows, 80 matched to a
+vocab.perseus.org work (108 candidate URNs before sibling-edition
+dedup, 96 distinct works actually fetched), 58 skipped (why, below).
+27,958 headwords in `master_vocab.csv`. Top of list: ὁ, καί, δέ, εἰμί,
+ὅς, ΑΒΓ, μέν, οὗτος, αὐτός, γάρ -- core Greek function words, as
+expected, except `ΑΒΓ` (Euclid's own placeholder lemma for a labeled
+point in a geometric figure, e.g. "triangle ΑΒΓ" -- real data, not a
+bug: it's genuinely that frequent across the *Elements*' 164,768
+tokens, the only geometry text in this pipeline).
 
 ## Quick start
 
 ```sh
 uv sync
-make corpus-clone                        # once, or point CORPUS_REPO at an existing clone
-make homer-clone                         # once, or point AG_CLOZE_CARDS_REPO at an existing clone
-make all        # work-list -> match -> fetch -> corpus -> homer -> combine
+make all        # editions -> match -> fetch -> combine
 ```
 
 `data/raw/*` and `output/master_vocab.*` checked in. Fresh clone
-already has current output, no network needed (beyond
-`corpus-clone`'s one-time ~50 MB git clone and `homer-clone` + that
-repo's own `fetch`, which caches its own WordHoard download). `make
-all` safe to re-run: fetch skips cached URNs. Edit `aliases.yaml`/
-`overrides.yaml`/`corpus_map.yaml`/`great_books.tsv`, re-run -- only
-match+corpus+homer+combine redo, not Perseus fetches.
+already has current output, no network needed. `make all` safe to
+re-run: fetch skips anything already recorded as successful. Edit
+`aliases.yaml`/`overrides.yaml`/`great_books.tsv`, re-run -- only
+match+combine redo, not the fetches.
 
-## Ground truth from vocabulary-corpus-prep
+## The source: vocab.perseus.org
 
-Perseus's Greek Vocabulary Tool has two real limitations, confirmed
-against the raw fetched data:
+This pipeline previously drew counts from Perseus's OLD hopper vocab
+tool (`www.perseus.tufts.edu/hopper/vocablist`), whose `weightedFrequency`
+is a probabilistic estimate, whose lemma inventory had confirmed gaps
+(no simplex `ἀφίστημι`, no `Σωκράτης` at all, across all 117 fetched
+works), and which offered Plato only as multi-dialogue omnibus volumes.
+Those gaps forced two external ground-truth workarounds (gold per-work
+lemma tagging from `vocabulary-corpus-prep` for six works, a
+hand-disambiguated WordHoard parse for Homer) plus a run-time
+downweighting table for the Plato omnibus overlap.
 
-- **Lemma-inventory gaps.** `data/raw/1999.01.0199.xml` (Thucydides)
-  has `e)fi/sthmi`, `sunafi/sthmi`, `prosafi/sthmi` but no simplex
-  `a)fi/sthmi`; it has `e)gkatalei/pw`, `proskatalei/pw` but no
-  `katalei/pw`. `Σωκράτης`, `σεαυτοῦ`, `ἐπειδή`, `εἴωθα` are absent
-  from Perseus's entire fetched vocabulary, all 117 works.
-- **No per-dialogue Plato.** Perseus's vocab tool offers Plato only as
-  multi-dialogue omnibus volumes -- probing individual-dialogue URNs
-  (e.g. `1999.01.0170`) returns an HTML error page or a
-  `perseus.util.DatabaseException`, not a real per-work selection.
+Perseus's NEW tool at `vocab.perseus.org` fixes both defects directly:
 
-`vocabulary-corpus-prep` publishes gold per-work lemma tagging
-(reconciled across OGA/GLAUX/Gorman/Scaife -- see its own `CORPUS.md`)
-for 49 Attic prose works. Six overlap `great_books.tsv`, resolved via
-`corpus_map.yaml` ahead of the normal Perseus matching:
-Thucydides *History* (Books 1-5 only -- Perseus's 8-book
-`1999.01.0199` is dropped outright, so **Books 6-8 vocabulary,
-including the Sicilian Expedition, is not represented anywhere in the
-master list**), and Plato's Euthyphro, Apology, Crito, Symposium,
-Republic.
+- **Exact integer token counts**, not a probabilistic estimate.
+- **Per-dialogue Plato** and **per-treatise Hippocrates** -- confirmed:
+  `tlg0059.tlg001` through `tlg0059.tlg030` are individually selectable,
+  and all 17 of this pipeline's Hippocrates treatises now have their
+  own edition (the old hopper had two omnibus editions only).
+- The specific lemma gaps above are fixed: Thucydides
+  (`tlg0003.tlg001.perseus-grc2`) carries `Σωκράτης`, `σεαυτοῦ`,
+  `εἴωθα`, `ἀφίστημι`, `καταλείπω`, confirmed by fetching it directly.
+- The Iliad carries the proper-noun headwords that were this pipeline's
+  original reason to reach for WordHoard instead: `Ἀχιλλεύς` (367),
+  `Ἕκτωρ` (454), `Τρώς` (608), confirmed in the fetched data.
+- Unicode lemmas directly (no beta-code conversion needed), a stable
+  numeric lemma id, and two free reference figures per lemma: its
+  frequency across Perseus's whole 21.4M-token corpus, and across
+  Perseus's own 1.36M-token Core Reading List.
+- `?page=all` returns a work's entire word list in one request, whose
+  own stated lemma/token totals let `fetch_vocab.py` verify every fetch
+  exactly (parsed rows == stated lemmas, summed counts == stated
+  tokens) rather than relying on the old hopper's substring-sniffing
+  `looks_valid()`, which the old hopper's real failure modes (504s,
+  a response that starts as valid XML and turns into a raw Java stack
+  trace mid-document) had already defeated once.
 
-**Scale compatibility.** Perseus's `weightedFrequency` summed over a
-whole work recovers that work's token count: Perseus's Republic volume
-`1999.01.0167` sums to 87,466; the corpus repo's own Republic token
-count is 87,070 -- 0.5% apart. Corpus lemma counts and Perseus weighted
-frequencies are added directly, on the same scale.
+As a result: `vocabulary-corpus-prep` is dropped entirely (nothing left
+for it to fix), and the WordHoard Homer parse is kept only as a
+standing cross-check (`make report`, below), not as a count source.
 
-### Plato overlap, explicit double-counting accounted for
+### Coverage regression, accepted
 
-Perseus has no way to select a single dialogue -- each dialogue's
-row instead matches a whole omnibus volume, several of which pair a
-corpus-covered dialogue with one that isn't in the corpus at all. Where
-that happens, the *volume is kept* (for the dialogue(s) with no other
-source) but *downweighted* by the proportion of it the corpus already
-covers, computed at run time (`combine.py`) from this run's own data,
-not hardcoded:
+vocab.perseus.org's catalog (901 editions) is NOT a superset of the old
+hopper's. About three dozen works this pipeline used to fetch aren't in
+the new catalog at all:
 
-| Perseus URN | Volume contents | Corpus-covered | Dup tokens | Volume Σwf | Scale applied |
-|---|---|---|---|---|---|
-| `1999.01.0169` | Euthyphro, Apology, Crito, **Phaedo** | Euthyphro, Apology, Crito | 17,982 | 39,527 | **×0.545** |
-| `1999.01.0173` | **Parmenides, Philebus**, Symposium, **Phaedrus** | Symposium | 17,181 | 65,716 | **×0.739** |
-| `1999.01.0167` | Republic | Republic | 87,070 | 87,466 | dropped (99.5% duplicated) |
+| author | lost | detail |
+|---|---|---|
+| Euripides | 16 of 18 | only *Heracles* and *Bacchae* remain |
+| Aristophanes | 6 of 11 | only Clouds/Birds/Lysistrata/Frogs/Ecclesiazusae remain |
+| Plato | 9 dialogues | Protagoras, Euthydemus, Ion, Meno, Gorgias, Timaeus, Critias, Laws, Seventh Letter |
+| Aristotle | 11 works | Posterior Analytics, On the Heavens, On Generation and Corruption, Metaphysics, Minor biological works, On the Motion/Gait/Generation of Animals, **Nicomachean Ethics, Politics, Rhetoric** |
+| Epictetus | all | *The Discourses* has no edition at all |
+| Marcus Aurelius | all | *The Meditations* has no edition at all |
+| Plutarch | 34 of ~50 | only 16 *Lives* have an edition (see below) |
 
-`1999.01.0167` and `1999.01.0199` (Thucydides) are removed from
-`data/matches.yaml` entirely -- displaced, not merely scaled, since
-every dialogue/book they'd otherwise contribute is fully covered by a
-corpus work. `1999.01.0169`/`1999.01.0173` stay, scaled, because
-Phaedo/Parmenides/Philebus/Phaedrus have no other source. The other 6
-Plato volumes (Laws, Cratylus group, Charmides group, Euthydemus
-group, Ion/Timaeus group, Epistles) have no corpus overlap and keep
-scale 1.0.
+Meanwhile vocab.perseus.org ADDS coverage the old hopper never had:
+Aristotle's *Categories*, *De anima*, *Physica*, the *Organon*, and
+several biological/psychological works now have real editions (19
+Aristotle works fetched here, vs. 6 before), and every one of
+Hippocrates' 17 treatises is now its own text rather than one shared
+omnibus.
 
-### GBWW Vol. 7 (Plato) audit
-
-Checked against the actual *Great Books of the Western World* Plato
-volume table of contents: 25 works (24 dialogues + The Seventh
-Letter). All 25 are already rows in `great_books.tsv` (seq 63-87) --
-nothing was missing, nothing added. The bare `Dialogues` row (seq 62)
-stays a documented category-header skip.
-
-### Lemma join
-
-The two lemma inventories don't fully agree. Most corpus lemmas match
-an existing Perseus Unicode headword exactly. The rest split two ways,
-both recorded in `output/lemma_join_report.tsv` per (work, lemma):
-
-- **orthographic variants** (e.g. `σῴζω`/`σώζω`, `πρωΐ`/`πρωί`) --
-  joined via an accent-blind fallback key (NFD, strip combining marks,
-  casefold) against Perseus's own headword set, used only when
-  unambiguous.
-- **genuine gaps** -- new rows, `perseus_weighted_frequency: 0`. On
-  the current data this is dominated by Thucydides' proper-noun-heavy
-  vocabulary (ethnonyms, place names, personal names throughout the
-  Peloponnesian War narrative) plus the confirmed Perseus lemma gaps
-  above (`Σωκράτης`, `καταλείπω`, `ἀφίστημι`, ...).
-
-### Top-100 comparison report
-
-`make report` (`compare_top100.py`) is a sanity check, not part of the
-core pipeline (not in `make all`): it ranks `master_vocab.csv`'s top
-100 headwords against vocabulary-corpus-prep's own top 100 -- but on
-the corpus repo's own terms, aggregated across *all* 49 of its works,
-not just the 6 this pipeline draws on. Writes a single self-contained,
-sortable `output/top100_compare.html` (layout/copy lives in
-`compare_top100_template.html`, filled in at run time -- don't hand-edit
-the generated HTML). 78 of the top 100 agree; most of the other 44
-trace to genre -- this pipeline spans 121 works across every genre
-(epic, tragedy, comedy, history, oratory, philosophy), the corpus repo
-is Attic prose only. See the report itself for the full breakdown.
-
-## Ground truth for Homer from ag-cloze-cards
-
-Perseus's Iliad/Odyssey vocab-tool output is an automatic parse, and
-it misses genuine Homeric vocabulary that a hand-checked tagging
-catches. `homer_vocab.py` (`make homer`) replaces both instead: it
-shells out to `jaycrick/ag-cloze-cards`'s own `uv` environment (cloned
-locally to `$AG_CLOZE_CARDS_REPO`, default `~/git_repos/ag-cloze-cards`)
-and calls that repo's `ag_cloze_cards.corpus.WordHoardHomerAdapter`
-directly -- Northwestern's hand-disambiguated WordHoard/Chicago Homer
-tagging, the same tokenization that repo's own Homer Anki deck is
-built from -- rather than reimplementing WordHoard's XML parsing here
-and risking it drifting from that repo's own parsing decisions (see
-`homer_vocab.py`'s docstring). `corpus_map.yaml` resolves the Iliad and
-Odyssey rows to `homer:IL`/`homer:OD` and fully displaces Perseus's
-`1999.01.0133`/`1999.01.0135` -- unlike the Plato omnibus volumes,
-WordHoard's Homer corpus covers each epic completely, so there is no
-partial-overlap case to downweight.
-
-**Scale check.** Perseus's Iliad volume sums to a `weightedFrequency`
-of 102,658; WordHoard counts 111,710 actual tokens for the same text
-(8.8% apart). Odyssey: Perseus 83,072 vs. WordHoard 87,084 (4.8%
-apart) -- the same order of magnitude as the Republic calibration
-above, looser because WordHoard's count is exact where Perseus's is a
-probabilistic estimate over ambiguous morphology, but still close
-enough to combine directly.
-
-**What WordHoard adds.** The join report's corpus-only rows for
-`homer:IL`/`homer:OD` are dominated by exactly what a hand-tagged
-epic parse should catch and an automatic one might not: major
-character/place names as their own high-frequency headwords
-(Ἀχιλλεύς, Ἕκτωρ, Ὀδυσσεύς, Ἀγαμέμνων, Πρίαμος, Ἀθήνη, Τρώς, Ἀχαιός)
-and genuine Ionic/epic dialect forms (`ξεῖνος` for Attic ξένος,
-`θύρη` for θύρα, `ἐύς` "noble, good") that Perseus's Iliad/Odyssey
-headword list doesn't carry as distinct entries.
+This trade is accepted, not worked around: `master_vocab.csv` is a
+clean break to the new source, nothing patched back in from the old
+one. `match_books.py`'s own printed summary lists the current skip set
+exactly; see "Rows needing special handling" below for the two
+structurally special cases (Plutarch, and one split-edition Aristotle
+row).
 
 ## How it works
 
-1. `fetch_work_list.py` scrapes Perseus's vocablist page, full catalog
-   of selectable Greek works -> `data/perseus_works.json` (urn,
-   author, title, edition per work).
+1. `fetch_editions.py` scrapes vocab.perseus.org's `/editions/` page,
+   the full catalog of selectable Greek editions -> one record per
+   edition (urn, author, title, whether it's on Perseus's own Core
+   Reading List) -> `data/perseus_editions.json`.
 2. `great_books.tsv`: input list. title/author/group/year/seq rows,
    Greek-writing authors only (see `SOURCES.md`).
-3. `match_books.py` resolves each row to zero or more Perseus URNs, or
-   a corpus work id -> `data/matches.yaml`. Order:
-   - `corpus_map.yaml` (`corpus_works`: exact author+title -> a
-     work id in one of two external gold-tagged sources, `source:`
-     tagged) -- resolves that row to gold local lemma tagging instead
-     of Perseus; see "Ground truth from vocabulary-corpus-prep" and
-     "Ground truth for Homer from ag-cloze-cards" above.
-   - `overrides.yaml` (exact author+title, or every row by one
-     author) -- two rows needed human judgment call, see below.
-   - `aliases.yaml` -- title pairs sharing no usable substring
-     (different English rendering, transliteration vs translation,
-     Latin editorial title, etc).
+3. `match_books.py` resolves each row to zero or more CTS URNs ->
+   `data/matches.yaml`. Order:
+   - `overrides.yaml` (exact author+title) -- rows a human had to pin
+     explicitly; see that file's own header.
+   - `aliases.yaml` -- title pairs sharing no usable normalized-equal
+     string (different English rendering, or an English GBWW title
+     against vocab.perseus.org's Latin one -- most of Hippocrates and
+     about half of Aristotle are catalogued in Latin). Alias-driven
+     matches require EXACT equality, not containment -- see
+     `aliases.yaml`'s own header for why that matters here.
    - General matching otherwise: normalize both titles (lowercase,
      drop leading "the"/"a"/"an", strip punctuation), match on
      equality, word-level containment either direction, or exact
-     match against one comma-separated component of Perseus title
-     (Perseus groups several works -- mostly Plato dialogues -- under
-     one selectable comma-joined title; resolves e.g. Cratylus/
-     Theaetetus/Sophist/Statesman onto shared URN, no hardcoding).
+     match against one comma-separated component of a Perseus title
+     that groups several works under one selectable title.
    - Zero match -> `matched_urns: []` + `skip_reason`. Always
      recorded, never silent drop.
-   - Displacement pass: any Perseus URN a `corpus_works` entry's
-     `displaces_urns` names is removed from every other row's
-     `matched_urns` (recorded as `displaced_urns`, not silently
-     dropped) -- this is what removes `1999.01.0167`/`1999.01.0199`
-     from the Perseus fetch list entirely.
-4. `fetch_vocab.py` fetches every unique matched URN's vocab (dedup
-   here stops Plato's ~25 rows / Hippocrates' 17 rows from double-
-   counting) -> `data/raw/<urn>.xml`, fallback ladder below ->
-   `data/fetch_manifest.json`, records what happened per URN.
-5. `corpus_vocab.py` counts lemma frequencies for every
-   `vocabulary-corpus-prep`-sourced row from
-   `$CORPUS_REPO/one/<work_id>/lemma.tsv` -> `data/corpus_counts.json`.
-   Local, no network (beyond cloning `$CORPUS_REPO` once).
-6. `homer_vocab.py` counts lemma frequencies for the two Homer rows by
-   calling `$AG_CLOZE_CARDS_REPO`'s own WordHoard parser (via
-   `uv run` inside that project) -> `data/homer_counts.json`. Local, no
-   network beyond that repo's own one-time `fetch`.
-7. `combine.py` parses every cached Perseus file, downweights the
-   Plato volumes `corpus_map.yaml`'s `overlaps` names (see the table
-   above), groups entries by NFC Unicode headword/lemma across every
-   source (the "collapse identical forms" step), sums frequencies per
-   group, writes `output/master_vocab.csv`/`.json` +
-   `output/lemma_join_report.tsv`.
+   A matched row's `matched_urns` may hold more than one URN for the
+   SAME work -- 36 works site-wide have multiple editions (e.g. every
+   Aeschylus play has an `opp-grc3` and a `perseus-grc2` edition,
+   genuinely different texts). `match_books.py` doesn't resolve that;
+   `fetch_vocab.py` does, next.
+4. `fetch_vocab.py` resolves sibling editions (probes each candidate's
+   token count, keeps the Core-Reading-List-marked edition if there is
+   one, else the one with more tokens, else the lower URN string --
+   losers recorded as `alternate_urns`, never silently dropped), then
+   fetches each winner's full word list (`?page=all`, one request) ->
+   `data/raw/<urn-id>.html`, verified against the page's own stated
+   lemma/token totals -> `data/fetch_manifest.json`.
+5. `combine.py` parses every cached file, groups entries by NFC
+   Unicode headword across every fetched work, sums each headword's
+   exact `count`, writes `output/master_vocab.csv`/`.json`.
 
 ## Rows needing special handling
 
 **Plutarch.** One row in `great_books.tsv`: "The Lives of the Noble
-Grecians and Romans" -- Perseus has no single text by that name. Lists
-each of ~50 biographies as own work (translator Bernadotte Perrin),
-plus ~18 "Comparison of X and Y" essays, plus dozens unrelated Moralia
-essays (Latin titles, different translators). `overrides.yaml` expands
-that one row to every Perrin-translated, non-"Comparison of ..." work
--- Lives only, nothing else.
+Grecians and Romans". vocab.perseus.org's Plutarch catalog (`tlg0007`)
+has only 22 editions total: 16 individual *Lives* and 6 of Plutarch's
+own "Comparison of X and Y" essays (excluded -- not part of the Lives
+themselves). 13 of those 22 editions carry no title metadata at all --
+the site itself renders them as "unknown," confirmed live, not a
+scraping gap -- so title matching can't reach them at all.
+`overrides.yaml` pins the row to an explicit list of 16 URNs, each
+identified by fetching its Scaife reader page (`/rr/<urn>/`), whose
+`<title>` gives the work's real Greek name (e.g. `tlg0007.tlg002` ->
+Ῥωμύλος, Romulus). This is a real drop from the old hopper's ~50
+individually-fetchable Lives to 16.
 
-**Hippocrates.** 17 separate treatise titles in `great_books.tsv`
-(Oath, On Ancient Medicine, Aphorisms, ...). Perseus offers two
-omnibus editions only, no per-treatise pick, no literal title match
-for any of the 17. `overrides.yaml` points all 17 at the single
-English-edition omnibus (`Perseus:text:1999.01.0249`, ed. W. H. S.
-Jones), fetched + counted once, not 17 times.
+**Aristotle, "On Youth and Old Age, On Life and Death, On Breathing."**
+One GBWW row combines three short treatises. vocab.perseus.org
+catalogs the first two together as one edition (`tlg0086.tlg018`) but
+"On Breathing" (*De respiratione*) as a separate one (`tlg0086.tlg037`)
+-- no single alias target can match both, so `overrides.yaml` pins both
+URNs directly.
 
-**Everything else skipped**: real absence, not matching failure.
-Archimedes, Apollonius of Perga, Nicomachus of Gerasa: not in
-Perseus's Greek catalog at all. Most Aristotle *Organon*/*Physics*/
-biological-psych works: same. "Dialogues" (Plato), "The Oresteia"
-(Aeschylus): category-header rows, not real texts. `match_books.py`'s
-own printed summary lists every skip.
+**Everything else skipped**: real absence in the new catalog, not
+matching failure -- see the coverage-regression table above.
+`match_books.py`'s own printed summary lists every skip.
 
-## Fetch fallback ladder
+## Sibling-edition dedup
 
-`output=xml&filt=100` (every word, not just a percentile) unreliable
-for big/heavy texts. Two failure modes hit fetching this repo's own
-data: 504s near-instant for the Iliad some runs, back when it was
-still fetched from Perseus (looks like cached negative response, not
-real per-request timeout -- now moot, the Iliad is Homer/ag-cloze-cards-
-sourced, see above, but the fallback ladder this motivated stays);
-one work (Aristophanes' *Peace*) reliably returns HTTP 200, starts as
-valid XML, turns into raw Java stack trace mid-document (server-side
-Hibernate lazy-init exception hit rendering one lemma). `looks_valid()`
-actually parses every XML response with ElementTree, not
-substring-sniffs -- a substring check let that broken response through
-once. `output=table` at the same `filt=100` hits neither failure mode
-(same data, HTML not XML); dropping to `filt=75`/`50` (still XML) also
-works reliably. `fetch_vocab.py` tries per URN in order till one
-works: `xml,100` -> `table,100` -> `xml,75` -> `xml,50`. Whichever
-succeeds recorded per-URN in `data/fetch_manifest.json` -- check it to
-know whether a work's contribution is full vocab or a percentile
-subset. This repo's own data (113 fetched URNs, after the corpus/Homer
-displacements above removed 4): 110 works via `xml,100`, 2 via
-`table,100` (Herodotus's *Histories*; Aristophanes' *Peace*), 1 via
-`xml,75` (Aristotle's *Athenian Constitution*).
+36 CTS works site-wide have more than one edition. In this pipeline's
+subset that's every Aeschylus play (`opp-grc3` vs. `perseus-grc2`),
+Euripides' *Heracles*, and four Aristotle works (duplicate `1st1K-grc1`/
+`grc2` editions, or an alternate-recension text like *Physica (textus
+alter)*). These are genuinely different texts -- confirmed: Aeschylus's
+*Persians* is 5,081 tokens in `opp-grc3`, 5,665 in `perseus-grc2` --
+so counting both would double-count the work. `fetch_vocab.py` groups
+candidate URNs by CTS `<textgroup>.<work>`, probes each sibling's own
+token count, and fetches only the winner: the Core-Reading-List-marked
+edition if one is marked, else the edition with the most tokens, else
+the lexicographically lower URN. The losing sibling(s) are recorded in
+`data/fetch_manifest.json`'s `alternate_urns` field, not silently
+dropped.
+
+`match_books.py`'s alias matching also guards against a related risk at
+the title level: vocab.perseus.org's many short Latin titles collide
+under substring containment alone (Hippocrates' alias target "De
+diaeta in morbis acutis" word-subsequence-contains the separate,
+unrelated work "De diaeta"; Aristotle's "Physica" would otherwise also
+catch "Physica (textus alter)"). Alias-driven searches require exact
+normalized equality for this reason -- see `aliases.yaml`'s header.
 
 ## Collapsing and combining
 
-Perseus's tool already aggregates by lemma within one work --
-`headword` is a beta-code lemma, not a raw inflected surface form.
-Doesn't fully disambiguate homographs though (two distinct LSJ senses
-can share one `headword` string, split apart only in that entry's
-lexicon-query refs) -- "for forms that are identical, collapse them
-into one reading" read here as: group by headword/lemma, full stop,
-within a single work and across every matched work -- Perseus and
-corpus alike. Since Perseus's own identifier is beta-code and the
-corpus repo's is Unicode, the actual join key is NFC-normalized
-Unicode (`beta_code.beta_code_to_greek` converts the Perseus side).
-Each group's Perseus `weightedFrequency` (scaled per the overlap table
-above where applicable) and corpus lemma count are **summed** across
-every work it appears in -- a word both locally frequent in one work
-and used across many works ranks highest. Direct reading of "combine
-into one master list of frequencies," standard way to merge freq
-lists.
+vocab.perseus.org's own headword is already an NFC Unicode string
+(no beta-code conversion needed, unlike the old hopper). It doesn't
+fully disambiguate homographs either -- two distinct LSJ senses can in
+principle share one headword string -- so grouping on the headword
+alone is still the direct reading of "collapse identical forms into
+one reading," and the natural join key across every fetched work.
+Each group's exact `count` is **summed** across every work it appears
+in -- a word both locally frequent in one work and used across many
+works ranks highest. Direct reading of "combine into one master list of
+frequencies," standard way to merge freq lists.
 
 ## Output columns (`output/master_vocab.csv`)
 
 - `headword_unicode` -- lemma, Unicode Greek, NFC-normalized (the
   actual join key).
-- `headword_betacode` -- the same lemma's Perseus beta-code form(s),
-  semicolon-joined (usually one; more than one iff two distinct
-  beta-code spellings converge on the same Unicode form -- happens
-  once in the current data, `Ὀλυμπιάς`). Blank for a headword that
-  only ever came from the corpus repo.
-- `combined_weighted_frequency` -- `perseus_weighted_frequency +
-  corpus_count`.
-- `perseus_weighted_frequency` -- summed (and, where a volume is
-  scaled, downweighted) Perseus `weightedFrequency` across every
-  matched work containing this headword. `0` for a corpus-only row.
-- `corpus_count` -- summed lemma-token count from every
-  `vocabulary-corpus-prep` work containing this lemma. `0` for a
-  Perseus-only row.
-- `works_count` -- distinct works (Perseus URNs + corpus work ids) it
-  appeared in.
-- `short_definition` -- Perseus's own short gloss (first non-empty one
-  seen); corpus-only rows have none, the corpus repo carries no
-  glosses.
-- `source_urns` -- semicolon-separated Perseus URN ids (short form)
-  and/or corpus work ids, where it came from.
+- `lemma_id` -- vocab.perseus.org's own stable numeric lemma id.
+- `count` -- summed exact token count across every matched work.
+- `works_count` -- distinct works it appeared in.
+- `short_definition` -- vocab.perseus.org's own short gloss (first
+  non-empty one seen).
+- `corpus_freq_per_10k` -- this lemma's frequency across
+  vocab.perseus.org's ENTIRE corpus (21,441,714 tokens, all 901
+  editions) -- a reference figure, not summed, since it's the same
+  number regardless of which fetched work reports it.
+- `core_freq_per_10k` -- same, but across Perseus's own Core Reading
+  List (1,355,159 tokens, 42 editions) instead.
+- `source_urns` -- semicolon-separated CTS URNs it was counted from.
 
-Full source list, every text/dictionary/tool credited: `SOURCES.md`.
+Full source list, every text/tool credited: `SOURCES.md`.
+
+## Homer comparison report (`make report`)
+
+Not part of `make all`. Runs `homer_vocab.py` (WordHoard's
+hand-disambiguated Iliad/Odyssey tagging, via
+`jaycrick/ag-cloze-cards`'s own parser) and `compare_homer.py`, which
+compares it against vocab.perseus.org's own Iliad/Odyssey counts --
+the standing cross-check for whether an automatic parse still misses
+anything a hand-checked one catches, now that vocab.perseus.org (not
+WordHoard) is what `master_vocab.csv` actually counts Homer from.
+Writes a single self-contained, sortable `output/homer_compare.html`
+(layout/copy lives in `compare_homer_template.html`, filled in at run
+time -- don't hand-edit the generated HTML). Needs
+`$AG_CLOZE_CARDS_REPO` (`make homer-clone`).
 
 ## Re-running / extending
 
 - Add rows to `great_books.tsv` (same 5 tab-separated columns), `make
   all` -- new titles matched automatic. Add an `aliases.yaml`/
-  `overrides.yaml`/`corpus_map.yaml` entry only if a title needs one
-  (the scripts' own module docstrings explain the schema of each).
-- `make fetch REDO=1` re-fetches every matched URN, ignores cache
-  (e.g. Perseus's own data changed since).
+  `overrides.yaml` entry only if a title needs one (the scripts' own
+  module docstrings explain the schema of each).
+- `make fetch REDO=1` re-fetches every matched work, ignores cache
+  (e.g. vocab.perseus.org's own data changed since).
 - `uv run python3 fetch_vocab.py --redo` -- same, direct.
-- `$CORPUS_REPO` defaults to `~/git_repos/vocabulary-corpus-prep`;
-  override with the `CORPUS_REPO` env var (`make corpus`/`corpus-clone`
-  read it too) if cloned elsewhere. Pull that repo and re-run `make
-  corpus combine` to pick up any upstream tagging changes.
 - `$AG_CLOZE_CARDS_REPO` defaults to `~/git_repos/ag-cloze-cards`;
   override with the `AG_CLOZE_CARDS_REPO` env var (`make homer`/
-  `homer-clone` read it too) if cloned elsewhere. Pull that repo (and
-  re-run its own `fetch` if WordHoard's data changed) then `make homer
-  combine` to pick up changes to its Homer parsing.
+  `homer-clone` read it too) if cloned elsewhere. Only needed for
+  `make report`.
 - Lint: `uv run ruff check .`.

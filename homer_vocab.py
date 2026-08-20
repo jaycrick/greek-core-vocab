@@ -3,12 +3,16 @@
 ~/git_repos/ag-cloze-cards's own WordHoard/Chicago Homer parser
 (`ag_cloze_cards.corpus.WordHoardHomerAdapter`) -- Northwestern's
 hand-disambiguated tagging of early Greek epic, the same tokenization
-that repo's own Homer Anki deck is built from. See corpus_map.yaml for
-why Perseus's own Iliad/Odyssey vocab-tool output is displaced by this
-instead (real gaps: Perseus's automatic parse can't disambiguate
-Homeric formulae/epithets/dialect forms the way a human-checked
-tagging can) and corpus_vocab.py for the analogous script covering
-vocabulary-corpus-prep.
+that repo's own Homer Anki deck is built from.
+
+This no longer feeds combine.py -- vocab.perseus.org's own Iliad/
+Odyssey word lists are the master_vocab.csv source for Homer now (see
+README.md's coverage table: the old hopper's automatic parse missed
+proper nouns and dialect forms WordHoard catches, but vocab.perseus.org
+carries them directly, e.g. Ἀχιλλεύς: 367, Ἕκτωρ: 454). This script's
+output instead feeds compare_homer.py, a standing cross-check: how
+close does vocab.perseus.org's own count come to a hand-disambiguated
+one, for the two texts most likely to trip up an automatic parser.
 
 Why shell out rather than import `ag_cloze_cards` directly: that
 package depends on `readerforge` (a private git dependency) and lives
@@ -43,18 +47,15 @@ import os
 import subprocess
 from pathlib import Path
 
-import yaml
-
-CORPUS_MAP = Path("corpus_map.yaml")
 OUT = Path("data/homer_counts.json")
 
 AG_CLOZE_CARDS_REPO = Path(
     os.environ.get("AG_CLOZE_CARDS_REPO", "~/git_repos/ag-cloze-cards")
 ).expanduser()
 
-# work_id (as used in corpus_map.yaml/great_books.tsv rows) -> the
-# WordHoard work abbreviation ag_cloze_cards.corpus.WordHoardHomerAdapter
-# expects (see its data/homer_books.tsv).
+# work_id -> the WordHoard work abbreviation
+# ag_cloze_cards.corpus.WordHoardHomerAdapter expects (see its
+# data/homer_books.tsv).
 _WORDHOARD_ABBREV = {"homer:IL": "IL", "homer:OD": "OD"}
 
 _COUNT_SCRIPT = """
@@ -67,13 +68,6 @@ for tok in WordHoardHomerAdapter(works=(abbrev,)).tokens():
     counts[unicodedata.normalize("NFC", tok.lemma)] += 1
 print(json.dumps(dict(counts), ensure_ascii=False))
 """
-
-
-def load_homer_work_ids() -> list[str]:
-    doc = yaml.safe_load(CORPUS_MAP.read_text(encoding="utf-8"))
-    return sorted(
-        {c["work_id"] for c in doc["corpus_works"] if c["work_id"] in _WORDHOARD_ABBREV}
-    )
 
 
 def count_work(work_id: str) -> dict:
@@ -106,11 +100,10 @@ def main() -> int:
             "AG_CLOZE_CARDS_REPO or clone https://github.com/jaycrick/ag-cloze-cards)"
         )
 
-    work_ids = load_homer_work_ids()
     titles = {"homer:IL": ("Homer", "The Iliad"), "homer:OD": ("Homer", "The Odyssey")}
 
     results = []
-    for work_id in work_ids:
+    for work_id in sorted(_WORDHOARD_ABBREV):
         author, title = titles[work_id]
         rec = count_work(work_id)
         rec["author"] = author

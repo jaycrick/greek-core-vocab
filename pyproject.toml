@@ -1,14 +1,11 @@
 [project]
 name = "greek-core-vocab"
-version = "0.1.0"
-description = "A reusable pipeline: fetch Perseus's weighted-frequency Greek vocabulary lists for every Great Books of the Western World work that has one, and combine them into one master core-vocabulary frequency list."
+version = "0.2.0"
+description = "A reusable pipeline: fetch vocab.perseus.org's exact-count Greek vocabulary lists for every Great Books of the Western World work that has one, and combine them into one master core-vocabulary frequency list."
 requires-python = ">=3.12"
 dependencies = [
     "requests>=2.32",
     "pyyaml>=6.0",
-    # perseids-tools/beta-code-py on PyPI as "beta-code" -- beta-code to
-    # Unicode Greek conversion for combine.py's output headwords.
-    "beta-code>=1.1.1",
 ]
 
 [dependency-groups]

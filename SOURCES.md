@@ -2,104 +2,80 @@
 
 ## Word-frequency data
 
-All weighted-frequency data, headwords, and short definitions in
-`output/master_vocab.*` come from the [Perseus Digital
-Library](https://www.perseus.tufts.edu/hopper/)'s **Greek Vocabulary
-Tool** (Tufts University):
-<https://www.perseus.tufts.edu/hopper/vocablist?lang=greek>.
+All counts, headwords, and short definitions in `output/master_vocab.*`
+come from the [Perseus Digital Library](https://www.perseus.tufts.edu/)
+(Tufts University)'s **Greek Vocabulary Tool**:
+<https://vocab.perseus.org/>.
 
-Per that tool's own [help
-page](https://www.perseus.tufts.edu/hopper/help/vocab): each word's
-short definition is "automatically extracted from various lexica in
-the Perseus collections... the one listed first in the dictionary
-entry for each word." Every fetched entry's own `lexiconQueries`
-cross-reference one or more of: **LSJ** (Liddell-Scott-Jones, *A
-Greek-English Lexicon*), the **Middle Liddell** (*An Intermediate
-Greek-English Lexicon*), **Autenrieth** (a Homeric-specific lexicon),
-and **Slater** (a Pindar-specific lexicon) -- which of these a given
-entry draws its short definition from depends on the word and the
-lexica that happen to cover it.
+Each work's word list gives, per lemma: an exact token count within
+that work, a short gloss, and two reference figures -- the lemma's own
+frequency across Perseus's entire corpus (21,441,714 tokens, all 901
+editions) and across Perseus's own Core Reading List (1,355,159
+tokens, 42 editions). The short gloss's own underlying lexicon isn't
+stated per-entry on this newer tool the way the old hopper's
+`lexiconQueries` cross-references were; treat it as Perseus's own
+editorial pick.
 
-Beta-code-to-Unicode conversion (`headword_unicode` in the output) uses
-[`beta-code-py`](https://github.com/perseids-tools/beta-code-py)
-(the `beta-code` package on PyPI).
+This pipeline previously drew from the OLD Perseus hopper tool
+(`www.perseus.tufts.edu/hopper/vocablist`), whose `weightedFrequency`
+was a probabilistic estimate rather than an exact count, and whose
+Greek Vocabulary Tool has since been superseded by vocab.perseus.org --
+see README.md for the specific gaps that motivated switching (and for
+why two external ground-truth sources that gap once required,
+`vocabulary-corpus-prep` and `ag-cloze-cards`'s WordHoard parse, are no
+longer needed for `master_vocab.csv` itself).
 
-## The 113 individual texts fetched from Perseus
+## The works fetched from vocab.perseus.org
 
 Every text is Perseus's own digitization/edition of the Greek original,
-one Perseus URN (`Perseus:text:...`) per row of `data/matches.yaml`'s
-`matched_urns`; the editor credited below is Perseus's own, not this
-repo's:
+one CTS URN per row of `data/matches.yaml`'s `matched_urns` (after
+`fetch_vocab.py`'s sibling-edition dedup picks one edition per work);
+the exact per-work URN list, and whether each fetch's counts represent
+the full lemma inventory, is `data/fetch_manifest.json`. The raw
+fetched HTML itself is cached verbatim in `data/raw/`.
 
-| author | works fetched | editor(s), per Perseus |
-|---|---|---|
-| Homer | 0 -- both Iliad and Odyssey displaced entirely by ag-cloze-cards's WordHoard parse, below | -- |
-| Aeschylus | 7 | Herbert Weir Smyth |
-| Sophocles | 7 | Francis Storr |
-| Euripides | 18 | David Kovacs; Gilbert Murray |
-| Aristophanes | 11 | F. W. Hall and W. M. Geldart |
-| Herodotus | 1 | -- |
-| Plato | 6 (grouped multi-dialogue texts; 2 more displaced entirely by the corpus repo, below) | -- |
-| Aristotle | 6 | J. Bywater; Kenyon; W. D. Ross |
-| Hippocrates | 1 (omnibus) | W. H. S. Jones |
-| Galen | 1 | A. J. Brock |
-| Euclid | 1 | J. L. Heiberg |
-| Epictetus | 1 | -- |
-| Marcus Aurelius | 1 | Jan Hendrik Leopold |
-| Plutarch | 50 (individual *Lives*) | Bernadotte Perrin |
+| author | works fetched |
+|---|---|
+| Homer | 2 (Iliad, Odyssey) |
+| Aeschylus | 7 |
+| Sophocles | 8 |
+| Euripides | 2 (only *Heracles* and *Bacchae* remain in this catalog) |
+| Aristophanes | 5 |
+| Herodotus | 1 |
+| Thucydides | 1 |
+| Plato | 16 individual dialogues (no longer omnibus volumes) |
+| Aristotle | 19 |
+| Hippocrates | 17 (each its own treatise, no longer one shared omnibus) |
+| Galen | 1 |
+| Euclid | 1 |
+| Plutarch | 16 individual *Lives* (see README.md's "Rows needing special handling") |
 
-(113 total -- Thucydides' *History*, Plato's *Republic*, and Homer's
-*Iliad*/*Odyssey* are no longer fetched from Perseus at all, superseded
-by the corpus repo and ag-cloze-cards below. The exact per-work URN
-list is `data/matches.yaml`'s `matched_urns` fields; the raw fetched
-data itself is cached verbatim in `data/raw/`.)
+(Epictetus and Marcus Aurelius have no edition in this catalog at all;
+Archimedes, Apollonius of Perga, and Nicomachus of Gerasa never did.
+See README.md's coverage-regression table for the full accounting of
+what this pipeline's move to vocab.perseus.org gained and lost
+relative to the old hopper.)
 
-## The 6 works counted from vocabulary-corpus-prep instead
-
-[`greek-learner-texts/vocabulary-corpus-prep`](https://github.com/greek-learner-texts/vocabulary-corpus-prep)
-publishes gold per-work lemma tagging for a balanced Attic prose
-corpus, reconciled across four independent tagging sources. See
-README.md's "Ground truth from vocabulary-corpus-prep" section for why
-these 6 `great_books.tsv` rows use it instead of (or, for two Plato
-volumes, alongside a downweighted) Perseus:
-
-| author | work | corpus work id |
-|---|---|---|
-| Thucydides | *History* (Books 1-5 only) | `tlg0003.tlg001` |
-| Plato | Euthyphro | `tlg0059.tlg001` |
-| Plato | Apology | `tlg0059.tlg002` |
-| Plato | Crito | `tlg0059.tlg003` |
-| Plato | Symposium | `tlg0059.tlg011` |
-| Plato | Republic | `tlg0059.tlg030` |
-
-Its own lemma tagging (`one/<work_id>/lemma.tsv`, read by
-`corpus_vocab.py`) is itself built by reconciling:
-
-- [Opera Graeca Adnotata (OGA)](https://github.com/OperaGraecaAdnotata/OGA)
-- [Greek Dependency Treebanks (Gorman)](https://github.com/vgorman1/Greek-Dependency-Trees)
-- [Scaife Viewer Tagging Pipeline](https://github.com/scaife-viewer/tagging-pipeline)
-- [GLAUx (Keersmaekers)](https://github.com/alekkeersmaekers/glaux)
-
-Its base texts are extracted from Perseus's canonical-greekLit TEI
-XML, except Euthyphro, which uses the higher-quality text from
-[plato-texts](https://github.com/jtauber/plato-texts) (jtauber) --
-Perseus's own `grc1` Euthyphro edition has encoding/accentuation
-issues the corpus repo's own validation caught. Base-text quality is
-itself validated with [greek-check](https://github.com/jtauber/greek-check).
-
-## The Iliad and Odyssey, counted from ag-cloze-cards instead
+## The Iliad and Odyssey, cross-checked against ag-cloze-cards
 
 [`jaycrick/ag-cloze-cards`](https://github.com/jaycrick/ag-cloze-cards)
 is a sibling repo (this pipeline is itself one of its dependencies, as
 a definition-fallback source) whose Homer Anki deck is built on
 Northwestern University's **WordHoard**/Chicago Homer project: a
 hand-disambiguated morphological tagging of early Greek epic (Martin
-Mueller). See README.md's "Ground truth for Homer from ag-cloze-cards"
-section for why these two `great_books.tsv` rows use it instead of
-Perseus. `homer_vocab.py` reads it by calling that repo's own
+Mueller). `homer_vocab.py` reads it by calling that repo's own
 `ag_cloze_cards.corpus.WordHoardHomerAdapter` (via `uv run` inside
 `$AG_CLOZE_CARDS_REPO`), not a local reimplementation of WordHoard's
-XML format:
+XML format.
+
+This is no longer a count source for `master_vocab.csv` -- vocab.perseus.org's
+own Iliad/Odyssey word lists now carry the proper-noun headwords
+(Ἀχιλλεύς, Ἕκτωρ, Ὀδυσσεύς, ...) that were this pipeline's original
+reason to reach for WordHoard instead. It remains a standing
+cross-check (`make report` / `compare_homer.py`,
+`output/homer_compare.html`): how close does an automatic parse come
+to a hand-disambiguated one, for the two texts most likely to trip one
+up.
 
 | author | work | work id |
 |---|---|---|
@@ -118,10 +94,8 @@ show up as an unmatched skip).
 
 ## Software
 
-- [`beta-code-py`](https://github.com/perseids-tools/beta-code-py) --
-  beta-code/Unicode Greek conversion.
 - [`requests`](https://requests.readthedocs.io/),
   [`PyYAML`](https://pyyaml.org/) -- HTTP + the `aliases.yaml`/
-  `overrides.yaml`/`corpus_map.yaml`/`data/matches.yaml` file format.
+  `overrides.yaml`/`data/matches.yaml` file format.
 - [`uv`](https://docs.astral.sh/uv/), [`ruff`](https://docs.astral.sh/ruff/)
   -- dependency management, lint/format.

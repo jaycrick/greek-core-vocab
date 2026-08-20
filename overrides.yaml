@@ -1,8 +1,7 @@
-# Manual overrides for match_books.py -- the two rows where a Great
-# Books title has no literal match in Perseus's catalog and required a
-# human judgment call (see the plan/README for the reasoning), rather
-# than the general normalize+substring+comma-component matching
-# match_books.py otherwise does on its own.
+# Manual overrides for match_books.py -- great_books.tsv rows that need
+# a human-picked, exact list of CTS URNs rather than the general
+# normalize+equality+alias matching match_books.py otherwise does on
+# its own.
 #
 # Keyed by (author, gbww_title); each entry's `urns` list is used
 # VERBATIM as that row's matched_urns, bypassing normal matching
@@ -13,76 +12,43 @@ overrides:
     gbww_title: The Lives of the Noble Grecians and Romans
     reason: >
       GBWW's row is a single title for the whole Parallel Lives
-      collection; Perseus lists each biography as its own separate
-      work (author=Plutarch, translator=Bernadotte Perrin) and has no
-      single text literally titled "The Lives of the Noble Grecians
-      and Romans". Every Perrin-translated biography is included;
-      Perrin's own "Comparison of X and Y" essays and the (Latin-
-      titled, Babbitt/Bernardakis-translated) Moralia are excluded --
-      neither is part of the Lives themselves.
+      collection. vocab.perseus.org's Plutarch catalog (tlg0007) has
+      only 22 editions total, of which 16 are individual Lives and 6
+      are Perrin's own "Comparison of X and Y" essays -- excluded, not
+      part of the Lives themselves. Crucially, 13 of those 22 editions
+      carry no title metadata at all (the site itself renders them as
+      "unknown" -- confirmed live, not a scraping gap), so title
+      matching cannot reach them; each was instead identified by
+      fetching its Scaife reader page (/rr/<urn>/), whose <title> gives
+      the work's real Greek name (e.g. tlg0007.tlg002 -> Ῥωμύλος,
+      Romulus). This is a real drop from the old hopper's ~50
+      individually-fetchable Lives to 16 -- see README.md's
+      coverage-regression table.
     urns:
-      - "Perseus:text:2008.01.0080"  # Aemilius Paulus
-      - "Perseus:text:2008.01.0081"  # Agesilaus
-      - "Perseus:text:2008.01.0082"  # Agis
-      - "Perseus:text:1999.01.0181"  # Alcibiades
-      - "Perseus:text:2008.01.0129"  # Alexander
-      - "Perseus:text:2008.01.0077"  # Antony
-      - "Perseus:text:2008.01.0083"  # Aratus
-      - "Perseus:text:1999.01.0182"  # Aristides
-      - "Perseus:text:2008.01.0084"  # Artaxerxes
-      - "Perseus:text:2008.01.0085"  # Brutus
-      - "Perseus:text:2008.01.0130"  # Caesar
-      - "Perseus:text:2008.01.0089"  # Caius Gracchus
-      - "Perseus:text:2008.01.0109"  # Caius Marcius Coriolanus
-      - "Perseus:text:2008.01.0132"  # Caius Marius
-      - "Perseus:text:2008.01.0086"  # Camillus
-      - "Perseus:text:2008.01.0088"  # Cato the Younger
-      - "Perseus:text:2008.01.0090"  # Cicero
-      - "Perseus:text:2008.01.0069"  # Cimon
-      - "Perseus:text:2008.01.0091"  # Cleomenes
-      - "Perseus:text:2008.01.0110"  # Crassus
-      - "Perseus:text:2008.01.0076"  # Demetrius
-      - "Perseus:text:2008.01.0111"  # Demosthenes
-      - "Perseus:text:2008.01.0112"  # Dion
-      - "Perseus:text:2008.01.0113"  # Eumenes
-      - "Perseus:text:2008.01.0114"  # Fabius Maximus
-      - "Perseus:text:2008.01.0116"  # Galba
-      - "Perseus:text:2008.01.0117"  # Lucullus
-      - "Perseus:text:2008.01.0131"  # Lycurgus
-      - "Perseus:text:2008.01.0070"  # Lysander
-      - "Perseus:text:2008.01.0118"  # Marcellus
-      - "Perseus:text:2008.01.0087"  # Marcus Cato
-      - "Perseus:text:2008.01.0071"  # Nicias
-      - "Perseus:text:2008.01.0133"  # Numa
-      - "Perseus:text:2008.01.0119"  # Otho
-      - "Perseus:text:2008.01.0120"  # Pelopidas
-      - "Perseus:text:2008.01.0072"  # Pericles
-      - "Perseus:text:2008.01.0121"  # Philopoemen
-      - "Perseus:text:2008.01.0122"  # Phocion
-      - "Perseus:text:2008.01.0123"  # Pompey
-      - "Perseus:text:2008.01.0124"  # Publicola
-      - "Perseus:text:2008.01.0134"  # Pyrrhus
-      - "Perseus:text:2008.01.0079"  # Romulus
-      - "Perseus:text:2008.01.0125"  # Sertorius
-      - "Perseus:text:2008.01.0073"  # Solon
-      - "Perseus:text:2008.01.0126"  # Sulla
-      - "Perseus:text:2008.01.0074"  # Themistocles
-      - "Perseus:text:2008.01.0075"  # Theseus
-      - "Perseus:text:2008.01.0127"  # Tiberius Gracchus
-      - "Perseus:text:2008.01.0128"  # Timoleon
-      - "Perseus:text:2008.01.0115"  # Titus Flamininus
+      - "urn:cts:greekLit:tlg0007.tlg001.perseus-grc2"  # Theseus
+      - "urn:cts:greekLit:tlg0007.tlg002.perseus-grc2"  # Romulus
+      - "urn:cts:greekLit:tlg0007.tlg004.perseus-grc2"  # Lycurgus
+      - "urn:cts:greekLit:tlg0007.tlg005.perseus-grc2"  # Numa
+      - "urn:cts:greekLit:tlg0007.tlg007.perseus-grc2"  # Solon
+      - "urn:cts:greekLit:tlg0007.tlg008.perseus-grc2"  # Publicola
+      - "urn:cts:greekLit:tlg0007.tlg010.perseus-grc2"  # Themistocles
+      - "urn:cts:greekLit:tlg0007.tlg011.perseus-grc2"  # Camillus
+      - "urn:cts:greekLit:tlg0007.tlg012.perseus-grc2"  # Pericles
+      - "urn:cts:greekLit:tlg0007.tlg013.perseus-grc2"  # Fabius Maximus
+      - "urn:cts:greekLit:tlg0007.tlg015.perseus-grc2"  # Alcibiades
+      - "urn:cts:greekLit:tlg0007.tlg016.perseus-grc2"  # Gaius Marcius (Coriolanus)
+      - "urn:cts:greekLit:tlg0007.tlg018.perseus-grc2"  # Timoleon
+      - "urn:cts:greekLit:tlg0007.tlg019.perseus-grc2"  # Aemilius Paullus
+      - "urn:cts:greekLit:tlg0007.tlg021.perseus-grc2"  # Pelopidas
+      - "urn:cts:greekLit:tlg0007.tlg047.perseus-grc2"  # Alexander
 
-  - author: Hippocrates
-    gbww_title: __ALL__
+  - author: Aristotle
+    gbww_title: On Youth and Old Age, On Life and Death, On Breathing
     reason: >
-      GBWW lists 17 individual Hippocratic treatises (the Oath, On
-      Ancient Medicine, Aphorisms, ...); Perseus's Greek vocab tool
-      only offers two omnibus editions with no per-treatise selection,
-      and none of the 17 titles literally matches either omnibus's
-      title. Every one of the 17 rows is treated as pointing at the
-      same English-edition omnibus below -- match_books.py fetches and
-      counts it ONCE, not 17 times (this is what `gbww_title: __ALL__`
-      signals: apply to every great_books.tsv row for this author,
-      not one specific title).
+      One GBWW row combines three short treatises. vocab.perseus.org
+      catalogs the first two together as one edition but "On Breathing"
+      (De respiratione) as a separate one -- no single alias target can
+      match both, so both URNs are pinned directly.
     urns:
-      - "Perseus:text:1999.01.0249"  # Hippocrates Collected Works I (ed. W. H. S. Jones)
+      - "urn:cts:greekLit:tlg0086.tlg018.1st1K-grc1"  # De iuventute et senectute, De vita et morte
+      - "urn:cts:greekLit:tlg0086.tlg037.1st1K-grc1"  # De respiratione

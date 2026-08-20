@@ -1,0 +1,5408 @@
+[
+  {
+    "author": "pseudo-Aristotle",
+    "title": "De mundo",
+    "urn": "urn:cts:greekLit:stoa0033a.tlg028.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "pseudo-Aristotle",
+    "title": "De spiritu",
+    "urn": "urn:cts:greekLit:stoa0033a.tlg043.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Eutropius 4th cent",
+    "title": "Breviarium historiae romanae",
+    "urn": "urn:cts:greekLit:stoa0121.stoa001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Hegemonius",
+    "title": "Acta Archelai",
+    "urn": "urn:cts:greekLit:stoa0146d.stoa001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Apollonius Rhodius",
+    "title": "Argonautica",
+    "urn": "urn:cts:greekLit:tlg0001.tlg001.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Thucydides",
+    "title": "History of the Peloponnesian War",
+    "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Euripides",
+    "title": "Heracles",
+    "urn": "urn:cts:greekLit:tlg0006.tlg009.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Euripides",
+    "title": "Heracles",
+    "urn": "urn:cts:greekLit:tlg0006.tlg009.perseus-grc2b",
+    "core": false
+  },
+  {
+    "author": "Euripides",
+    "title": "Bacchae",
+    "urn": "urn:cts:greekLit:tlg0006.tlg017.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Plutarch",
+    "title": "Theseus",
+    "urn": "urn:cts:greekLit:tlg0007.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg004.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg005.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "Comparison of Lycurgus and Numa",
+    "urn": "urn:cts:greekLit:tlg0007.tlg006.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "Solon",
+    "urn": "urn:cts:greekLit:tlg0007.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "Publicola",
+    "urn": "urn:cts:greekLit:tlg0007.tlg008.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "Comparison of Solon and Publicola",
+    "urn": "urn:cts:greekLit:tlg0007.tlg009.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg010.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg011.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "Pericles",
+    "urn": "urn:cts:greekLit:tlg0007.tlg012.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Plutarch",
+    "title": "Fabius Maximus",
+    "urn": "urn:cts:greekLit:tlg0007.tlg013.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "Comparison of Pericles and Fabius Maximus",
+    "urn": "urn:cts:greekLit:tlg0007.tlg014.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "Alcibiades",
+    "urn": "urn:cts:greekLit:tlg0007.tlg015.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg016.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg017.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg018.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg019.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg020.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg021.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plutarch",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0007.tlg047.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Athenaeus of Naucratis",
+    "title": "Deipnosophistae",
+    "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc3",
+    "core": false
+  },
+  {
+    "author": "Athenaeus of Naucratis",
+    "title": "Deipnosophistae",
+    "urn": "urn:cts:greekLit:tlg0008.tlg001.perseus-grc4",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Against Euthynus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Against Callimachus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Against Lochites",
+    "urn": "urn:cts:greekLit:tlg0010.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "On the team of horses",
+    "urn": "urn:cts:greekLit:tlg0010.tlg004.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Trapeziticus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg005.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Aegineticus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg006.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "To Demonicus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Against the Sophists",
+    "urn": "urn:cts:greekLit:tlg0010.tlg008.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Helen",
+    "urn": "urn:cts:greekLit:tlg0010.tlg009.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Isocrates",
+    "title": "Busiris",
+    "urn": "urn:cts:greekLit:tlg0010.tlg010.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Panegyricus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg011.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Isocrates",
+    "title": "Plataicus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg012.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "To Nicocles",
+    "urn": "urn:cts:greekLit:tlg0010.tlg013.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Nicocles or the Cyprians",
+    "urn": "urn:cts:greekLit:tlg0010.tlg014.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Evagoras",
+    "urn": "urn:cts:greekLit:tlg0010.tlg015.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Archidamus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg016.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "On the Peace",
+    "urn": "urn:cts:greekLit:tlg0010.tlg017.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Areopagiticus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg018.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Antidosis",
+    "urn": "urn:cts:greekLit:tlg0010.tlg019.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "To Philip",
+    "urn": "urn:cts:greekLit:tlg0010.tlg020.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Panathenaicus",
+    "urn": "urn:cts:greekLit:tlg0010.tlg021.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Ad Dionysium",
+    "urn": "urn:cts:greekLit:tlg0010.tlg022.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Ad filios Jasonis",
+    "urn": "urn:cts:greekLit:tlg0010.tlg023.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Ad Archidamum",
+    "urn": "urn:cts:greekLit:tlg0010.tlg024.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Ad reges Mytilenaeos",
+    "urn": "urn:cts:greekLit:tlg0010.tlg025.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Ad Timotheum",
+    "urn": "urn:cts:greekLit:tlg0010.tlg026.perseus-grc3",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Ad Philippum",
+    "urn": "urn:cts:greekLit:tlg0010.tlg027.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Ad Alexandrum",
+    "urn": "urn:cts:greekLit:tlg0010.tlg028.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Ad Antipatrum",
+    "urn": "urn:cts:greekLit:tlg0010.tlg029.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Isocrates",
+    "title": "Ad Philippum",
+    "urn": "urn:cts:greekLit:tlg0010.tlg030.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Sophocles",
+    "title": "Trachiniae",
+    "urn": "urn:cts:greekLit:tlg0011.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Sophocles",
+    "title": "Antigone",
+    "urn": "urn:cts:greekLit:tlg0011.tlg002.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Sophocles",
+    "title": "Ajax",
+    "urn": "urn:cts:greekLit:tlg0011.tlg003.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Sophocles",
+    "title": "Oedipus Tyrannus",
+    "urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Sophocles",
+    "title": "Electra",
+    "urn": "urn:cts:greekLit:tlg0011.tlg005.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Sophocles",
+    "title": "Philoctetes",
+    "urn": "urn:cts:greekLit:tlg0011.tlg006.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Sophocles",
+    "title": "Oedipus at Colonus",
+    "urn": "urn:cts:greekLit:tlg0011.tlg007.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Sophocles",
+    "title": "Tracking Satyrs",
+    "urn": "urn:cts:greekLit:tlg0011.tlg008.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homer",
+    "title": "Iliad",
+    "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Homer",
+    "title": "Odyssey",
+    "urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 1 to Dionysus",
+    "urn": "urn:cts:greekLit:tlg0013.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 2 to Demeter",
+    "urn": "urn:cts:greekLit:tlg0013.tlg002.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 3 to Delian and Pythian Apollo",
+    "urn": "urn:cts:greekLit:tlg0013.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 4 to Hermes",
+    "urn": "urn:cts:greekLit:tlg0013.tlg004.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 5 to Aphrodite",
+    "urn": "urn:cts:greekLit:tlg0013.tlg005.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 6 to Aphrodite",
+    "urn": "urn:cts:greekLit:tlg0013.tlg006.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 7 to Dionysus",
+    "urn": "urn:cts:greekLit:tlg0013.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 8 to Ares",
+    "urn": "urn:cts:greekLit:tlg0013.tlg008.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 9 to Artemis",
+    "urn": "urn:cts:greekLit:tlg0013.tlg009.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 10 to Aphrodite",
+    "urn": "urn:cts:greekLit:tlg0013.tlg010.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 11 To Athena",
+    "urn": "urn:cts:greekLit:tlg0013.tlg011.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 12 to Hera",
+    "urn": "urn:cts:greekLit:tlg0013.tlg012.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 14 to the Mother of the Gods",
+    "urn": "urn:cts:greekLit:tlg0013.tlg014.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 16 To Asclepius",
+    "urn": "urn:cts:greekLit:tlg0013.tlg016.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 17 To the Dioscuri",
+    "urn": "urn:cts:greekLit:tlg0013.tlg017.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 18 to Hermes",
+    "urn": "urn:cts:greekLit:tlg0013.tlg018.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 19 to Pan",
+    "urn": "urn:cts:greekLit:tlg0013.tlg019.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 21 To Apollo",
+    "urn": "urn:cts:greekLit:tlg0013.tlg021.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 22 To Poseidon",
+    "urn": "urn:cts:greekLit:tlg0013.tlg022.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 23 to Zeus",
+    "urn": "urn:cts:greekLit:tlg0013.tlg023.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 24 To Hestia",
+    "urn": "urn:cts:greekLit:tlg0013.tlg024.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 25 To the Muses and Apollo",
+    "urn": "urn:cts:greekLit:tlg0013.tlg025.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 26 To Dionysus",
+    "urn": "urn:cts:greekLit:tlg0013.tlg026.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 27 to Artemis",
+    "urn": "urn:cts:greekLit:tlg0013.tlg027.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 28 to Athena",
+    "urn": "urn:cts:greekLit:tlg0013.tlg028.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 29 to Hestia",
+    "urn": "urn:cts:greekLit:tlg0013.tlg029.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 30 to Earth",
+    "urn": "urn:cts:greekLit:tlg0013.tlg030.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 31 to Helios",
+    "urn": "urn:cts:greekLit:tlg0013.tlg031.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Homeric Hymns",
+    "title": "Hymn 32 To Selene",
+    "urn": "urn:cts:greekLit:tlg0013.tlg032.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "unknown",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0014.tlg002.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "unknown",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0014.tlg003.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Herodian",
+    "title": "Ab excessu divi Marci",
+    "urn": "urn:cts:greekLit:tlg0015.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Herodotus",
+    "title": "The Histories",
+    "urn": "urn:cts:greekLit:tlg0016.tlg001.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Opificio Mundi",
+    "urn": "urn:cts:greekLit:tlg0018.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "Legum Allegoriarum Libri I-Iii",
+    "urn": "urn:cts:greekLit:tlg0018.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Cherubim",
+    "urn": "urn:cts:greekLit:tlg0018.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Sacrificiis Abelis Et Caini",
+    "urn": "urn:cts:greekLit:tlg0018.tlg004.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "Quod Deterius Potiori Insidiari Soleat",
+    "urn": "urn:cts:greekLit:tlg0018.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Posteritate Caini",
+    "urn": "urn:cts:greekLit:tlg0018.tlg006.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Gigantibus",
+    "urn": "urn:cts:greekLit:tlg0018.tlg007.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "Quod Deus Sit Immutabilis",
+    "urn": "urn:cts:greekLit:tlg0018.tlg008.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Agricultura",
+    "urn": "urn:cts:greekLit:tlg0018.tlg009.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Plantatione",
+    "urn": "urn:cts:greekLit:tlg0018.tlg010.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Ebrietate",
+    "urn": "urn:cts:greekLit:tlg0018.tlg011.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Sobrietate",
+    "urn": "urn:cts:greekLit:tlg0018.tlg012.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Confusione Linguarum",
+    "urn": "urn:cts:greekLit:tlg0018.tlg013.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Migratione Abrahami",
+    "urn": "urn:cts:greekLit:tlg0018.tlg014.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "Quis Rerum Divinarum Heres Sit",
+    "urn": "urn:cts:greekLit:tlg0018.tlg015.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Congressu Eruditionis Gratia",
+    "urn": "urn:cts:greekLit:tlg0018.tlg016.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Fuga Et Inventione",
+    "urn": "urn:cts:greekLit:tlg0018.tlg017.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Mutatione Nominum",
+    "urn": "urn:cts:greekLit:tlg0018.tlg018.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Somniis (Lib. I-Ii)",
+    "urn": "urn:cts:greekLit:tlg0018.tlg019.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Abrahamo",
+    "urn": "urn:cts:greekLit:tlg0018.tlg020.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Josepho",
+    "urn": "urn:cts:greekLit:tlg0018.tlg021.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Vita Mosis (Lib. I-Ii)",
+    "urn": "urn:cts:greekLit:tlg0018.tlg022.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Decalogo",
+    "urn": "urn:cts:greekLit:tlg0018.tlg023.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Specialibus Legibus (Lib. I-Iv)",
+    "urn": "urn:cts:greekLit:tlg0018.tlg024.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Virtutibus",
+    "urn": "urn:cts:greekLit:tlg0018.tlg025.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Praemiis Et Poenis Et De Exsecrationibus",
+    "urn": "urn:cts:greekLit:tlg0018.tlg026.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "Quod Omnis Probus Liber Sit",
+    "urn": "urn:cts:greekLit:tlg0018.tlg027.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Vita Contemplativa",
+    "urn": "urn:cts:greekLit:tlg0018.tlg028.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "De Aeternitate Mundi",
+    "urn": "urn:cts:greekLit:tlg0018.tlg029.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "In Flaccum",
+    "urn": "urn:cts:greekLit:tlg0018.tlg030.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philo Judaeus",
+    "title": "Legatio Ad Gaium",
+    "urn": "urn:cts:greekLit:tlg0018.tlg031.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristophanes",
+    "title": "Clouds",
+    "urn": "urn:cts:greekLit:tlg0019.tlg003.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Aristophanes",
+    "title": "Birds",
+    "urn": "urn:cts:greekLit:tlg0019.tlg006.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Aristophanes",
+    "title": "Lysistrata",
+    "urn": "urn:cts:greekLit:tlg0019.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Aristophanes",
+    "title": "Frogs",
+    "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Aristophanes",
+    "title": "Ecclesiazusae",
+    "urn": "urn:cts:greekLit:tlg0019.tlg010.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Hesiod",
+    "title": "Theogony",
+    "urn": "urn:cts:greekLit:tlg0020.tlg001.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Hesiod",
+    "title": "Works and Days",
+    "urn": "urn:cts:greekLit:tlg0020.tlg002.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Hesiod",
+    "title": "Sheild of Heracles",
+    "urn": "urn:cts:greekLit:tlg0020.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Antiphon",
+    "title": "On the murder of Herodes",
+    "urn": "urn:cts:greekLit:tlg0028.tlg005.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Gospel according to Matthew",
+    "urn": "urn:cts:greekLit:tlg0031.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Mark",
+    "urn": "urn:cts:greekLit:tlg0031.tlg002.INTF-grc1",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Mark",
+    "urn": "urn:cts:greekLit:tlg0031.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Gospel of Luke",
+    "urn": "urn:cts:greekLit:tlg0031.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Gospel according to John",
+    "urn": "urn:cts:greekLit:tlg0031.tlg004.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "New Testament",
+    "title": "Acts",
+    "urn": "urn:cts:greekLit:tlg0031.tlg005.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Epistle to the Romans",
+    "urn": "urn:cts:greekLit:tlg0031.tlg006.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "1 Corinthians",
+    "urn": "urn:cts:greekLit:tlg0031.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Second Corinthians",
+    "urn": "urn:cts:greekLit:tlg0031.tlg008.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Epistle to the Galatians",
+    "urn": "urn:cts:greekLit:tlg0031.tlg009.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Ephesians",
+    "urn": "urn:cts:greekLit:tlg0031.tlg010.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Letter to the Philippians",
+    "urn": "urn:cts:greekLit:tlg0031.tlg011.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Letter to the Colossians",
+    "urn": "urn:cts:greekLit:tlg0031.tlg012.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "First Letter to the Thessalonians",
+    "urn": "urn:cts:greekLit:tlg0031.tlg013.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Second Letter to the Thessalonians",
+    "urn": "urn:cts:greekLit:tlg0031.tlg014.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "First Timothy",
+    "urn": "urn:cts:greekLit:tlg0031.tlg015.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Second Timothy",
+    "urn": "urn:cts:greekLit:tlg0031.tlg016.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Epistle of Paul to Titus",
+    "urn": "urn:cts:greekLit:tlg0031.tlg017.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Epistle to Philemon",
+    "urn": "urn:cts:greekLit:tlg0031.tlg018.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Letter to the Hebrews",
+    "urn": "urn:cts:greekLit:tlg0031.tlg019.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "James",
+    "urn": "urn:cts:greekLit:tlg0031.tlg020.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "First Epistle of Peter",
+    "urn": "urn:cts:greekLit:tlg0031.tlg021.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Second Epistle of Peter",
+    "urn": "urn:cts:greekLit:tlg0031.tlg022.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "First John",
+    "urn": "urn:cts:greekLit:tlg0031.tlg023.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Second Epistle of John",
+    "urn": "urn:cts:greekLit:tlg0031.tlg024.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Third Letter of John",
+    "urn": "urn:cts:greekLit:tlg0031.tlg025.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Letter of Jude",
+    "urn": "urn:cts:greekLit:tlg0031.tlg026.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "New Testament",
+    "title": "Revelation",
+    "urn": "urn:cts:greekLit:tlg0031.tlg027.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "Hellenica",
+    "urn": "urn:cts:greekLit:tlg0032.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "Memorabilia",
+    "urn": "urn:cts:greekLit:tlg0032.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "Economics",
+    "urn": "urn:cts:greekLit:tlg0032.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "Symposium",
+    "urn": "urn:cts:greekLit:tlg0032.tlg004.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "Apology",
+    "urn": "urn:cts:greekLit:tlg0032.tlg005.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "Anabasis",
+    "urn": "urn:cts:greekLit:tlg0032.tlg006.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Xenophon",
+    "title": "Cyropaedia",
+    "urn": "urn:cts:greekLit:tlg0032.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "Hiero",
+    "urn": "urn:cts:greekLit:tlg0032.tlg008.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "Agesilaus",
+    "urn": "urn:cts:greekLit:tlg0032.tlg009.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Xenophon",
+    "title": "Constitution of the Lacedaimonians",
+    "urn": "urn:cts:greekLit:tlg0032.tlg010.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "Ways and Means",
+    "urn": "urn:cts:greekLit:tlg0032.tlg011.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "On the Cavalry Commander",
+    "urn": "urn:cts:greekLit:tlg0032.tlg012.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "On the Art of Horsemanship",
+    "urn": "urn:cts:greekLit:tlg0032.tlg013.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Xenophon",
+    "title": "On Hunting",
+    "urn": "urn:cts:greekLit:tlg0032.tlg014.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Pindar",
+    "title": "Olympian",
+    "urn": "urn:cts:greekLit:tlg0033.tlg001.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Pindar",
+    "title": "Pythian",
+    "urn": "urn:cts:greekLit:tlg0033.tlg002.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Pindar",
+    "title": "Nemean",
+    "urn": "urn:cts:greekLit:tlg0033.tlg003.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Pindar",
+    "title": "Isthmean",
+    "urn": "urn:cts:greekLit:tlg0033.tlg004.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Galen",
+    "title": "Adhortatio ad artes addiscendas",
+    "urn": "urn:cts:greekLit:tlg0057.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Adhortatio ad artes addiscendas",
+    "urn": "urn:cts:greekLit:tlg0057.tlg001.1st1K-grc2",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De optima doctrina",
+    "urn": "urn:cts:greekLit:tlg0057.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Quod optimus medicus sit quoque philosophus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De sectis ad eos qui introducuntur",
+    "urn": "urn:cts:greekLit:tlg0057.tlg004.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De constitutione artis medicae ad Patrophilum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg006.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Ars Medica",
+    "urn": "urn:cts:greekLit:tlg0057.tlg007.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De elementis ex Hippocrate",
+    "urn": "urn:cts:greekLit:tlg0057.tlg008.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De temperamentis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg009.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De temperamentis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg009.1st1K-grc2",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De naturalibus facultatibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg010.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De anatomicis administrationibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg011.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De ossibus ad tirones",
+    "urn": "urn:cts:greekLit:tlg0057.tlg012.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De venarum arteriarumque dissectione",
+    "urn": "urn:cts:greekLit:tlg0057.tlg013.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De nervorum dissectione",
+    "urn": "urn:cts:greekLit:tlg0057.tlg014.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De instrumento odoratus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg015.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De uteri dissectione",
+    "urn": "urn:cts:greekLit:tlg0057.tlg016.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De usu partium corporis humani I-XI",
+    "urn": "urn:cts:greekLit:tlg0057.tlg017.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De motu musculorum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg018.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De victu attenuante",
+    "urn": "urn:cts:greekLit:tlg0057.tlg019.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De victu attenuante",
+    "urn": "urn:cts:greekLit:tlg0057.tlg019.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De utilitate respirationis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg020.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De semine",
+    "urn": "urn:cts:greekLit:tlg0057.tlg021.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De foetuum formatione",
+    "urn": "urn:cts:greekLit:tlg0057.tlg022.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "An in arteriis sanguis contineatur",
+    "urn": "urn:cts:greekLit:tlg0057.tlg023.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De optima corporis nostri constitutione",
+    "urn": "urn:cts:greekLit:tlg0057.tlg024.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De bono habitu",
+    "urn": "urn:cts:greekLit:tlg0057.tlg025.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Quod animi mores corporis temperamenta sequantur",
+    "urn": "urn:cts:greekLit:tlg0057.tlg027.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De propriorum animi cuiuslibet affectuum dignotione et curatione",
+    "urn": "urn:cts:greekLit:tlg0057.tlg028.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De animi cuiuslibet peccatorum dignotione et curatione",
+    "urn": "urn:cts:greekLit:tlg0057.tlg029.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De atra bile",
+    "urn": "urn:cts:greekLit:tlg0057.tlg030.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De usu pulsuum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg031.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De placitis Hippocratis et Platonis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg032.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De parvae pilae exercitio",
+    "urn": "urn:cts:greekLit:tlg0057.tlg034.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De parvae pilae exercitio",
+    "urn": "urn:cts:greekLit:tlg0057.tlg034.1st1K-grc2",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De venereis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg035.1st1K-grc2",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De venereis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg035.1st1K-grc3",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De sanitate tuenda",
+    "urn": "urn:cts:greekLit:tlg0057.tlg036.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De rebus boni malique suci",
+    "urn": "urn:cts:greekLit:tlg0057.tlg038.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De ptisana",
+    "urn": "urn:cts:greekLit:tlg0057.tlg039.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De dignotione ex insomniis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg040.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De morborum differentiis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg041.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De causis morborum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg042.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De symptomatum differentiis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg043.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De symptomatum causis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg044.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De differentiis febrium",
+    "urn": "urn:cts:greekLit:tlg0057.tlg045.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De morborum temporibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg046.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De totius morbi temporibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg047.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De typis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg048.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Adversus eos qui de typis scripserunt vel de circuitibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg049.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De plenitudine",
+    "urn": "urn:cts:greekLit:tlg0057.tlg050.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De tremore, palpitatione, convulsione et rigore",
+    "urn": "urn:cts:greekLit:tlg0057.tlg051.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De comate secundum Hippocratem",
+    "urn": "urn:cts:greekLit:tlg0057.tlg052.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De marcore",
+    "urn": "urn:cts:greekLit:tlg0057.tlg053.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De tumoribus praeter naturam",
+    "urn": "urn:cts:greekLit:tlg0057.tlg054.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De inaequali intemperie",
+    "urn": "urn:cts:greekLit:tlg0057.tlg055.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De difficultate respirationis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg056.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De locis affectis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg057.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De pulsibus ad tirones",
+    "urn": "urn:cts:greekLit:tlg0057.tlg058.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De differentiis pulsuum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg059.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De dignoscendis pulsibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg060.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De causis pulsuum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg061.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De praesagitione ex pulsibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg062.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Synopsis librorum suorum de pulsibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg063.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De crisibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg064.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De diebus decretoriis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg065.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De methodo medendi",
+    "urn": "urn:cts:greekLit:tlg0057.tlg066.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Ad Glauconem de methodo medendi",
+    "urn": "urn:cts:greekLit:tlg0057.tlg067.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De venae sectione adversus Erasistratum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg068.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De venae sectione adversus Erasistrateos Romae degentes",
+    "urn": "urn:cts:greekLit:tlg0057.tlg069.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De curandi ratione per venae sectionem",
+    "urn": "urn:cts:greekLit:tlg0057.tlg070.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De hirudinibus, revulsione, cucurbitula, incisione et scarificatione",
+    "urn": "urn:cts:greekLit:tlg0057.tlg071.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De purgantium medicamentorum facultate",
+    "urn": "urn:cts:greekLit:tlg0057.tlg072.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Quos quibus catharticis medicamentis et quando purgare oporteat",
+    "urn": "urn:cts:greekLit:tlg0057.tlg073.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Quos quibus catharticis medicamentis et quando purgare oporteat",
+    "urn": "urn:cts:greekLit:tlg0057.tlg073.1st1K-grc2",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Pro puero epileptico consilium",
+    "urn": "urn:cts:greekLit:tlg0057.tlg074.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De simplicium medicamentorum temperamentis ac facultatibus I-VI",
+    "urn": "urn:cts:greekLit:tlg0057.tlg075.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De compositione medicamentorum secundum locos I-VI",
+    "urn": "urn:cts:greekLit:tlg0057.tlg076.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De compositione medicamentorum per genera",
+    "urn": "urn:cts:greekLit:tlg0057.tlg077.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De antidotis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg078.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De theriaca ad Pisonem",
+    "urn": "urn:cts:greekLit:tlg0057.tlg079.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Institutio logica",
+    "urn": "urn:cts:greekLit:tlg0057.tlg081.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De sophismatis seu captionibus penes dictionem",
+    "urn": "urn:cts:greekLit:tlg0057.tlg082.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De praenotione ad Epigenem",
+    "urn": "urn:cts:greekLit:tlg0057.tlg083.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De substantia facultatum naturalium fragmentum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg084.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "In Hippocratis De natura hominis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg085.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "In Hippocratis De victu acutorum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg087.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "In Hippocratis Epidemiarum I",
+    "urn": "urn:cts:greekLit:tlg0057.tlg089.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "In Hippocratis Aphorismos Commentarii VII",
+    "urn": "urn:cts:greekLit:tlg0057.tlg092.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Adversus Lycum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg093.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "Adversus ea quae Juliano in Hippocratis Aphorismos enuntiata sunt",
+    "urn": "urn:cts:greekLit:tlg0057.tlg094.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "In Hippocratis De articulis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg095.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "In Hippocratis Prognosticum",
+    "urn": "urn:cts:greekLit:tlg0057.tlg099.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "In Hippocratis De fracturis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg100.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "In Hippocratis De officina medici",
+    "urn": "urn:cts:greekLit:tlg0057.tlg101.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De musculorum dissectione ad tirones",
+    "urn": "urn:cts:greekLit:tlg0057.tlg102.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De consuetudinibus",
+    "urn": "urn:cts:greekLit:tlg0057.tlg103.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De experientia medica",
+    "urn": "urn:cts:greekLit:tlg0057.tlg107.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Galen",
+    "title": "De causis respirationis",
+    "urn": "urn:cts:greekLit:tlg0057.tlg114.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Euthyphro",
+    "urn": "urn:cts:greekLit:tlg0059.tlg001.perseus-grc1",
+    "core": true
+  },
+  {
+    "author": "Plato",
+    "title": "Apology",
+    "urn": "urn:cts:greekLit:tlg0059.tlg002.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Plato",
+    "title": "Crito",
+    "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Plato",
+    "title": "Phaedo",
+    "urn": "urn:cts:greekLit:tlg0059.tlg004.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Cratylus",
+    "urn": "urn:cts:greekLit:tlg0059.tlg005.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Theaetetus",
+    "urn": "urn:cts:greekLit:tlg0059.tlg006.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Sophist",
+    "urn": "urn:cts:greekLit:tlg0059.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Statesman",
+    "urn": "urn:cts:greekLit:tlg0059.tlg008.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Parmenides",
+    "urn": "urn:cts:greekLit:tlg0059.tlg009.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Philebus",
+    "urn": "urn:cts:greekLit:tlg0059.tlg010.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Symposium",
+    "urn": "urn:cts:greekLit:tlg0059.tlg011.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Plato",
+    "title": "Phaedrus",
+    "urn": "urn:cts:greekLit:tlg0059.tlg012.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Alcibiades 1",
+    "urn": "urn:cts:greekLit:tlg0059.tlg013.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Alcibiades 2",
+    "urn": "urn:cts:greekLit:tlg0059.tlg014.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Hipparchus",
+    "urn": "urn:cts:greekLit:tlg0059.tlg015.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Lovers",
+    "urn": "urn:cts:greekLit:tlg0059.tlg016.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Theages",
+    "urn": "urn:cts:greekLit:tlg0059.tlg017.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Charmides",
+    "urn": "urn:cts:greekLit:tlg0059.tlg018.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Laches",
+    "urn": "urn:cts:greekLit:tlg0059.tlg019.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Lysis",
+    "urn": "urn:cts:greekLit:tlg0059.tlg020.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Plato",
+    "title": "Republic",
+    "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Plato",
+    "title": "Definitiones",
+    "urn": "urn:cts:greekLit:tlg0059.tlg037.First1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Cataplus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg016.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Juppiter confutatus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg017.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Juppiter tragoedus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg018.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Gallus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg019.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Prometheus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg020.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Prometheus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg020.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Icaromenippus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg021.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Timon",
+    "urn": "urn:cts:greekLit:tlg0062.tlg022.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Charon sive contemplantes",
+    "urn": "urn:cts:greekLit:tlg0062.tlg023.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Vitarum auctio",
+    "urn": "urn:cts:greekLit:tlg0062.tlg024.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Revivescentes sive piscator",
+    "urn": "urn:cts:greekLit:tlg0062.tlg025.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Bis accusatus sive tribunalia",
+    "urn": "urn:cts:greekLit:tlg0062.tlg026.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "De sacrificiis",
+    "urn": "urn:cts:greekLit:tlg0062.tlg027.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "De sacrificiis",
+    "urn": "urn:cts:greekLit:tlg0062.tlg027.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Adversus indoctum et libros multos ementem",
+    "urn": "urn:cts:greekLit:tlg0062.tlg028.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Somnium sive vita Luciani",
+    "urn": "urn:cts:greekLit:tlg0062.tlg029.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "De parasito sive artem esse parasiticam",
+    "urn": "urn:cts:greekLit:tlg0062.tlg030.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Philopseudes sive incredulus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg031.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Dearum judicium",
+    "urn": "urn:cts:greekLit:tlg0062.tlg032.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "De mercede conductis potentium familiaribus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg033.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "De morte Peregrini",
+    "urn": "urn:cts:greekLit:tlg0062.tlg042.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Fugitivi",
+    "urn": "urn:cts:greekLit:tlg0062.tlg043.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Toxaris vel amicitia",
+    "urn": "urn:cts:greekLit:tlg0062.tlg044.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "De saltatione",
+    "urn": "urn:cts:greekLit:tlg0062.tlg045.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Lexiphanes",
+    "urn": "urn:cts:greekLit:tlg0062.tlg046.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Eunuchus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg047.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "De astrologia",
+    "urn": "urn:cts:greekLit:tlg0062.tlg048.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Pseudologista",
+    "urn": "urn:cts:greekLit:tlg0062.tlg049.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Deorum concilium",
+    "urn": "urn:cts:greekLit:tlg0062.tlg050.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Tyrannicida",
+    "urn": "urn:cts:greekLit:tlg0062.tlg051.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Abdicatus",
+    "urn": "urn:cts:greekLit:tlg0062.tlg052.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lucian of Samosata",
+    "title": "Dialogi Marini",
+    "urn": "urn:cts:greekLit:tlg0062.tlg067.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Arrian",
+    "title": "Anabasis",
+    "urn": "urn:cts:greekLit:tlg0074.tlg001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Arrian",
+    "title": "Indica",
+    "urn": "urn:cts:greekLit:tlg0074.tlg002.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Arrian",
+    "title": "Cynegeticus",
+    "urn": "urn:cts:greekLit:tlg0074.tlg003.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Arrian",
+    "title": "Periplus Ponti Euxini",
+    "urn": "urn:cts:greekLit:tlg0074.tlg004.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Arrian",
+    "title": "Tactica",
+    "urn": "urn:cts:greekLit:tlg0074.tlg005.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Arrian",
+    "title": "Acies Contra Alanos",
+    "urn": "urn:cts:greekLit:tlg0074.tlg006.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Apollonius, Dyscolus",
+    "title": "De constructione",
+    "urn": "urn:cts:greekLit:tlg0082.tlg004.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Suppliant Maidens",
+    "urn": "urn:cts:greekLit:tlg0085.tlg001.opp-grc3",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Suppliant Maidens",
+    "urn": "urn:cts:greekLit:tlg0085.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Persians",
+    "urn": "urn:cts:greekLit:tlg0085.tlg002.opp-grc3",
+    "core": true
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Persians",
+    "urn": "urn:cts:greekLit:tlg0085.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Prometheus Bound",
+    "urn": "urn:cts:greekLit:tlg0085.tlg003.opp-grc3",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Prometheus Bound",
+    "urn": "urn:cts:greekLit:tlg0085.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Seven Against Thebes",
+    "urn": "urn:cts:greekLit:tlg0085.tlg004.opp-grc3",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Seven Against Thebes",
+    "urn": "urn:cts:greekLit:tlg0085.tlg004.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Agamemnon",
+    "urn": "urn:cts:greekLit:tlg0085.tlg005.opp-grc3",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Agamemnon",
+    "urn": "urn:cts:greekLit:tlg0085.tlg005.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Libation Bearers",
+    "urn": "urn:cts:greekLit:tlg0085.tlg006.opp-grc3",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Libation Bearers",
+    "urn": "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Eumenides",
+    "urn": "urn:cts:greekLit:tlg0085.tlg007.opp-grc3",
+    "core": true
+  },
+  {
+    "author": "Aeschylus",
+    "title": "Eumenides",
+    "urn": "urn:cts:greekLit:tlg0085.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Analytica priora",
+    "urn": "urn:cts:greekLit:tlg0086.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Analytica priora",
+    "urn": "urn:cts:greekLit:tlg0086.tlg001.1st1K-grc2",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De anima",
+    "urn": "urn:cts:greekLit:tlg0086.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De anima",
+    "urn": "urn:cts:greekLit:tlg0086.tlg002.1st1K-grc2",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Res Publica Atheniensium",
+    "urn": "urn:cts:greekLit:tlg0086.tlg003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Res Publica Atheniensium",
+    "urn": "urn:cts:greekLit:tlg0086.tlg003.1st1K-grc2",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Categoriae",
+    "urn": "urn:cts:greekLit:tlg0086.tlg006.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De divinatione per somnum",
+    "urn": "urn:cts:greekLit:tlg0086.tlg008.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Historia animalium",
+    "urn": "urn:cts:greekLit:tlg0086.tlg014.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De insomniis",
+    "urn": "urn:cts:greekLit:tlg0086.tlg016.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De interpretatione",
+    "urn": "urn:cts:greekLit:tlg0086.tlg017.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De iuventute et senectute, De vita et morte",
+    "urn": "urn:cts:greekLit:tlg0086.tlg018.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De longitudine et brevitate vitae",
+    "urn": "urn:cts:greekLit:tlg0086.tlg020.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Magna Moralia",
+    "urn": "urn:cts:greekLit:tlg0086.tlg022.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De memoria et reminiscentia",
+    "urn": "urn:cts:greekLit:tlg0086.tlg024.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Meteorologica",
+    "urn": "urn:cts:greekLit:tlg0086.tlg026.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De partibus animalium",
+    "urn": "urn:cts:greekLit:tlg0086.tlg030.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Physica",
+    "urn": "urn:cts:greekLit:tlg0086.tlg031.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Ars Poetica",
+    "urn": "urn:cts:greekLit:tlg0086.tlg034.1st1K-grc1",
+    "core": true
+  },
+  {
+    "author": "Aristotle",
+    "title": "Ars Poetica",
+    "urn": "urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De respiratione",
+    "urn": "urn:cts:greekLit:tlg0086.tlg037.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De sophisticis elenchis",
+    "urn": "urn:cts:greekLit:tlg0086.tlg040.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De sensu et sensibilibus",
+    "urn": "urn:cts:greekLit:tlg0086.tlg041.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De somno et vigilia",
+    "urn": "urn:cts:greekLit:tlg0086.tlg042.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Topica",
+    "urn": "urn:cts:greekLit:tlg0086.tlg044.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "De anima (codicis E fragmenta recensionis a vulgata diversae)",
+    "urn": "urn:cts:greekLit:tlg0086.tlg052.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristotle",
+    "title": "Physica (textus alter)",
+    "urn": "urn:cts:greekLit:tlg0086.tlg054.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aristoxenus",
+    "title": "Harmonics",
+    "urn": "urn:cts:greekLit:tlg0088.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Agathemerus",
+    "title": "Geographiae informatio",
+    "urn": "urn:cts:greekLit:tlg0090.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Theophrastus",
+    "title": "Characters",
+    "urn": "urn:cts:greekLit:tlg0093.tlg009.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Aesop",
+    "title": "Fabulae",
+    "urn": "urn:cts:greekLit:tlg0096.tlg002.First1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Nichomachus of Gerasa",
+    "title": "Introductio arithmetica",
+    "urn": "urn:cts:greekLit:tlg0358.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Nichomachus of Gerasa",
+    "title": "Problemata arithmetica",
+    "urn": "urn:cts:greekLit:tlg0358.tlg005.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Claudius Ptolemaeus",
+    "title": "Syntaxis mathematica",
+    "urn": "urn:cts:greekLit:tlg0363.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Claudius Ptolemaeus",
+    "title": "Apotelesmatica (= Tetrabiblos)",
+    "urn": "urn:cts:greekLit:tlg0363.tlg007.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Pausanias",
+    "title": "Description of Greece",
+    "urn": "urn:cts:greekLit:tlg0525.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Genesis",
+    "urn": "urn:cts:greekLit:tlg0527.tlg001.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Exodus",
+    "urn": "urn:cts:greekLit:tlg0527.tlg002.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Leviticus",
+    "urn": "urn:cts:greekLit:tlg0527.tlg003.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Numbers",
+    "urn": "urn:cts:greekLit:tlg0527.tlg004.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Deuteronomium",
+    "urn": "urn:cts:greekLit:tlg0527.tlg005.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Josue (Cod. Vaticanus + Cod. Alexandrinus)",
+    "urn": "urn:cts:greekLit:tlg0527.tlg006.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Judices (Cod. Alexandrinus)",
+    "urn": "urn:cts:greekLit:tlg0527.tlg008.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Ruth",
+    "urn": "urn:cts:greekLit:tlg0527.tlg010.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Regnorum I (Samuelis I In Textu Masoretico)",
+    "urn": "urn:cts:greekLit:tlg0527.tlg011.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Regnorum II (Samuelis II In Textu Masoretico)",
+    "urn": "urn:cts:greekLit:tlg0527.tlg012.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Regnorum III (Regum I In Textu Masoretico)",
+    "urn": "urn:cts:greekLit:tlg0527.tlg013.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Regnorum IV (Regum II In Textu Masoretico)",
+    "urn": "urn:cts:greekLit:tlg0527.tlg014.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0527.tlg030.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Old Testament",
+    "title": "Isaias",
+    "urn": "urn:cts:greekLit:tlg0527.tlg048.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "pseudo-Galen",
+    "title": "De fasciis",
+    "urn": "urn:cts:greekLit:tlg0530.tlg005.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "pseudo-Galen",
+    "title": "Ad Gaurum quomodo animetur fetus",
+    "urn": "urn:cts:greekLit:tlg0530.tlg006.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "pseudo-Galen",
+    "title": "Introductio seu medicus",
+    "urn": "urn:cts:greekLit:tlg0530.tlg012.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "pseudo-Galen",
+    "title": "De remediis parabilibus",
+    "urn": "urn:cts:greekLit:tlg0530.tlg029.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "pseudo-Galen",
+    "title": "De theriaca ad Pamphilianum",
+    "urn": "urn:cts:greekLit:tlg0530.tlg032.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "pseudo-Galen",
+    "title": "De optima secta ad Thrasybulum",
+    "urn": "urn:cts:greekLit:tlg0530.tlg043.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "On the Murder of Eratosthenes",
+    "urn": "urn:cts:greekLit:tlg0540.tlg001.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Lysias",
+    "title": "Funeral Oration",
+    "urn": "urn:cts:greekLit:tlg0540.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Simon: Defense",
+    "urn": "urn:cts:greekLit:tlg0540.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "On A Wound By Premeditation",
+    "urn": "urn:cts:greekLit:tlg0540.tlg004.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "For Callias",
+    "urn": "urn:cts:greekLit:tlg0540.tlg005.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Andocides",
+    "urn": "urn:cts:greekLit:tlg0540.tlg006.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "On the Olive Stump",
+    "urn": "urn:cts:greekLit:tlg0540.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Accusation of Calumny Against Fellow-Members of a Society",
+    "urn": "urn:cts:greekLit:tlg0540.tlg008.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "For The Soldier",
+    "urn": "urn:cts:greekLit:tlg0540.tlg009.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Theomnestus 1",
+    "urn": "urn:cts:greekLit:tlg0540.tlg010.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Theomnestus 2",
+    "urn": "urn:cts:greekLit:tlg0540.tlg011.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Eratosthenes",
+    "urn": "urn:cts:greekLit:tlg0540.tlg012.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Eratosthenes",
+    "urn": "urn:cts:greekLit:tlg0540.tlg012.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Agoratus: In Pursuance of a Writ",
+    "urn": "urn:cts:greekLit:tlg0540.tlg013.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Alcibiades 1",
+    "urn": "urn:cts:greekLit:tlg0540.tlg014.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Alcibiades 2",
+    "urn": "urn:cts:greekLit:tlg0540.tlg015.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Before the Council: In Defense of Mantitheus at His Scrutiny",
+    "urn": "urn:cts:greekLit:tlg0540.tlg016.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "On The Property Of Eraton: Against the Treasury",
+    "urn": "urn:cts:greekLit:tlg0540.tlg017.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "On the Confiscation of the Property Of The Brother Of Nicias",
+    "urn": "urn:cts:greekLit:tlg0540.tlg018.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "On the Property of Aristophanes: Against the Treasury",
+    "urn": "urn:cts:greekLit:tlg0540.tlg019.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "For Polystratus",
+    "urn": "urn:cts:greekLit:tlg0540.tlg020.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Defense Against A Charge Of Taking Bribes: Undesignated",
+    "urn": "urn:cts:greekLit:tlg0540.tlg021.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against The Corn-Dealers",
+    "urn": "urn:cts:greekLit:tlg0540.tlg022.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Pancleon",
+    "urn": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Pancleon",
+    "urn": "urn:cts:greekLit:tlg0540.tlg023.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "On The Refusal Of A Pension to the Invalid",
+    "urn": "urn:cts:greekLit:tlg0540.tlg024.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Defense Against a Charge of Subverting the Democracy",
+    "urn": "urn:cts:greekLit:tlg0540.tlg025.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "On the Scrutiny of Evandros",
+    "urn": "urn:cts:greekLit:tlg0540.tlg026.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Epicrates and his Fellow-envoys",
+    "urn": "urn:cts:greekLit:tlg0540.tlg027.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Ergocles",
+    "urn": "urn:cts:greekLit:tlg0540.tlg028.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Philocrates",
+    "urn": "urn:cts:greekLit:tlg0540.tlg029.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Nicomachus",
+    "urn": "urn:cts:greekLit:tlg0540.tlg030.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Philon, On his Scrutiny",
+    "urn": "urn:cts:greekLit:tlg0540.tlg031.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against Diogeiton",
+    "urn": "urn:cts:greekLit:tlg0540.tlg032.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Olympic Oration",
+    "urn": "urn:cts:greekLit:tlg0540.tlg033.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Lysias",
+    "title": "Against The Subversion of the Ancestral Constitution of Athens",
+    "urn": "urn:cts:greekLit:tlg0540.tlg034.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "pseudo-Menander",
+    "title": "Sententiae (corresponds to version Men Ar I) (Greek)",
+    "urn": "urn:cts:greekLit:tlg0541.tlg042.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "pseudo-Menander",
+    "title": "Sententiae (corresponds to version Men Ar I) (Greek)",
+    "urn": "urn:cts:greekLit:tlg0541.tlg042.1st1K-grc2",
+    "core": false
+  },
+  {
+    "author": "pseudo-Menander",
+    "title": "Sententiae (corresponds to version Men Ar I) (Greek)",
+    "urn": "urn:cts:greekLit:tlg0541.tlg042.1st1K-grc3",
+    "core": false
+  },
+  {
+    "author": "Polybius.",
+    "title": "Histories",
+    "urn": "urn:cts:greekLit:tlg0543.tlg001.perseus-grc2",
+    "core": true
+  },
+  {
+    "author": "Sextus Empiricus",
+    "title": "Pyrrhoniae Hypotyposes",
+    "urn": "urn:cts:greekLit:tlg0544.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Sextus Empiricus",
+    "title": "Adversus Mathematicos",
+    "urn": "urn:cts:greekLit:tlg0544.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Apollodorus",
+    "title": "Library",
+    "urn": "urn:cts:greekLit:tlg0548.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Apollodorus",
+    "title": "Epitome",
+    "urn": "urn:cts:greekLit:tlg0548.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Kings",
+    "urn": "urn:cts:greekLit:tlg0551.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Italy",
+    "urn": "urn:cts:greekLit:tlg0551.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Samnite History",
+    "urn": "urn:cts:greekLit:tlg0551.tlg004.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Gallic History",
+    "urn": "urn:cts:greekLit:tlg0551.tlg005.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Sicily and the Other Islands",
+    "urn": "urn:cts:greekLit:tlg0551.tlg006.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Wars in Spain",
+    "urn": "urn:cts:greekLit:tlg0551.tlg007.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Hannibalic War",
+    "urn": "urn:cts:greekLit:tlg0551.tlg008.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Punic Wars",
+    "urn": "urn:cts:greekLit:tlg0551.tlg009.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Numidian Affairs",
+    "urn": "urn:cts:greekLit:tlg0551.tlg010.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Macedonian Affairs",
+    "urn": "urn:cts:greekLit:tlg0551.tlg011.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Illyrian Wars",
+    "urn": "urn:cts:greekLit:tlg0551.tlg012.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Syrian Wars",
+    "urn": "urn:cts:greekLit:tlg0551.tlg013.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Mithridatic Wars",
+    "urn": "urn:cts:greekLit:tlg0551.tlg014.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Appianus of Alexandria",
+    "title": "Civil Wars",
+    "urn": "urn:cts:greekLit:tlg0551.tlg017.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Artemidorus",
+    "title": "Onirocriticon",
+    "urn": "urn:cts:greekLit:tlg0553.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Chariton of Aphrodisias",
+    "title": "De Chaerea et Callirhoe",
+    "urn": "urn:cts:greekLit:tlg0554.tlg001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Clement of Alexandria",
+    "title": "Protrepticus",
+    "urn": "urn:cts:greekLit:tlg0555.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Clement of Alexandria",
+    "title": "Paedagogus",
+    "urn": "urn:cts:greekLit:tlg0555.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Clement of Alexandria",
+    "title": "Stromata Books 7-8",
+    "urn": "urn:cts:greekLit:tlg0555.tlg004b.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Clement of Alexandria",
+    "title": "Eclogae propheticae",
+    "urn": "urn:cts:greekLit:tlg0555.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Clement of Alexandria",
+    "title": "Quis dives salvetur",
+    "urn": "urn:cts:greekLit:tlg0555.tlg006.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Clement of Alexandria",
+    "title": "Excerpta ex Theodoto",
+    "urn": "urn:cts:greekLit:tlg0555.tlg007.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Longus",
+    "title": "Daphnis &amp; Chloe",
+    "urn": "urn:cts:greekLit:tlg0561.tlg001.perseus-grc1",
+    "core": true
+  },
+  {
+    "author": "Soranus",
+    "title": "Gynaeciorum Libri IV",
+    "urn": "urn:cts:greekLit:tlg0565.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Soranus",
+    "title": "De Fasciis",
+    "urn": "urn:cts:greekLit:tlg0565.tlg003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Soranus",
+    "title": "Vita Hippocratis",
+    "urn": "urn:cts:greekLit:tlg0565.tlg004.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Antisthenes",
+    "title": "Ajax",
+    "urn": "urn:cts:greekLit:tlg0591.1st1K001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Antisthenes",
+    "title": "Odysseus",
+    "urn": "urn:cts:greekLit:tlg0591.1st1K002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Gorgias of Leontini",
+    "title": "Encomium of Helen",
+    "urn": "urn:cts:greekLit:tlg0593.1st1K001.1st1K-grc1",
+    "core": true
+  },
+  {
+    "author": "Gorgias of Leontini",
+    "title": "Defense of Palamedes",
+    "urn": "urn:cts:greekLit:tlg0593.1st1K002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Alcidamas",
+    "title": "Peri Sophiston",
+    "urn": "urn:cts:greekLit:tlg0610.perseus002.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Alcidamas",
+    "title": "Odysseus",
+    "urn": "urn:cts:greekLit:tlg0610.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Dio Chrysostom",
+    "title": "Orationes",
+    "urn": "urn:cts:greekLit:tlg0612.tlg001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Babrius",
+    "title": "Fabulae Aesopeae",
+    "urn": "urn:cts:greekLit:tlg0614.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Aspasius",
+    "title": "In Ethica Nichomachea Commentaria",
+    "urn": "urn:cts:greekLit:tlg0615.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Polyaenus Macedo",
+    "title": "Strategemata",
+    "urn": "urn:cts:greekLit:tlg0616.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Polyaenus Macedo",
+    "title": "Excerpta Polyaeni",
+    "urn": "urn:cts:greekLit:tlg0616.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De prisca medicina",
+    "urn": "urn:cts:greekLit:tlg0627.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De aere, aquis, locis",
+    "urn": "urn:cts:greekLit:tlg0627.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Prognosticon",
+    "urn": "urn:cts:greekLit:tlg0627.tlg003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De diaeta in morbis acutis",
+    "urn": "urn:cts:greekLit:tlg0627.tlg004.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De diaeta acutorum (spurium)",
+    "urn": "urn:cts:greekLit:tlg0627.tlg005.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Epidemiarum",
+    "urn": "urn:cts:greekLit:tlg0627.tlg006.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De capitis vulneribus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg007.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De officina medici",
+    "urn": "urn:cts:greekLit:tlg0627.tlg008.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De fracturis",
+    "urn": "urn:cts:greekLit:tlg0627.tlg009.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De articulis",
+    "urn": "urn:cts:greekLit:tlg0627.tlg010.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Vectiarius",
+    "urn": "urn:cts:greekLit:tlg0627.tlg011.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Aphorismi",
+    "urn": "urn:cts:greekLit:tlg0627.tlg012.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Iusiurandum",
+    "urn": "urn:cts:greekLit:tlg0627.tlg013.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Lex",
+    "urn": "urn:cts:greekLit:tlg0627.tlg014.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De humoribus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg015.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Prorrheticon I",
+    "urn": "urn:cts:greekLit:tlg0627.tlg016.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Coa praesagia",
+    "urn": "urn:cts:greekLit:tlg0627.tlg017.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De arte",
+    "urn": "urn:cts:greekLit:tlg0627.tlg018.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De natura hominis",
+    "urn": "urn:cts:greekLit:tlg0627.tlg019.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De salubri diaeta",
+    "urn": "urn:cts:greekLit:tlg0627.tlg020.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De flatibus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg021.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De liquidorum usu",
+    "urn": "urn:cts:greekLit:tlg0627.tlg022.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De morbis I",
+    "urn": "urn:cts:greekLit:tlg0627.tlg023.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De genitura",
+    "urn": "urn:cts:greekLit:tlg0627.tlg024a.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De natura pueri",
+    "urn": "urn:cts:greekLit:tlg0627.tlg024b.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De affectionibus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg025.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De locis in homine",
+    "urn": "urn:cts:greekLit:tlg0627.tlg026.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De morbo sacro",
+    "urn": "urn:cts:greekLit:tlg0627.tlg027.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De ulceribus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg028.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De haemorrhoidibus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg029.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De fistulis",
+    "urn": "urn:cts:greekLit:tlg0627.tlg030.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De diaeta",
+    "urn": "urn:cts:greekLit:tlg0627.tlg031.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De affectionibus interioribus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg032.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De natura muliebri",
+    "urn": "urn:cts:greekLit:tlg0627.tlg033.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De octimestri partu",
+    "urn": "urn:cts:greekLit:tlg0627.tlg035.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De muliebribus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg036.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De virginum morbis",
+    "urn": "urn:cts:greekLit:tlg0627.tlg037.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De superfoetatione",
+    "urn": "urn:cts:greekLit:tlg0627.tlg038.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De exsectione foetus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg039.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De anatomia",
+    "urn": "urn:cts:greekLit:tlg0627.tlg040.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De dentitione",
+    "urn": "urn:cts:greekLit:tlg0627.tlg041.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De glandulis",
+    "urn": "urn:cts:greekLit:tlg0627.tlg042.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De carnibus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg043.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De corde",
+    "urn": "urn:cts:greekLit:tlg0627.tlg045.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De alimento",
+    "urn": "urn:cts:greekLit:tlg0627.tlg046.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De visu",
+    "urn": "urn:cts:greekLit:tlg0627.tlg047.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De natura ossium",
+    "urn": "urn:cts:greekLit:tlg0627.tlg048.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De medico",
+    "urn": "urn:cts:greekLit:tlg0627.tlg049.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De habitu decenti",
+    "urn": "urn:cts:greekLit:tlg0627.tlg050.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Praeceptiones",
+    "urn": "urn:cts:greekLit:tlg0627.tlg051.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De crisibus",
+    "urn": "urn:cts:greekLit:tlg0627.tlg052.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "De diebus criticis",
+    "urn": "urn:cts:greekLit:tlg0627.tlg053.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippocrates",
+    "title": "Epistulae, Decretum, Orationes",
+    "urn": "urn:cts:greekLit:tlg0627.tlg055.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Alciphron Rhet., Soph., AD 2/3",
+    "title": "Epistulae",
+    "urn": "urn:cts:greekLit:tlg0640.tlg001.First1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Anonymus Londinensis",
+    "title": "Iatrica Fragmenta Reliqua",
+    "urn": "urn:cts:greekLit:tlg0643.opp003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Anonymus Londinensis",
+    "title": "Iatrica",
+    "urn": "urn:cts:greekLit:tlg0643.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Anonymus Londinensis",
+    "title": "Anonymus Londinensis Fragmenta",
+    "urn": "urn:cts:greekLit:tlg0643.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Justin Martyr",
+    "title": "Apology",
+    "urn": "urn:cts:greekLit:tlg0645.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Justin Martyr",
+    "title": "Apologia secunda",
+    "urn": "urn:cts:greekLit:tlg0645.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Justin Martyr",
+    "title": "Apologia secunda",
+    "urn": "urn:cts:greekLit:tlg0645.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Justin Martyr",
+    "title": "Dialogue with Trypho",
+    "urn": "urn:cts:greekLit:tlg0645.tlg003.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Pseudo-Justinus Martyr",
+    "title": "Epistula ad Diognetum",
+    "urn": "urn:cts:greekLit:tlg0646.tlg004.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Heliodorus of Emesa",
+    "title": "Aethiopica",
+    "urn": "urn:cts:greekLit:tlg0658.tlg001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "unknown",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0661.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "unknown",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg0661.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Ammonius Grammaticus",
+    "title": "Qui Dicitur Liber De Adfinium Vocabulorum Differentia",
+    "urn": "urn:cts:greekLit:tlg0708.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Alexander of Aphrodisias",
+    "title": "In Aristotelis Metaphysica Commentaria",
+    "urn": "urn:cts:greekLit:tlg0732.tlg004.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Alexander of Aphrodisias",
+    "title": "In Aristotelis Analyticorum Priorum Librum I Commentarium",
+    "urn": "urn:cts:greekLit:tlg0732.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Alexander of Aphrodisias",
+    "title": "In Aristotelis Topicorum Libros Octo Commentaria",
+    "urn": "urn:cts:greekLit:tlg0732.tlg006.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Alexander of Aphrodisias",
+    "title": "In Librum De Sensu Commentarium",
+    "urn": "urn:cts:greekLit:tlg0732.tlg007.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Alexander of Aphrodisias",
+    "title": "In Aristotelis Meteorologicorum Libros Commentaria",
+    "urn": "urn:cts:greekLit:tlg0732.tlg008.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Alexander of Aphrodisias",
+    "title": "Problems and Solutions",
+    "urn": "urn:cts:greekLit:tlg0732.tlg012.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Alexander of Aphrodisias",
+    "title": "In Aristotelis Sophisticos Elenchos Commentarius [Sp.]",
+    "urn": "urn:cts:greekLit:tlg0732.tlgX01.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "pseudo-Hippocrates",
+    "title": "De septimestri partu",
+    "urn": "urn:cts:greekLit:tlg0751.tlg034.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Anubion Poeta Astrologus, 1st century CE",
+    "title": "Fragmenta",
+    "urn": "urn:cts:greekLit:tlg1126.tlg003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Athenagoras",
+    "title": "Legatio sive Supplicatio pro Christianis",
+    "urn": "urn:cts:greekLit:tlg1205.tlg001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Athenagoras",
+    "title": "Legatio sive Supplicatio pro Christianis",
+    "urn": "urn:cts:greekLit:tlg1205.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Athenagoras",
+    "title": "De Resurrectione",
+    "urn": "urn:cts:greekLit:tlg1205.tlg002.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Athenagoras",
+    "title": "De Resurrectione",
+    "urn": "urn:cts:greekLit:tlg1205.tlg002.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Autolycus",
+    "title": "De Sphaera Quae Movetur",
+    "urn": "urn:cts:greekLit:tlg1210.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Autolycus",
+    "title": "De Ortibus et Occasibus",
+    "urn": "urn:cts:greekLit:tlg1210.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Barnabae epistula",
+    "title": "Barnabae epistula",
+    "urn": "urn:cts:greekLit:tlg1216.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Batrachomyomachia",
+    "title": "Batrachomyomachia",
+    "urn": "urn:cts:greekLit:tlg1220.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Certamen Homeri et Hesiodi",
+    "title": "Certamen Homeri et Hesiodi",
+    "urn": "urn:cts:greekLit:tlg1252.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Clemens Romanus",
+    "title": "Epistula I ad Corinthios",
+    "urn": "urn:cts:greekLit:tlg1271.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Clemens Romanus",
+    "title": "Epistula II ad Corinthios",
+    "urn": "urn:cts:greekLit:tlg1271.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Anonymus",
+    "title": "Didache XII Apostolorum",
+    "urn": "urn:cts:greekLit:tlg1311.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Dorotheus of Sidon",
+    "title": "Fragmenta alia antiqua",
+    "urn": "urn:cts:greekLit:tlg1337.tlg003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Harpocration",
+    "title": "Lexicon in decem oratores Atticos",
+    "urn": "urn:cts:greekLit:tlg1389.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Heraclides Ponticus",
+    "title": "Epitoma to Res Publica Atheniensium",
+    "urn": "urn:cts:greekLit:tlg1409.opp003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hermas, 2nd cent.",
+    "title": "The Shepherd of Hermas",
+    "urn": "urn:cts:greekLit:tlg1419.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Ignatius Antiochenus, Scr. Eccl., AD 1-2",
+    "title": "Ad Ephesios (epist. 1)",
+    "urn": "urn:cts:greekLit:tlg1443.tlg004.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Ignatius Antiochenus, Scr. Eccl., AD 1-2",
+    "title": "Ad Magnesios (epist. 2)",
+    "urn": "urn:cts:greekLit:tlg1443.tlg005.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Ignatius Antiochenus, Scr. Eccl., AD 1-2",
+    "title": "Ad Trallianos (epist. 3)",
+    "urn": "urn:cts:greekLit:tlg1443.tlg006.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Ignatius Antiochenus, Scr. Eccl., AD 1-2",
+    "title": "Ad Romanos (epist. 4)",
+    "urn": "urn:cts:greekLit:tlg1443.tlg007.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Ignatius Antiochenus, Scr. Eccl., AD 1-2",
+    "title": "Ad Philadelphios (epist. 5)",
+    "urn": "urn:cts:greekLit:tlg1443.tlg008.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Ignatius Antiochenus, Scr. Eccl., AD 1-2",
+    "title": "Ad Smyrnaeos (epist. 6)",
+    "urn": "urn:cts:greekLit:tlg1443.tlg009.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Ignatius Antiochenus, Scr. Eccl., AD 1-2",
+    "title": "Ad Polycarpum (epist. 7)",
+    "urn": "urn:cts:greekLit:tlg1443.tlg010.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Irenaeus",
+    "title": "Libros quinque adversus haereses",
+    "urn": "urn:cts:greekLit:tlg1447.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Liber Enoch",
+    "title": "Apocalypsis Enochi",
+    "urn": "urn:cts:greekLit:tlg1463.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Martyrium Polycarpi",
+    "title": "Martyrium Polycarpi",
+    "urn": "urn:cts:greekLit:tlg1484.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Maximus, Astrologus",
+    "title": "Περὶ καταρχῶν",
+    "urn": "urn:cts:greekLit:tlg1487.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Maximus, Astrologus",
+    "title": "Carminum de actionum auspiciis reliquiae (epitome)",
+    "urn": "urn:cts:greekLit:tlg1487.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Oracula Sibyllina",
+    "title": "Oracula",
+    "urn": "urn:cts:greekLit:tlg1551.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Oracula Sibyllina",
+    "title": "Fragmenta",
+    "urn": "urn:cts:greekLit:tlg1551.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Philostratus Sophista",
+    "title": "Εἰκόνες",
+    "urn": "urn:cts:greekLit:tlg1600.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Polycarp",
+    "title": "Epistula ad Philippenses",
+    "urn": "urn:cts:greekLit:tlg1622.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Testamentum Abrahamae",
+    "title": "The Testament of Abraham Recension A",
+    "urn": "urn:cts:greekLit:tlg1701.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Testamentum Abrahamae",
+    "title": "The Testament of Abraham Recension B",
+    "urn": "urn:cts:greekLit:tlg1701.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Theon Smyrnaeus",
+    "title": "De utilitate mathematicae",
+    "urn": "urn:cts:greekLit:tlg1724.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Theophilus",
+    "title": "Ad Autolycum",
+    "urn": "urn:cts:greekLit:tlg1725.tlg001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Theophilus",
+    "title": "Ad Autolycum",
+    "urn": "urn:cts:greekLit:tlg1725.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Vitae Aesopi",
+    "title": "Vita Aesopi Pl vel Accursiana (sub auctore Maximo Planude)(recensio 1)",
+    "urn": "urn:cts:greekLit:tlg1765.tlg003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Vitae Aesopi",
+    "title": "Vita Aesopi (fort. auctore Aphthonio)",
+    "urn": "urn:cts:greekLit:tlg1765.tlg004.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Vitae Aesopi",
+    "title": "Βιβλίον μυθικὸν τοῦ Αἰσώπου",
+    "urn": "urn:cts:greekLit:tlg1765.tlg005.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Tatianus",
+    "title": "Oratio ad Graecos",
+    "urn": "urn:cts:greekLit:tlg1766.tlg001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Euclid",
+    "title": "Elements",
+    "urn": "urn:cts:greekLit:tlg1799.tlg001.perseus-grc2",
+    "core": false
+  },
+  {
+    "author": "Euclid",
+    "title": "Data",
+    "urn": "urn:cts:greekLit:tlg1799.tlg007.First1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Euclid",
+    "title": "Data (demonstrationes alterae)",
+    "urn": "urn:cts:greekLit:tlg1799.tlg008.First1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Plotinus",
+    "title": "Enneades",
+    "urn": "urn:cts:greekLit:tlg2000.tlg001.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Themistius",
+    "title": "Analyticorum Posteriorum Paraphrasis",
+    "urn": "urn:cts:greekLit:tlg2001.tlg038.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Themistius",
+    "title": "In Aristotelis Physica Paraphrasis",
+    "urn": "urn:cts:greekLit:tlg2001.tlg039.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Themistius",
+    "title": "In Aristotelis Libros De Anima Paraphrasis",
+    "urn": "urn:cts:greekLit:tlg2001.tlg040.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Themistius",
+    "title": "(Sophoniae) In Parva Naturalia Commentarium",
+    "urn": "urn:cts:greekLit:tlg2001.tlg041.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Themistius",
+    "title": "Quae Fertur In Aristotelis Analyticorum Priorum Librum I",
+    "urn": "urn:cts:greekLit:tlg2001.tlg042.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Themistius",
+    "title": "In Libros Aristotelis De Caelo Paraphrasis",
+    "urn": "urn:cts:greekLit:tlg2001.tlg043.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "Praeparatio Evangelica",
+    "urn": "urn:cts:greekLit:tlg2018.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "Historia Ecclesiastica",
+    "urn": "urn:cts:greekLit:tlg2018.tlg002.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "Historia Ecclesiastica",
+    "urn": "urn:cts:greekLit:tlg2018.tlg002.opp-grc3",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "De Martyribus Palaestinae (Recensio Brevior)",
+    "urn": "urn:cts:greekLit:tlg2018.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "Demonstratio Evangelica",
+    "urn": "urn:cts:greekLit:tlg2018.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "De Ecclesiastica Theologia",
+    "urn": "urn:cts:greekLit:tlg2018.tlg009.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "De Theophania (Fragmenta)",
+    "urn": "urn:cts:greekLit:tlg2018.tlg010.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "Onomasticon",
+    "urn": "urn:cts:greekLit:tlg2018.tlg011.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "Vita Constantini",
+    "urn": "urn:cts:greekLit:tlg2018.tlg020.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "Oration of Constantine",
+    "urn": "urn:cts:greekLit:tlg2018.tlg021.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eusebius",
+    "title": "De Laudibus Constantini",
+    "urn": "urn:cts:greekLit:tlg2018.tlg022.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Epiphanius",
+    "title": "Ancoratus",
+    "urn": "urn:cts:greekLit:tlg2021.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Epiphanius",
+    "title": "Panarion (Adversus Haereses)",
+    "urn": "urn:cts:greekLit:tlg2021.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Epiphanius",
+    "title": "Anacephalaeosis [Sp.]",
+    "urn": "urn:cts:greekLit:tlg2021.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Gregorius Nazianzenus",
+    "title": "Christus Patiens [Dub.] (Fort. Auctore Constantino Manasse)",
+    "urn": "urn:cts:greekLit:tlg2022.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Gregorius Nazianzenus",
+    "title": "Adversus Eunomianos (Orat. 27)",
+    "urn": "urn:cts:greekLit:tlg2022.tlg007.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Gregorius Nazianzenus",
+    "title": "De Theologia (Orat. 28)",
+    "urn": "urn:cts:greekLit:tlg2022.tlg008.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Gregorius Nazianzenus",
+    "title": "De Filio (Orat. 29)",
+    "urn": "urn:cts:greekLit:tlg2022.tlg009.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Gregorius Nazianzenus",
+    "title": "De Filio (Orat. 30)",
+    "urn": "urn:cts:greekLit:tlg2022.tlg010.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Gregorius Nazianzenus",
+    "title": "De Spiritu Sancto (Orat. 31)",
+    "urn": "urn:cts:greekLit:tlg2022.tlg011.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Gregorius Nazianzenus",
+    "title": "Carmina moralia",
+    "urn": "urn:cts:greekLit:tlg2022.tlg060.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Iamblichus",
+    "title": "Protrepticus",
+    "urn": "urn:cts:greekLit:tlg2023.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Porphyrius",
+    "title": "Isagoge Sive Quinque Voces",
+    "urn": "urn:cts:greekLit:tlg2034.tlg006.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Porphyrius",
+    "title": "In Aristotelis Categorias Expositio Per Interrogationem Et Responsionem",
+    "urn": "urn:cts:greekLit:tlg2034.tlg007.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Porphyrius",
+    "title": "Quaestionum Homericanum ad Iliadem pertinentium reliquiae",
+    "urn": "urn:cts:greekLit:tlg2034.tlg014.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Porphyrius",
+    "title": "Zetemata codicis Vaticani",
+    "urn": "urn:cts:greekLit:tlg2034.tlg015.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Dexippus",
+    "title": "In Aristotelis Categorias Commentarium",
+    "urn": "urn:cts:greekLit:tlg2036.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Marcellus",
+    "title": "Fragmenta",
+    "urn": "urn:cts:greekLit:tlg2041.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Contra Celsum",
+    "urn": "urn:cts:greekLit:tlg2042.tlg001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Commentarii In Evangelium Joannis",
+    "urn": "urn:cts:greekLit:tlg2042.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Fragmenta In Evangelium Joannis (In Catenis)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg006.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Exhortatio ad martyrium",
+    "urn": "urn:cts:greekLit:tlg2042.tlg007.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "De oratione",
+    "urn": "urn:cts:greekLit:tlg2042.tlg008.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "In Jeremiam (Homiliae 1-11)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg009.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Fragmenta In Jeremiam (In Catenis)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg010.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Fragmenta In Lamentationes (In Catenis de Prophetis)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg011.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Fragmentum In Lamentationes (In Catenis de Octateucho)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg012.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "De Engastrimytho (Homilia In I Reg. [I Sam.] 28.3-25)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg013.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Fragmenta in Librum Primum Regnorum (In Catenis de Samuelis et Regnorum)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg014.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Fragmentum In Librum Primum Regnorum (In Catenis de Cantico Canticorum)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg015.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Homiliae In Lucam",
+    "urn": "urn:cts:greekLit:tlg2042.tlg016.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Fragmenta In Lucam (In Catenis)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg017.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "In Jeremiam (Homiliae 12-20)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg021.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Commentariorum Series In Evangelium Matthaei (Mt. 22.34-27.63)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg028.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Commentarium In Evangelium Matthaei (Lib. 10-11)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg029.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Commentarium In Evangelium Matthaei (Lib. 12-17)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg030.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Epistula ad Africanum",
+    "urn": "urn:cts:greekLit:tlg2042.tlg045.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Origen",
+    "title": "Fragmenta In Jeremiam (E Philocalia)",
+    "urn": "urn:cts:greekLit:tlg2042.tlg084.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Sozomenus",
+    "title": "Historia Ecclesiastica",
+    "urn": "urn:cts:greekLit:tlg2048.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Eunapius",
+    "title": "Vitae Sophistarum",
+    "urn": "urn:cts:greekLit:tlg2050.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Socrates, Scholasticus",
+    "title": "Ecclesiastical history",
+    "urn": "urn:cts:greekLit:tlg2057.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Philostorgius",
+    "title": "Historia ecclesiastica (fragmenta ap. Photium)",
+    "urn": "urn:cts:greekLit:tlg2058.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippolytus",
+    "title": "Refutatio Omnium Haeresium (= Philosophumena)",
+    "urn": "urn:cts:greekLit:tlg2115.tlg060.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Hippolytus",
+    "title": "Refutatio Omnium Haeresium (= Philosophumena)",
+    "urn": "urn:cts:greekLit:tlg2115.tlg060.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Epistulae 1-1544",
+    "urn": "urn:cts:greekLit:tlg2200.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 1",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00401.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 2",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00402.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 3",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00403.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 4",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00404.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 5",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00405.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 6",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00406.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 7",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00407.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 8",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00408.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 9",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00409.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 10",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00410.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 11",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00411.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 26",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00426.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 27",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00427.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 28",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00428.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 29",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00429.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 30",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00430.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 31",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00431.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 32",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00432.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 33",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00433.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 34",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00434.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 35",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00435.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 36",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00436.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 37",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00437.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 38",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00438.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 39",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00439.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 40",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00440.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 41",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00441.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 42",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00442.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 43",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00443.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 44",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00444.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 45",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00445.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 46",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00446.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 47",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00447.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 48",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00448.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 49",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00449.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 50",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00450.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 51",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00451.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 52",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00452.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 53",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00453.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 54",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00454.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 55",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00455.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 56",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00456.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 57",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00457.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 58",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00458.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 59",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00459.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 60",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00460.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 61",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00461.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 62",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00462.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 63",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00463.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Oratio 64",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00464.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 1",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00501.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 2",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00502.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 3",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00503.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 4",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00504.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 5",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00505.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 6",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00506.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 7",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00507.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 8",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00508.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 9",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00509.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 10",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00510.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 11",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00511.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 12",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00512.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 13",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00513.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 14",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00514.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 15",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00515.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 16",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00516.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 17",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00517.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 18",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00518.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 19",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00519.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 20",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00520.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 21",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00521.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 22",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00522.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 23",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00523.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 24",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00524.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 25",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00525.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 26",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00526.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 27",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00527.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 28",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00528.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 29",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00529.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 30",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00530.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 31",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00531.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 32",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00532.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 33",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00533.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 34",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00534.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 35",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00535.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 36",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00536.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 37",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00537.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 38",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00538.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 39",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00539.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 40",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00540.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 41",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00541.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 42",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00542.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 43",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00543.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 44",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00544.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 45",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00545.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 46",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00546.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 47",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00547.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 48",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00548.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 49",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00549.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 50",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00550.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Declamatio 51",
+    "urn": "urn:cts:greekLit:tlg2200.tlg00551.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Libanius",
+    "title": "Characteres Epistolici [Sp.]",
+    "urn": "urn:cts:greekLit:tlg2200.tlg008.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "unknown",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg2255.perseus001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "unknown",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg2255.perseus002.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Chronicon Paschale",
+    "title": "Chronicon Paschale",
+    "urn": "urn:cts:greekLit:tlg2371.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Manetho Astrologus, 4th. century CE",
+    "title": "Apotelesmatica",
+    "urn": "urn:cts:greekLit:tlg2583.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Anna Comnena",
+    "title": "Alexias",
+    "urn": "urn:cts:greekLit:tlg2703.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Anna Comnena",
+    "title": "Alexias",
+    "urn": "urn:cts:greekLit:tlg2703.tlg001.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Anna Comnena",
+    "title": "Alexias",
+    "urn": "urn:cts:greekLit:tlg2703.tlg001.opp-grclat1",
+    "core": false
+  },
+  {
+    "author": "Evagrius, Scholasticus",
+    "title": "Ecclesiastical History",
+    "urn": "urn:cts:greekLit:tlg2733.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Gelasius",
+    "title": "Historia Ecclesiastica",
+    "urn": "urn:cts:greekLit:tlg2768.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Gelasius",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg2768.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Methodius",
+    "title": "Symposium Sive Convivium Decem Virginum",
+    "urn": "urn:cts:greekLit:tlg2959.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Methodius",
+    "title": "De Libero Arbitrio",
+    "urn": "urn:cts:greekLit:tlg2959.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Methodius",
+    "title": "De Creatis (Fragmenta Ap. Photium, Bibl. Cod. 235)",
+    "urn": "urn:cts:greekLit:tlg2959.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Methodius",
+    "title": "Adversus Porphyrium (Fragmenta)",
+    "urn": "urn:cts:greekLit:tlg2959.tlg006.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Methodius",
+    "title": "Fragmenta In Job (In Catenis)",
+    "urn": "urn:cts:greekLit:tlg2959.tlg007.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Methodius",
+    "title": "De Martyribus (Fragmenta)",
+    "urn": "urn:cts:greekLit:tlg2959.tlg008.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Methodius",
+    "title": "Fragmenta Incerta [Sp.]",
+    "urn": "urn:cts:greekLit:tlg2959.tlg010.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Sindbad the Philosopher",
+    "title": "Ιστορικον Συντιπα του Φιλοσοφου Ωραιοτατον Πανυ",
+    "urn": "urn:cts:greekLit:tlg3118.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Sindbad the Philosopher",
+    "title": "Narrationes de Syntipa",
+    "urn": "urn:cts:greekLit:tlg3118.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Joannes Zonaras",
+    "title": "Annals of Rome",
+    "urn": "urn:cts:greekLit:tlg3135.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Joannes Zonaras",
+    "title": "Annals of Rome",
+    "urn": "urn:cts:greekLit:tlg3135.tlg001.opp-grc3",
+    "core": false
+  },
+  {
+    "author": "Joannes Zonaras",
+    "title": "Argumenta",
+    "urn": "urn:cts:greekLit:tlg3135.tlg004.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Joannes Zonaras",
+    "title": "Chronologia",
+    "urn": "urn:cts:greekLit:tlg3135.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Anonymi Exegesis in Hesiodi Theogoniam",
+    "title": "Exegesis in Hesiodi theogoniam",
+    "urn": "urn:cts:greekLit:tlg3156.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Simplicius",
+    "title": "In Aristotelis Quattuor Libros De Caelo Commentaria",
+    "urn": "urn:cts:greekLit:tlg4013.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Simplicius",
+    "title": "In Aristotelis Categorias Commentarium",
+    "urn": "urn:cts:greekLit:tlg4013.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Simplicius",
+    "title": "In Aristotelis Physicorum Libros Commentaria",
+    "urn": "urn:cts:greekLit:tlg4013.tlg004.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Simplicius",
+    "title": "In Aristotelis Libros De Anima Commentaria [Sp.?] (fort. auctore Prisciano Lydo)",
+    "urn": "urn:cts:greekLit:tlg4013.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "John Philoponus",
+    "title": "In Aristotelis Categorias Commentarium",
+    "urn": "urn:cts:greekLit:tlg4015.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "John Philoponus",
+    "title": "In Aristotelis Analytica Priora Commentaria",
+    "urn": "urn:cts:greekLit:tlg4015.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "John Philoponus",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg4015.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "John Philoponus",
+    "title": "In Aristotelis Analytica Posteriora Commentaria",
+    "urn": "urn:cts:greekLit:tlg4015.tlg004.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "John Philoponus",
+    "title": "In Aristotelis Meteorologicorum Librum Primum Commentarium",
+    "urn": "urn:cts:greekLit:tlg4015.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "John Philoponus",
+    "title": "In Aristotelis Libros De Generatione Et Corruptione Commentaria",
+    "urn": "urn:cts:greekLit:tlg4015.tlg006.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "John Philoponus",
+    "title": "In Libros De Generatione Animalium Commentaria",
+    "urn": "urn:cts:greekLit:tlg4015.tlg007.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "John Philoponus",
+    "title": "In Aristotelis Libros De Anima Commentaria",
+    "urn": "urn:cts:greekLit:tlg4015.tlg008.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "John Philoponus",
+    "title": "In Aristotelis Physicorum Libros Commentaria",
+    "urn": "urn:cts:greekLit:tlg4015.tlg009.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Ammonius",
+    "title": "In Porphyrii Isagogen Sive Quinque Voces",
+    "urn": "urn:cts:greekLit:tlg4016.tlg001.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Ammonius",
+    "title": "In Aristotelis Categorias Commentarius",
+    "urn": "urn:cts:greekLit:tlg4016.tlg002.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Ammonius",
+    "title": "In Aristotelis Librum De Interpretatione Commentarius",
+    "urn": "urn:cts:greekLit:tlg4016.tlg003.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Ammonius",
+    "title": "In Aristotelis Analyticorum Priorum Librum I Commentarium",
+    "urn": "urn:cts:greekLit:tlg4016.tlg004.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Syrianus",
+    "title": "In Aristotelis Metaphysica Commentaria",
+    "urn": "urn:cts:greekLit:tlg4017.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Asclepius",
+    "title": "In Aristotelis Metaphysicorum Libros A-Z Commentaria",
+    "urn": "urn:cts:greekLit:tlg4018.tlg001.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Olympiodorus",
+    "title": "Prolegomena",
+    "urn": "urn:cts:greekLit:tlg4019.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Olympiodorus",
+    "title": "In Aristotelis Meteora Commentaria",
+    "urn": "urn:cts:greekLit:tlg4019.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Elias",
+    "title": "In Porphyrii Isagogen",
+    "urn": "urn:cts:greekLit:tlg4020.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Elias",
+    "title": "Eliae (Olim Davidis) In Aristotelis Categorias Commentarium",
+    "urn": "urn:cts:greekLit:tlg4020.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "David the Invincible",
+    "title": "In Porphyrii Isagogen Commentarium",
+    "urn": "urn:cts:greekLit:tlg4021.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Agathias Scholasticus",
+    "title": "Historiae",
+    "urn": "urn:cts:greekLit:tlg4024.tlg001.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Agathias Scholasticus",
+    "title": "Epigrammata",
+    "urn": "urn:cts:greekLit:tlg4024.tlg002.opp-grc12",
+    "core": false
+  },
+  {
+    "author": "Anonymi In Aristotelis Categorias",
+    "title": "Paraphrasis Categoriarum",
+    "urn": "urn:cts:greekLit:tlg4027.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Sophonias",
+    "title": "In Aristotelis Libros De Anima Paraphrasis",
+    "urn": "urn:cts:greekLit:tlg4030.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Eustratius",
+    "title": "In Aristotelis Ethica Nicomachea I Commentaria",
+    "urn": "urn:cts:greekLit:tlg4031.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Anonymi In Aristotelis Ethica Nicomachea",
+    "title": "In Ethica Nicomachea Paraphrasis (Pseudepigraphum Olim A Constantino Palaeocappa confectum et olim sub auctore Heliodoro Prusensi vel Andronico Rhodio vel Olympiodoro)",
+    "urn": "urn:cts:greekLit:tlg4033.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Michael of Ephesus",
+    "title": "In Parva Naturalia Commentaria",
+    "urn": "urn:cts:greekLit:tlg4034.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Michael of Ephesus",
+    "title": "In Libros De Partibus Animalium Commentaria",
+    "urn": "urn:cts:greekLit:tlg4034.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Michael of Ephesus",
+    "title": "In Libros De Partibus Animalium Commentaria",
+    "urn": "urn:cts:greekLit:tlg4034.tlg003.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Michael of Ephesus",
+    "title": "In Librum Quintum Ethicorum Nicomacheorum Commentarium",
+    "urn": "urn:cts:greekLit:tlg4034.tlg006.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Michael of Ephesus",
+    "title": "In Librum Quintum Ethicorum Nicomacheorum Commentarium",
+    "urn": "urn:cts:greekLit:tlg4034.tlg006.opp-grc2",
+    "core": false
+  },
+  {
+    "author": "Proclus",
+    "title": "In Platonis Rem Publicam Commentarii",
+    "urn": "urn:cts:greekLit:tlg4036.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Proclus",
+    "title": "Chrestomathy",
+    "urn": "urn:cts:greekLit:tlg4036.tlg023.cypria-grc1",
+    "core": false
+  },
+  {
+    "author": "Marinus, 5th century",
+    "title": "Commentarium in Euclidis data",
+    "urn": "urn:cts:greekLit:tlg4075.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Zosimus",
+    "title": "Historia Nova",
+    "urn": "urn:cts:greekLit:tlg4084.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Theodoret",
+    "title": "Historia Ecclesiastica",
+    "urn": "urn:cts:greekLit:tlg4089.tlg003.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Theodoret",
+    "title": "Historia Ecclesiastica",
+    "urn": "urn:cts:greekLit:tlg4089.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Theodoret",
+    "title": "Historia Religiosa",
+    "urn": "urn:cts:greekLit:tlg4089.tlg004.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Cyril of Alexandria",
+    "title": "In XII Prophetas",
+    "urn": "urn:cts:greekLit:tlg4090.tlg001.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Matthaeum (Catena Integra) (E Cod. Paris. Coislin. Gr. 23)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Marcum (Recensio ii) (E Codd. Oxon. Bodl. Laud. 33 + Paris. Coislin. 23 + Paris. gr. 178)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg002.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Supplementum et varietas lectionis ad commentarium Chrysostomi in evangelium sancti Matthaei (e cod. Oxon. Bodl. Auct. T.1.4)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg003.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Lucam (Typus B) (e codd. Paris. Coislin. 23 + Oxon. Bodl. Misc. 182)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg004.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Joannem (Catena Integra) (e codd. Paris. Coislin. 23 + Oxon. Bodl. Auct. T.1.4)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg005.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Supplementum et varietas lectionis ad catenam in evangelium sancti Lucae (e cod. Oxon. Bodl. Laud. 33)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg006.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Supplementum Et Varietas Lectionis Ad Catenam In Evangelium Sancti Joannis (e cod. Bodl. B.)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg007.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Acta (Catena Andreae) (e cod. Oxon. coll. nov. 58)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg008.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Ad Romanos (Typus Vaticanus) (E Cod. Oxon. Bodl. Auct. E.2.20 [= Misc. 48])",
+    "urn": "urn:cts:greekLit:tlg4102.tlg010.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Ad Romanos (Typus Monacensis) (E Cod. Monac. gr. 412)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg011.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam I Ad Corinthios (Typus Vaticanus) (e Cod. Paris. gr. 227)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg012.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam II Ad Corinthios (Catena Pseudo-Oecumenii)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg013.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Ad Galatas (Typus Parisinus) (E Cod. Coislin. 204)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg019.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Ad Ephesios (Typus Parisinus) (E Cod. Coislin. 204)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg020.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Ad Philippenses (Typus Parisinus) (e cod. Coislin. 204)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg021.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Ad Colossenses (Typus Parisinus) (E Cod. Coislin. 204)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg022.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam I Ad Thessalonicenses (Typus Parisinus)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg023.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam II Ad Thessalonicenses (Typus Parisinus)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg024.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam I Ad Timotheum (E Cod. Paris. Coislin. 204)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg034.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam II Ad Timotheum (E Cod. Paris. Coislin. 204)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg035.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Ad Titum (E Cod. Paris. Coislin. 204)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg036.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Ad Philemonem (E Cod. Paris. Coislin. 204)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg037.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Ad Hebraeos (E Cod. Paris. Coislin. 204)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg038.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg4102.tlg039.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena In Epistulam Jacobi (Catena Andreae)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg040.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena in epistulam Petri i (catena Andreae) (e cod. Oxon. coll. nov. 58)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg041.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena in epistulam Petri ii (catena Andreae) (e cod. Oxon. coll. nov. 58)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg042.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena in epistulam Joannis i (catena Andreae) (e cod. Oxon. coll. nov. 58)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg043.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena in epistulam Joannis ii (catena Andreae) (e cod. Oxon. coll. nov. 58).",
+    "urn": "urn:cts:greekLit:tlg4102.tlg044.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Catena in epistulam Joannis iii (catena Andreae) (e cod. Oxon. coll. nov. 58)",
+    "urn": "urn:cts:greekLit:tlg4102.tlg045.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Prooemium Pseudo-Oecumenii In Apocalypsin Commentarii (E Cod.",
+    "urn": "urn:cts:greekLit:tlg4102.tlgX01.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Commentarius In Apocalypsin",
+    "urn": "urn:cts:greekLit:tlg4102.tlgX02.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Catenae (Novum Testamentum)",
+    "title": "Commentarius In Apocalypsin (Pseudo-Oecumenii) (E Cod. Coislin.",
+    "urn": "urn:cts:greekLit:tlg4102.tlgX03.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Vitae Pindari et varia de Pindaro",
+    "title": "Vita Ambrosiana",
+    "urn": "urn:cts:greekLit:tlg4170.tlg001a.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Vitae Pindari et varia de Pindaro",
+    "title": "Vita Thomana et hypothesis Olympiorum",
+    "urn": "urn:cts:greekLit:tlg4170.tlg001b.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Vitae Pindari et varia de Pindaro",
+    "title": "Vita metrica",
+    "urn": "urn:cts:greekLit:tlg4170.tlg001c.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Vitae Pindari et varia de Pindaro",
+    "title": "Pentathlon et de novem lyricis",
+    "urn": "urn:cts:greekLit:tlg4170.tlg001d.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Vitae Pindari et varia de Pindaro",
+    "title": "unknown",
+    "urn": "urn:cts:greekLit:tlg4170.tlg001.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Anonymi In Aristotelis Sophisticos Elenchos",
+    "title": "In Aristotelis Sophisticos Elenchos Paraphrasis",
+    "urn": "urn:cts:greekLit:tlg4193.tlg012.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Scholia in Euclidem",
+    "title": "Scholia in Euclidis Data",
+    "urn": "urn:cts:greekLit:tlg5022.tlg002.1st1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Scholia in Homerum",
+    "title": "Scholia in Odysseam",
+    "urn": "urn:cts:greekLit:tlg5026.tlg007.First1K-grc1",
+    "core": false
+  },
+  {
+    "author": "Pindar Scholia",
+    "title": "Scholia in Pindarum Olympian Odes",
+    "urn": "urn:cts:greekLit:tlg5034.tlg001a.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Pindar Scholia",
+    "title": "Scholia in Pindarum Pythian Odes",
+    "urn": "urn:cts:greekLit:tlg5034.tlg001b.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Pindar Scholia",
+    "title": "Scholia in Pindarum Nemean Odes",
+    "urn": "urn:cts:greekLit:tlg5034.tlg001c.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Pindar Scholia",
+    "title": "Scholia in Pindarum Isthmian Odes",
+    "urn": "urn:cts:greekLit:tlg5034.tlg001d.perseus-grc1",
+    "core": false
+  },
+  {
+    "author": "Anonymi In Aristotelis Librum Alterum Analyticorum Posteriorum",
+    "title": "Anonymi In Analyticorum Posteriorum Librum Alterum Commentarium",
+    "urn": "urn:cts:greekLit:tlg9004.tlg001.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Gregorius",
+    "title": "Orationes XIII-XXX",
+    "urn": "urn:cts:greekLit:tlg9006.tlg011.opp-grc1",
+    "core": false
+  },
+  {
+    "author": "Stephanus of Alexandria",
+    "title": "In Aristotelis Librum De Interpretatione Commentarium",
+    "urn": "urn:cts:greekLit:tlg9019.tlg001.opp-grc1",
+    "core": false
+  }
+]

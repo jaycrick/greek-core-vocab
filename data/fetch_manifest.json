@@ -1,793 +1,1178 @@
 [
   {
-    "urn": "Perseus:text:1999.01.0003",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0003.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0005",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0005.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0007",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0007.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0009",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0009.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0011",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0011.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0013",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0013.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0015",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0015.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0023",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0023.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0025",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0025.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0027",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0027.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0029",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0029.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0031",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0031.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0033",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0033.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0035",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0035.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0037",
-    "success": true,
-    "method": "table",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0037.table.html"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0039",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0039.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0041",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0041.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0043",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0043.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0045",
-    "success": true,
-    "method": "xml",
-    "filt": 75,
-    "cache_file": "data/raw/1999.01.0045.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0051",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0051.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0053",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0053.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0055",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0055.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0057",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0057.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0059",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0059.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0085",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0085.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0087",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0087.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0089",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0089.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0091",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0091.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0095",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0095.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0097",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0097.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0099",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0099.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0101",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0101.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0103",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0103.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0105",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0105.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0107",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0107.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0109",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0109.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0111",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0111.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0113",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0113.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0115",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0115.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0117",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0117.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0119",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0119.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0121",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0121.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0123",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0123.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0125",
-    "success": true,
-    "method": "table",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0125.table.html"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0163",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0163.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0165",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0165.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0169",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0169.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0171",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0171.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0173",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0173.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0175",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0175.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0177",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0177.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0179",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0179.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0181",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0181.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0182",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0182.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0183",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0183.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0185",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0185.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0187",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0187.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0189",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0189.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0191",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0191.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0193",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0193.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0195",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0195.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0235",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0235.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0249",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0249.xml"
-  },
-  {
-    "urn": "Perseus:text:1999.01.0255",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/1999.01.0255.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0069",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0069.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0070",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0070.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0071",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0071.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0072",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0072.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0073",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0073.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0074",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0074.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0075",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0075.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0076",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0076.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0077",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0077.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0079",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0079.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0080",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0080.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0081",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0081.xml"
-  },
-  {
-    "urn": "Perseus:text:2008.01.0082",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0082.xml"
+    "urn": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2",
+    "group_key": "tlg0003.tlg001",
+    "author": "Thucydides",
+    "title": "History of the Peloponnesian War",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0003.tlg001.perseus-grc2.html",
+    "lemmas": 6127,
+    "tokens": 156603
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0006.tlg009.perseus-grc2",
+    "group_key": "tlg0006.tlg009",
+    "author": "Euripides",
+    "title": "Heracles",
+    "core": true,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0006.tlg009.perseus-grc2b"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0006.tlg009.perseus-grc2.html",
+    "lemmas": 2063,
+    "tokens": 8722
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0006.tlg017.perseus-grc2",
+    "group_key": "tlg0006.tlg017",
+    "author": "Euripides",
+    "title": "Bacchae",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0006.tlg017.perseus-grc2.html",
+    "lemmas": 2048,
+    "tokens": 8317
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg001.perseus-grc2",
+    "group_key": "tlg0007.tlg001",
+    "author": "Plutarch",
+    "title": "Theseus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg001.perseus-grc2.html",
+    "lemmas": 1863,
+    "tokens": 7723
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg002.perseus-grc2",
+    "group_key": "tlg0007.tlg002",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg002.perseus-grc2.html",
+    "lemmas": 1850,
+    "tokens": 9066
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg004.perseus-grc2",
+    "group_key": "tlg0007.tlg004",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg004.perseus-grc2.html",
+    "lemmas": 1962,
+    "tokens": 9672
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg005.perseus-grc2",
+    "group_key": "tlg0007.tlg005",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg005.perseus-grc2.html",
+    "lemmas": 1698,
+    "tokens": 7615
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg007.perseus-grc2",
+    "group_key": "tlg0007.tlg007",
+    "author": "Plutarch",
+    "title": "Solon",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg007.perseus-grc2.html",
+    "lemmas": 2020,
+    "tokens": 8978
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg008.perseus-grc2",
+    "group_key": "tlg0007.tlg008",
+    "author": "Plutarch",
+    "title": "Publicola",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg008.perseus-grc2.html",
+    "lemmas": 1362,
+    "tokens": 5872
   },
-  {
-    "urn": "Perseus:text:2008.01.0083",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0083.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg010.perseus-grc2",
+    "group_key": "tlg0007.tlg010",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg010.perseus-grc2.html",
+    "lemmas": 1923,
+    "tokens": 8265
   },
-  {
-    "urn": "Perseus:text:2008.01.0084",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0084.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg011.perseus-grc2",
+    "group_key": "tlg0007.tlg011",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg011.perseus-grc2.html",
+    "lemmas": 2038,
+    "tokens": 11123
   },
-  {
-    "urn": "Perseus:text:2008.01.0085",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0085.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg012.perseus-grc2",
+    "group_key": "tlg0007.tlg012",
+    "author": "Plutarch",
+    "title": "Pericles",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg012.perseus-grc2.html",
+    "lemmas": 2321,
+    "tokens": 10472
   },
-  {
-    "urn": "Perseus:text:2008.01.0086",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0086.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg013.perseus-grc2",
+    "group_key": "tlg0007.tlg013",
+    "author": "Plutarch",
+    "title": "Fabius Maximus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg013.perseus-grc2.html",
+    "lemmas": 1649,
+    "tokens": 7841
   },
-  {
-    "urn": "Perseus:text:2008.01.0087",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0087.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg015.perseus-grc2",
+    "group_key": "tlg0007.tlg015",
+    "author": "Plutarch",
+    "title": "Alcibiades",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg015.perseus-grc2.html",
+    "lemmas": 2130,
+    "tokens": 10552
   },
-  {
-    "urn": "Perseus:text:2008.01.0088",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0088.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg016.perseus-grc2",
+    "group_key": "tlg0007.tlg016",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg016.perseus-grc2.html",
+    "lemmas": 1752,
+    "tokens": 9594
   },
-  {
-    "urn": "Perseus:text:2008.01.0089",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0089.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg018.perseus-grc2",
+    "group_key": "tlg0007.tlg018",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg018.perseus-grc2.html",
+    "lemmas": 1821,
+    "tokens": 9332
   },
-  {
-    "urn": "Perseus:text:2008.01.0090",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0090.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg019.perseus-grc2",
+    "group_key": "tlg0007.tlg019",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg019.perseus-grc2.html",
+    "lemmas": 2179,
+    "tokens": 9993
   },
-  {
-    "urn": "Perseus:text:2008.01.0091",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0091.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg021.perseus-grc2",
+    "group_key": "tlg0007.tlg021",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg021.perseus-grc2.html",
+    "lemmas": 1877,
+    "tokens": 9665
   },
-  {
-    "urn": "Perseus:text:2008.01.0109",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0109.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0007.tlg047.perseus-grc2",
+    "group_key": "tlg0007.tlg047",
+    "author": "Plutarch",
+    "title": "unknown",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0007.tlg047.perseus-grc2.html",
+    "lemmas": 3096,
+    "tokens": 20245
   },
-  {
-    "urn": "Perseus:text:2008.01.0110",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0110.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0011.tlg001.perseus-grc2",
+    "group_key": "tlg0011.tlg001",
+    "author": "Sophocles",
+    "title": "Trachiniae",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0011.tlg001.perseus-grc2.html",
+    "lemmas": 1966,
+    "tokens": 8024
   },
-  {
-    "urn": "Perseus:text:2008.01.0111",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0111.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0011.tlg002.perseus-grc2",
+    "group_key": "tlg0011.tlg002",
+    "author": "Sophocles",
+    "title": "Antigone",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0011.tlg002.perseus-grc2.html",
+    "lemmas": 1989,
+    "tokens": 8094
   },
-  {
-    "urn": "Perseus:text:2008.01.0112",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0112.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0011.tlg003.perseus-grc2",
+    "group_key": "tlg0011.tlg003",
+    "author": "Sophocles",
+    "title": "Ajax",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0011.tlg003.perseus-grc2.html",
+    "lemmas": 2059,
+    "tokens": 8696
   },
-  {
-    "urn": "Perseus:text:2008.01.0113",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0113.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0011.tlg004.perseus-grc2",
+    "group_key": "tlg0011.tlg004",
+    "author": "Sophocles",
+    "title": "Oedipus Tyrannus",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0011.tlg004.perseus-grc2.html",
+    "lemmas": 1907,
+    "tokens": 10330
   },
-  {
-    "urn": "Perseus:text:2008.01.0114",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0114.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0011.tlg005.perseus-grc2",
+    "group_key": "tlg0011.tlg005",
+    "author": "Sophocles",
+    "title": "Electra",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0011.tlg005.perseus-grc2.html",
+    "lemmas": 1892,
+    "tokens": 9731
   },
-  {
-    "urn": "Perseus:text:2008.01.0115",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0115.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0011.tlg006.perseus-grc2",
+    "group_key": "tlg0011.tlg006",
+    "author": "Sophocles",
+    "title": "Philoctetes",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0011.tlg006.perseus-grc2.html",
+    "lemmas": 1904,
+    "tokens": 9839
   },
-  {
-    "urn": "Perseus:text:2008.01.0116",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0116.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0011.tlg007.perseus-grc2",
+    "group_key": "tlg0011.tlg007",
+    "author": "Sophocles",
+    "title": "Oedipus at Colonus",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0011.tlg007.perseus-grc2.html",
+    "lemmas": 2178,
+    "tokens": 11705
   },
-  {
-    "urn": "Perseus:text:2008.01.0117",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0117.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0012.tlg001.perseus-grc2",
+    "group_key": "tlg0012.tlg001",
+    "author": "Homer",
+    "title": "Iliad",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0012.tlg001.perseus-grc2.html",
+    "lemmas": 6830,
+    "tokens": 123113
   },
-  {
-    "urn": "Perseus:text:2008.01.0118",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0118.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0012.tlg002.perseus-grc2",
+    "group_key": "tlg0012.tlg002",
+    "author": "Homer",
+    "title": "Odyssey",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0012.tlg002.perseus-grc2.html",
+    "lemmas": 5788,
+    "tokens": 96374
   },
-  {
-    "urn": "Perseus:text:2008.01.0119",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0119.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0016.tlg001.perseus-grc2",
+    "group_key": "tlg0016.tlg001",
+    "author": "Herodotus",
+    "title": "The Histories",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0016.tlg001.perseus-grc2.html",
+    "lemmas": 8239,
+    "tokens": 195372
   },
-  {
-    "urn": "Perseus:text:2008.01.0120",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0120.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0019.tlg003.perseus-grc2",
+    "group_key": "tlg0019.tlg003",
+    "author": "Aristophanes",
+    "title": "Clouds",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0019.tlg003.perseus-grc2.html",
+    "lemmas": 2188,
+    "tokens": 10618
   },
-  {
-    "urn": "Perseus:text:2008.01.0121",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0121.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0019.tlg006.perseus-grc2",
+    "group_key": "tlg0019.tlg006",
+    "author": "Aristophanes",
+    "title": "Birds",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0019.tlg006.perseus-grc2.html",
+    "lemmas": 2481,
+    "tokens": 11791
   },
-  {
-    "urn": "Perseus:text:2008.01.0122",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0122.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0019.tlg007.perseus-grc2",
+    "group_key": "tlg0019.tlg007",
+    "author": "Aristophanes",
+    "title": "Lysistrata",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0019.tlg007.perseus-grc2.html",
+    "lemmas": 1923,
+    "tokens": 8811
   },
-  {
-    "urn": "Perseus:text:2008.01.0123",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0123.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0019.tlg009.perseus-grc2",
+    "group_key": "tlg0019.tlg009",
+    "author": "Aristophanes",
+    "title": "Frogs",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0019.tlg009.perseus-grc2.html",
+    "lemmas": 2367,
+    "tokens": 10033
   },
-  {
-    "urn": "Perseus:text:2008.01.0124",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0124.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0019.tlg010.perseus-grc2",
+    "group_key": "tlg0019.tlg010",
+    "author": "Aristophanes",
+    "title": "Ecclesiazusae",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0019.tlg010.perseus-grc2.html",
+    "lemmas": 1707,
+    "tokens": 8434
   },
-  {
-    "urn": "Perseus:text:2008.01.0125",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0125.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0057.tlg010.1st1K-grc1",
+    "group_key": "tlg0057.tlg010",
+    "author": "Galen",
+    "title": "De naturalibus facultatibus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0057.tlg010.1st1K-grc1.html",
+    "lemmas": 2590,
+    "tokens": 33098
   },
-  {
-    "urn": "Perseus:text:2008.01.0126",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0126.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg001.perseus-grc1",
+    "group_key": "tlg0059.tlg001",
+    "author": "Plato",
+    "title": "Euthyphro",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg001.perseus-grc1.html",
+    "lemmas": 731,
+    "tokens": 5604
   },
-  {
-    "urn": "Perseus:text:2008.01.0127",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0127.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg002.perseus-grc2",
+    "group_key": "tlg0059.tlg002",
+    "author": "Plato",
+    "title": "Apology",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg002.perseus-grc2.html",
+    "lemmas": 1136,
+    "tokens": 8668
   },
-  {
-    "urn": "Perseus:text:2008.01.0128",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0128.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg003.perseus-grc2",
+    "group_key": "tlg0059.tlg003",
+    "author": "Plato",
+    "title": "Crito",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg003.perseus-grc2.html",
+    "lemmas": 762,
+    "tokens": 4606
   },
-  {
-    "urn": "Perseus:text:2008.01.0129",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0129.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg004.perseus-grc2",
+    "group_key": "tlg0059.tlg004",
+    "author": "Plato",
+    "title": "Phaedo",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg004.perseus-grc2.html",
+    "lemmas": 2069,
+    "tokens": 23508
   },
-  {
-    "urn": "Perseus:text:2008.01.0130",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0130.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg005.perseus-grc2",
+    "group_key": "tlg0059.tlg005",
+    "author": "Plato",
+    "title": "Cratylus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg005.perseus-grc2.html",
+    "lemmas": 1729,
+    "tokens": 19894
   },
-  {
-    "urn": "Perseus:text:2008.01.0131",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0131.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg006.perseus-grc2",
+    "group_key": "tlg0059.tlg006",
+    "author": "Plato",
+    "title": "Theaetetus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg006.perseus-grc2.html",
+    "lemmas": 2162,
+    "tokens": 24529
   },
-  {
-    "urn": "Perseus:text:2008.01.0132",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0132.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg007.perseus-grc2",
+    "group_key": "tlg0059.tlg007",
+    "author": "Plato",
+    "title": "Sophist",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg007.perseus-grc2.html",
+    "lemmas": 1681,
+    "tokens": 17579
   },
-  {
-    "urn": "Perseus:text:2008.01.0133",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0133.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg008.perseus-grc2",
+    "group_key": "tlg0059.tlg008",
+    "author": "Plato",
+    "title": "Statesman",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg008.perseus-grc2.html",
+    "lemmas": 2104,
+    "tokens": 18505
   },
-  {
-    "urn": "Perseus:text:2008.01.0134",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0134.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg009.perseus-grc2",
+    "group_key": "tlg0059.tlg009",
+    "author": "Plato",
+    "title": "Parmenides",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg009.perseus-grc2.html",
+    "lemmas": 868,
+    "tokens": 16814
   },
-  {
-    "urn": "Perseus:text:2008.01.0641",
-    "success": true,
-    "method": "xml",
-    "filt": 100,
-    "cache_file": "data/raw/2008.01.0641.xml"
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg010.perseus-grc2",
+    "group_key": "tlg0059.tlg010",
+    "author": "Plato",
+    "title": "Philebus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg010.perseus-grc2.html",
+    "lemmas": 1627,
+    "tokens": 19488
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg011.perseus-grc2",
+    "group_key": "tlg0059.tlg011",
+    "author": "Plato",
+    "title": "Symposium",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg011.perseus-grc2.html",
+    "lemmas": 2046,
+    "tokens": 18792
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg012.perseus-grc2",
+    "group_key": "tlg0059.tlg012",
+    "author": "Plato",
+    "title": "Phaedrus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg012.perseus-grc2.html",
+    "lemmas": 2404,
+    "tokens": 18134
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg018.perseus-grc2",
+    "group_key": "tlg0059.tlg018",
+    "author": "Plato",
+    "title": "Charmides",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg018.perseus-grc2.html",
+    "lemmas": 981,
+    "tokens": 8995
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg019.perseus-grc2",
+    "group_key": "tlg0059.tlg019",
+    "author": "Plato",
+    "title": "Laches",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg019.perseus-grc2.html",
+    "lemmas": 1031,
+    "tokens": 8332
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg020.perseus-grc2",
+    "group_key": "tlg0059.tlg020",
+    "author": "Plato",
+    "title": "Lysis",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg020.perseus-grc2.html",
+    "lemmas": 972,
+    "tokens": 7488
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2",
+    "group_key": "tlg0059.tlg030",
+    "author": "Plato",
+    "title": "Republic",
+    "core": true,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0059.tlg030.perseus-grc2.html",
+    "lemmas": 4907,
+    "tokens": 95809
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0085.tlg001.perseus-grc2",
+    "group_key": "tlg0085.tlg001",
+    "author": "Aeschylus",
+    "title": "Suppliant Maidens",
+    "core": false,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0085.tlg001.opp-grc3"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0085.tlg001.perseus-grc2.html",
+    "lemmas": 1813,
+    "tokens": 5420
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0085.tlg002.opp-grc3",
+    "group_key": "tlg0085.tlg002",
+    "author": "Aeschylus",
+    "title": "Persians",
+    "core": true,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0085.tlg002.perseus-grc2"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0085.tlg002.opp-grc3.html",
+    "lemmas": 1803,
+    "tokens": 5081
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0085.tlg003.perseus-grc2",
+    "group_key": "tlg0085.tlg003",
+    "author": "Aeschylus",
+    "title": "Prometheus Bound",
+    "core": false,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0085.tlg003.opp-grc3"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0085.tlg003.perseus-grc2.html",
+    "lemmas": 1865,
+    "tokens": 6109
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0085.tlg004.opp-grc3",
+    "group_key": "tlg0085.tlg004",
+    "author": "Aeschylus",
+    "title": "Seven Against Thebes",
+    "core": false,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0085.tlg004.perseus-grc2"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0085.tlg004.opp-grc3.html",
+    "lemmas": 1768,
+    "tokens": 4988
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0085.tlg005.perseus-grc2",
+    "group_key": "tlg0085.tlg005",
+    "author": "Aeschylus",
+    "title": "Agamemnon",
+    "core": false,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0085.tlg005.opp-grc3"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0085.tlg005.perseus-grc2.html",
+    "lemmas": 2559,
+    "tokens": 8759
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0085.tlg006.opp-grc3",
+    "group_key": "tlg0085.tlg006",
+    "author": "Aeschylus",
+    "title": "Libation Bearers",
+    "core": false,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0085.tlg006.perseus-grc2"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0085.tlg006.opp-grc3.html",
+    "lemmas": 1720,
+    "tokens": 5268
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0085.tlg007.opp-grc3",
+    "group_key": "tlg0085.tlg007",
+    "author": "Aeschylus",
+    "title": "Eumenides",
+    "core": true,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0085.tlg007.perseus-grc2"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0085.tlg007.opp-grc3.html",
+    "lemmas": 1593,
+    "tokens": 5109
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg001.1st1K-grc2",
+    "group_key": "tlg0086.tlg001",
+    "author": "Aristotle",
+    "title": "Analytica priora",
+    "core": false,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0086.tlg001.1st1K-grc1"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg001.1st1K-grc2.html",
+    "lemmas": 1274,
+    "tokens": 63741
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg002.1st1K-grc2",
+    "group_key": "tlg0086.tlg002",
+    "author": "Aristotle",
+    "title": "De anima",
+    "core": false,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0086.tlg002.1st1K-grc1"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg002.1st1K-grc2.html",
+    "lemmas": 1350,
+    "tokens": 22232
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg003.1st1K-grc1",
+    "group_key": "tlg0086.tlg003",
+    "author": "Aristotle",
+    "title": "Res Publica Atheniensium",
+    "core": false,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0086.tlg003.1st1K-grc2"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg003.1st1K-grc1.html",
+    "lemmas": 2103,
+    "tokens": 15517
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg006.1st1K-grc1",
+    "group_key": "tlg0086.tlg006",
+    "author": "Aristotle",
+    "title": "Categoriae",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg006.1st1K-grc1.html",
+    "lemmas": 668,
+    "tokens": 10753
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg008.1st1K-grc1",
+    "group_key": "tlg0086.tlg008",
+    "author": "Aristotle",
+    "title": "De divinatione per somnum",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg008.1st1K-grc1.html",
+    "lemmas": 302,
+    "tokens": 1199
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg014.1st1K-grc1",
+    "group_key": "tlg0086.tlg014",
+    "author": "Aristotle",
+    "title": "Historia animalium",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg014.1st1K-grc1.html",
+    "lemmas": 3983,
+    "tokens": 91203
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg016.1st1K-grc1",
+    "group_key": "tlg0086.tlg016",
+    "author": "Aristotle",
+    "title": "De insomniis",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg016.1st1K-grc1.html",
+    "lemmas": 452,
+    "tokens": 2461
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg017.1st1K-grc1",
+    "group_key": "tlg0086.tlg017",
+    "author": "Aristotle",
+    "title": "De interpretatione",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg017.1st1K-grc1.html",
+    "lemmas": 416,
+    "tokens": 6538
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg018.1st1K-grc1",
+    "group_key": "tlg0086.tlg018",
+    "author": "Aristotle",
+    "title": "De iuventute et senectute, De vita et morte",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg018.1st1K-grc1.html",
+    "lemmas": 381,
+    "tokens": 1929
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg020.1st1K-grc1",
+    "group_key": "tlg0086.tlg020",
+    "author": "Aristotle",
+    "title": "De longitudine et brevitate vitae",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg020.1st1K-grc1.html",
+    "lemmas": 353,
+    "tokens": 1806
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg024.1st1K-grc1",
+    "group_key": "tlg0086.tlg024",
+    "author": "Aristotle",
+    "title": "De memoria et reminiscentia",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg024.1st1K-grc1.html",
+    "lemmas": 389,
+    "tokens": 2625
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg026.1st1K-grc1",
+    "group_key": "tlg0086.tlg026",
+    "author": "Aristotle",
+    "title": "Meteorologica",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg026.1st1K-grc1.html",
+    "lemmas": 1975,
+    "tokens": 33877
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg030.1st1K-grc1",
+    "group_key": "tlg0086.tlg030",
+    "author": "Aristotle",
+    "title": "De partibus animalium",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg030.1st1K-grc1.html",
+    "lemmas": 2105,
+    "tokens": 37955
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg031.1st1K-grc1",
+    "group_key": "tlg0086.tlg031",
+    "author": "Aristotle",
+    "title": "Physica",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg031.1st1K-grc1.html",
+    "lemmas": 1733,
+    "tokens": 59302
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg034.1st1K-grc1",
+    "group_key": "tlg0086.tlg034",
+    "author": "Aristotle",
+    "title": "Ars Poetica",
+    "core": true,
+    "alternate_urns": [
+      "urn:cts:greekLit:tlg0086.tlg034.digicorpus-grc1"
+    ],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg034.1st1K-grc1.html",
+    "lemmas": 1354,
+    "tokens": 10745
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg037.1st1K-grc1",
+    "group_key": "tlg0086.tlg037",
+    "author": "Aristotle",
+    "title": "De respiratione",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg037.1st1K-grc1.html",
+    "lemmas": 772,
+    "tokens": 6073
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg040.1st1K-grc1",
+    "group_key": "tlg0086.tlg040",
+    "author": "Aristotle",
+    "title": "De sophisticis elenchis",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg040.1st1K-grc1.html",
+    "lemmas": 1066,
+    "tokens": 14599
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg041.1st1K-grc1",
+    "group_key": "tlg0086.tlg041",
+    "author": "Aristotle",
+    "title": "De sensu et sensibilibus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg041.1st1K-grc1.html",
+    "lemmas": 839,
+    "tokens": 8000
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg042.1st1K-grc1",
+    "group_key": "tlg0086.tlg042",
+    "author": "Aristotle",
+    "title": "De somno et vigilia",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg042.1st1K-grc1.html",
+    "lemmas": 520,
+    "tokens": 3002
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0086.tlg044.1st1K-grc1",
+    "group_key": "tlg0086.tlg044",
+    "author": "Aristotle",
+    "title": "Topica",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0086.tlg044.1st1K-grc1.html",
+    "lemmas": 1536,
+    "tokens": 45755
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg001.1st1K-grc1",
+    "group_key": "tlg0627.tlg001",
+    "author": "Hippocrates",
+    "title": "De prisca medicina",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg001.1st1K-grc1.html",
+    "lemmas": 930,
+    "tokens": 5691
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg002.1st1K-grc1",
+    "group_key": "tlg0627.tlg002",
+    "author": "Hippocrates",
+    "title": "De aere, aquis, locis",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg002.1st1K-grc1.html",
+    "lemmas": 1217,
+    "tokens": 7699
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg003.1st1K-grc1",
+    "group_key": "tlg0627.tlg003",
+    "author": "Hippocrates",
+    "title": "Prognosticon",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg003.1st1K-grc1.html",
+    "lemmas": 879,
+    "tokens": 5405
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg004.1st1K-grc1",
+    "group_key": "tlg0627.tlg004",
+    "author": "Hippocrates",
+    "title": "De diaeta in morbis acutis",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg004.1st1K-grc1.html",
+    "lemmas": 1149,
+    "tokens": 6447
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg006.1st1K-grc1",
+    "group_key": "tlg0627.tlg006",
+    "author": "Hippocrates",
+    "title": "Epidemiarum",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg006.1st1K-grc1.html",
+    "lemmas": 3006,
+    "tokens": 41632
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg007.1st1K-grc1",
+    "group_key": "tlg0627.tlg007",
+    "author": "Hippocrates",
+    "title": "De capitis vulneribus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg007.1st1K-grc1.html",
+    "lemmas": 662,
+    "tokens": 5190
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg008.1st1K-grc1",
+    "group_key": "tlg0627.tlg008",
+    "author": "Hippocrates",
+    "title": "De officina medici",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg008.1st1K-grc1.html",
+    "lemmas": 589,
+    "tokens": 2282
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg009.1st1K-grc1",
+    "group_key": "tlg0627.tlg009",
+    "author": "Hippocrates",
+    "title": "De fracturis",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg009.1st1K-grc1.html",
+    "lemmas": 1342,
+    "tokens": 11766
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg010.1st1K-grc1",
+    "group_key": "tlg0627.tlg010",
+    "author": "Hippocrates",
+    "title": "De articulis",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg010.1st1K-grc1.html",
+    "lemmas": 2033,
+    "tokens": 22427
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg011.1st1K-grc1",
+    "group_key": "tlg0627.tlg011",
+    "author": "Hippocrates",
+    "title": "Vectiarius",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg011.1st1K-grc1.html",
+    "lemmas": 1032,
+    "tokens": 5212
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg012.1st1K-grc1",
+    "group_key": "tlg0627.tlg012",
+    "author": "Hippocrates",
+    "title": "Aphorismi",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg012.1st1K-grc1.html",
+    "lemmas": 1279,
+    "tokens": 7449
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg013.1st1K-grc1",
+    "group_key": "tlg0627.tlg013",
+    "author": "Hippocrates",
+    "title": "Iusiurandum",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg013.1st1K-grc1.html",
+    "lemmas": 132,
+    "tokens": 255
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg014.1st1K-grc1",
+    "group_key": "tlg0627.tlg014",
+    "author": "Hippocrates",
+    "title": "Lex",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg014.1st1K-grc1.html",
+    "lemmas": 169,
+    "tokens": 346
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg027.1st1K-grc1",
+    "group_key": "tlg0627.tlg027",
+    "author": "Hippocrates",
+    "title": "De morbo sacro",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg027.1st1K-grc1.html",
+    "lemmas": 920,
+    "tokens": 4906
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg028.1st1K-grc1",
+    "group_key": "tlg0627.tlg028",
+    "author": "Hippocrates",
+    "title": "De ulceribus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg028.1st1K-grc1.html",
+    "lemmas": 724,
+    "tokens": 3534
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg029.1st1K-grc1",
+    "group_key": "tlg0627.tlg029",
+    "author": "Hippocrates",
+    "title": "De haemorrhoidibus",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg029.1st1K-grc1.html",
+    "lemmas": 402,
+    "tokens": 945
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg0627.tlg030.1st1K-grc1",
+    "group_key": "tlg0627.tlg030",
+    "author": "Hippocrates",
+    "title": "De fistulis",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg0627.tlg030.1st1K-grc1.html",
+    "lemmas": 535,
+    "tokens": 1610
+  },
+  {
+    "urn": "urn:cts:greekLit:tlg1799.tlg001.perseus-grc2",
+    "group_key": "tlg1799.tlg001",
+    "author": "Euclid",
+    "title": "Elements",
+    "core": false,
+    "alternate_urns": [],
+    "success": true,
+    "cache_file": "data/raw/tlg1799.tlg001.perseus-grc2.html",
+    "lemmas": 580,
+    "tokens": 164768
   }
 ]

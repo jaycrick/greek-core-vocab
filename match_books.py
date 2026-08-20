@@ -1,58 +1,45 @@
 #!/usr/bin/env python3
-"""Match every great_books.tsv row against Perseus's own catalog
-(data/perseus_works.json, from fetch_work_list.py), producing
-data/matches.yaml: for each row, either the Perseus URN(s) whose
-vocabulary should represent it, a corpus_work_id pointing at gold
-local tagging instead, or a reason it has none.
+"""Match every great_books.tsv row against vocab.perseus.org's own
+catalog (data/perseus_editions.json, from fetch_editions.py), producing
+data/matches.yaml: for each row, either the CTS URN(s) whose vocabulary
+should represent it, or a reason it has none.
 
 Matching, in order:
 
-1. **corpus_map.yaml** (`corpus_works`: exact (author, title) -> a
-   work_id in one of two external gold-tagged sources -- see that
-   file's own header for which `source:` tag maps to which counting
-   script/repo) -- rows whose vocabulary should come from gold
-   per-work tagging rather than Perseus's Vocabulary Tool (see that
-   file's own header and README.md for why: real gaps in Perseus's
-   lemma inventory, no per-dialogue Plato selection at all, and a
-   Homer parse that can't disambiguate epic formulae the way a
-   hand-checked tagging can). Checked first; if it applies, nothing
-   else runs for that row -- its `matched_urns` stays `[]` (never
-   fetched from Perseus), and `corpus_work_id` is set instead.
-   `corpus_map.yaml`'s `overlaps` section is applied afterwards, once
-   every row is resolved: URNs a corpus work `displaces_urns` are
-   removed from every other row's `matched_urns` (see step 5 below).
-2. **overrides.yaml** (exact (author, title), or `gbww_title: __ALL__`
-   for every row by that author) -- the two rows a human had to decide
-   (see that file's own header). Checked first (after corpus_map); if
-   it applies, nothing else runs for that row.
-3. **aliases.yaml** ((author, title) -> a replacement search title) for
-   the handful of pairs that share no usable substring after
-   normalization (different English title, transliteration vs.
-   translation, etc.).
-4. General matching: restrict candidates to the same (normalized)
+1. **overrides.yaml** (exact (author, title)) -- rows a human had to
+   pin explicitly (see that file's own header: Plutarch's *Lives*,
+   whose 16 available editions are titled "unknown" on the site itself
+   and so can't be title-matched at all). Checked first; if it applies,
+   nothing else runs for that row.
+2. **aliases.yaml** ((author, title) -> a replacement search title) for
+   pairs that share no usable substring after normalization (different
+   English title, transliteration vs. translation, Latin vs. English
+   title -- vocab.perseus.org titles many works in Latin).
+3. General matching: restrict candidates to the same (normalized)
    author, normalize both titles (lowercase, strip a leading "the"/"a"/
    "an", strip trailing punctuation, collapse whitespace), and match if
-   they're equal, one is a substring of the other, or the target equals
-   one comma-separated component of the candidate's title (Perseus
-   groups several works -- mostly Plato dialogues -- under one
-   selectable, comma-joined title; splitting on ", " and matching a
-   component is what resolves those without hardcoding every dialogue).
-5. **Displacement pass**, after every row above is resolved: the union
-   of every `corpus_works` entry's `displaces_urns` is removed from
-   every other row's `matched_urns` -- never silently: a row that loses
-   a URN this way gets `displaced_urns` recorded alongside whatever
-   `matched_urns` remain (or `skip_reason` if none do).
+   they're equal, one is a word-level substring of the other, or the
+   target equals one comma-separated component of the candidate's title
+   (Perseus groups a few works under one comma-joined title).
 
-A row with zero matches (and no corpus_work_id) after all of the above
-gets `matched_urns: []` and a `skip_reason` -- always recorded, never
-silently dropped. Several GBWW rows are expected to land here: pure
-category headers ("Dialogues", "The Oresteia"), and authors/works
-Perseus's Greek vocab tool simply doesn't carry (Archimedes, Apollonius
-of Perga, Nicomachus of Gerasa, most of Aristotle's logical/
-biological/psychological works). Rows for authors who wrote in Latin
-(Lucretius, Virgil) were removed from great_books.tsv itself rather
-than left to skip here -- this catalog is Greek-only, so they could
-never match.
+A row with zero matches gets `matched_urns: []` and a `skip_reason` --
+always recorded, never silently dropped. Expected skips: pure
+category-header rows ("Dialogues", "The Oresteia"), and authors/works
+vocab.perseus.org's catalog doesn't carry at all -- notably about three
+dozen works the OLD Perseus hopper did carry (most of Euripides and
+Aristophanes, roughly half of Plato, Aristotle's Ethics/Politics/
+Rhetoric/Metaphysics, Epictetus, Marcus Aurelius, most of Plutarch's
+individual Lives) -- see README.md's coverage-regression table. Rows
+for authors who wrote in Latin (Lucretius, Virgil) were removed from
+great_books.tsv itself rather than left to show up as a skip here.
+
+A matched row's `matched_urns` may contain more than one CTS URN for
+the SAME underlying work (36 works site-wide have >1 edition -- e.g.
+Aeschylus's plays each have an `opp-grc3` and a `perseus-grc2`
+edition). match_books.py does not resolve that here -- it has no
+reason to fetch anything -- fetch_vocab.py does, by probing each
+sibling's token count and keeping one (see its own docstring); this
+row-level matched_urns list is the full candidate set that step reads.
 
 Usage
 -----
@@ -70,10 +57,9 @@ from typing import Any
 import yaml
 
 GREAT_BOOKS = Path("great_books.tsv")
-WORKS = Path("data/perseus_works.json")
+EDITIONS = Path("data/perseus_editions.json")
 ALIASES = Path("aliases.yaml")
 OVERRIDES = Path("overrides.yaml")
-CORPUS_MAP = Path("corpus_map.yaml")
 OUT = Path("data/matches.yaml")
 
 _LEADING_ARTICLE_RE = re.compile(r"^(the|an?)\s+")
@@ -109,8 +95,8 @@ def load_great_books() -> list[dict[str, str]]:
         return list(csv.DictReader(f, delimiter="\t"))
 
 
-def load_works() -> list[dict[str, str]]:
-    return json.loads(WORKS.read_text(encoding="utf-8"))
+def load_editions() -> list[dict[str, str]]:
+    return json.loads(EDITIONS.read_text(encoding="utf-8"))
 
 
 def load_aliases() -> dict[tuple[str, str], str]:
@@ -118,32 +104,14 @@ def load_aliases() -> dict[tuple[str, str], str]:
     return {(a["author"], a["gbww_title"]): a["perseus_title"] for a in doc["aliases"]}
 
 
-def load_corpus_map() -> tuple[dict[tuple[str, str], dict], list[str]]:
-    """(corpus_works keyed by (author, gbww_title), sorted-unique union
-    of every entry's displaces_urns)."""
-    doc = yaml.safe_load(CORPUS_MAP.read_text(encoding="utf-8"))
-    by_title = {(c["author"], c["gbww_title"]): c for c in doc["corpus_works"]}
-    displaced: set[str] = set()
-    for c in doc["corpus_works"]:
-        displaced.update(c.get("displaces_urns") or [])
-    return by_title, sorted(displaced)
-
-
-def load_overrides() -> tuple[dict[tuple[str, str], dict], dict[str, dict]]:
+def load_overrides() -> dict[tuple[str, str], dict]:
     doc = yaml.safe_load(OVERRIDES.read_text(encoding="utf-8"))
-    exact: dict[tuple[str, str], dict] = {}
-    by_author_all: dict[str, dict] = {}
-    for o in doc["overrides"]:
-        if o["gbww_title"] == "__ALL__":
-            by_author_all[o["author"]] = o
-        else:
-            exact[(o["author"], o["gbww_title"])] = o
-    return exact, by_author_all
+    return {(o["author"], o["gbww_title"]): o for o in doc["overrides"]}
 
 
 def match_row(
     row: dict[str, str],
-    works_by_author: dict[str, list[dict[str, str]]],
+    editions_by_author: dict[str, list[dict[str, str]]],
     aliases: dict[tuple[str, str], str],
 ) -> tuple[list[str], str]:
     """(matched_urns, method) for one great_books.tsv row, via the
@@ -151,27 +119,45 @@ def match_row(
     this module's docstring (overrides are handled by the caller,
     before this is reached)."""
     author, title = row["author"], row["title"]
+    is_alias = (author, title) in aliases
     search_title = aliases.get((author, title), title)
     target = normalize(search_title)
     target_words = target.split()
-    candidates = works_by_author.get(author.lower(), [])
+    candidates = editions_by_author.get(author.lower(), [])
 
+    # An alias already names the exact intended title (that's the whole
+    # point of adding one) -- word-subsequence containment is NOT
+    # applied for alias-driven searches, only exact equality (still
+    # allowing a comma-joined component match, for a grouped Perseus
+    # title). Skipping containment here matters in practice:
+    # vocab.perseus.org's many short Latin titles collide under
+    # containment alone -- e.g. Hippocrates' alias target "De diaeta in
+    # morbis acutis" word-subsequence-contains the unrelated, separate
+    # work "De diaeta"; Aristotle's alias "Physica" would otherwise also
+    # catch "Physica (textus alter)", an alternate-recension edition of
+    # the same nominal title but not the same content. Equality alone
+    # -- since every alias target is copied verbatim from the catalog's
+    # own title string -- can't mismatch that way.
     matched: dict[str, str] = {}  # urn -> which candidate title matched
-    for w in candidates:
-        cand_norm = normalize(w["title"])
+    for e in candidates:
+        cand_norm = normalize(e["title"])
         cand_words = cand_norm.split()
         if target == cand_norm:
-            matched[w["urn"]] = w["title"]
+            matched[e["urn"]] = e["title"]
             continue
-        if target and (
-            _is_word_subsequence(target_words, cand_words)
-            or _is_word_subsequence(cand_words, target_words)
+        if (
+            not is_alias
+            and target
+            and (
+                _is_word_subsequence(target_words, cand_words)
+                or _is_word_subsequence(cand_words, target_words)
+            )
         ):
-            matched[w["urn"]] = w["title"]
+            matched[e["urn"]] = e["title"]
             continue
-        components = [normalize(c) for c in w["title"].split(",")]
+        components = [normalize(c) for c in e["title"].split(",")]
         if target in components:
-            matched[w["urn"]] = w["title"]
+            matched[e["urn"]] = e["title"]
 
     if not matched:
         return [], ""
@@ -181,14 +167,13 @@ def match_row(
 
 def main() -> int:
     rows = load_great_books()
-    works = load_works()
+    editions = load_editions()
     aliases = load_aliases()
-    override_exact, override_all = load_overrides()
-    corpus_by_title, displaced_urns = load_corpus_map()
+    overrides = load_overrides()
 
-    works_by_author: dict[str, list[dict[str, str]]] = {}
-    for w in works:
-        works_by_author.setdefault(w["author"].lower(), []).append(w)
+    editions_by_author: dict[str, list[dict[str, str]]] = {}
+    for e in editions:
+        editions_by_author.setdefault(e["author"].lower(), []).append(e)
 
     results: list[dict[str, Any]] = []
     for row in rows:
@@ -201,26 +186,14 @@ def main() -> int:
             "seq": row["seq"],
         }
 
-        corpus = corpus_by_title.get((author, title))
-        if corpus is not None:
-            results.append(
-                {
-                    **base,
-                    "matched_urns": [],
-                    "corpus_work_id": corpus["work_id"],
-                    "method": "corpus",
-                }
-            )
-            continue
-
-        override = override_exact.get((author, title)) or override_all.get(author)
+        override = overrides.get((author, title))
         if override is not None:
             results.append(
                 {**base, "matched_urns": list(override["urns"]), "method": "override"}
             )
             continue
 
-        urns, method = match_row(row, works_by_author, aliases)
+        urns, method = match_row(row, editions_by_author, aliases)
         if urns:
             results.append({**base, "matched_urns": urns, "method": method})
         else:
@@ -228,26 +201,10 @@ def main() -> int:
                 {
                     **base,
                     "matched_urns": [],
-                    "skip_reason": f"no Perseus Greek text found for {author!r}, {title!r}",
+                    "skip_reason": (
+                        f"no vocab.perseus.org Greek text found for {author!r}, {title!r}"
+                    ),
                 }
-            )
-
-    # Displacement pass: URNs a corpus_works entry duplicates are
-    # removed from every OTHER row's matched_urns -- recorded, not
-    # silently dropped (see module docstring, step 5).
-    displaced_set = set(displaced_urns)
-    for r in results:
-        if r.get("method") == "corpus" or not r["matched_urns"]:
-            continue
-        hit = [u for u in r["matched_urns"] if u in displaced_set]
-        if not hit:
-            continue
-        r["matched_urns"] = [u for u in r["matched_urns"] if u not in displaced_set]
-        r["displaced_urns"] = hit
-        if not r["matched_urns"]:
-            r["skip_reason"] = (
-                f"every matched Perseus URN ({', '.join(hit)}) is fully superseded by a "
-                "corpus_map.yaml corpus_works entry -- see corpus_map.yaml"
             )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -256,21 +213,11 @@ def main() -> int:
         encoding="utf-8",
     )
 
-    corpus_rows = [r for r in results if r.get("method") == "corpus"]
     matched_rows = [r for r in results if r["matched_urns"]]
-    skipped_rows = [r for r in results if not r["matched_urns"] and r.get("method") != "corpus"]
+    skipped_rows = [r for r in results if not r["matched_urns"]]
     unique_urns = {u for r in matched_rows for u in r["matched_urns"]}
-    displaced_rows = [r for r in results if r.get("displaced_urns")]
-    print(
-        f"{len(results)} rows: {len(matched_rows)} matched (Perseus), "
-        f"{len(corpus_rows)} corpus-sourced, {len(skipped_rows)} skipped"
-    )
-    print(f"{len(unique_urns)} unique Perseus URN(s) to fetch")
-    if displaced_rows:
-        print(f"{len(displaced_rows)} row(s) had a Perseus URN displaced by a corpus work:")
-        for r in displaced_rows:
-            print(f"  {r['author']} -- {r['title']}: displaced {r['displaced_urns']}")
-    print(f"-> {OUT}")
+    print(f"{len(results)} rows: {len(matched_rows)} matched, {len(skipped_rows)} skipped")
+    print(f"{len(unique_urns)} unique candidate URN(s) (before sibling-edition dedup) -> {OUT}")
     print()
     print("skipped:")
     for r in skipped_rows:
